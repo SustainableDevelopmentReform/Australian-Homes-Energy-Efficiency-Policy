@@ -389,10 +389,11 @@ The effectiveness of Commonwealth interventions has been constrained by several 
 <state-or-territory-government-interventions>
 State governments have emerged as key drivers of residential energy efficiency policy in Australia, implementing varied approaches that reflect both jurisdictional priorities and local market conditions. While operating within the national framework established by the National Construction Code (NCC), states maintain substantial autonomy in policy design and implementation, leading to diverse approaches across jurisdictions.#footnote[Analysis of state implementation approaches reveals policy innovation primarily driven by state governments, with 85% of new energy efficiency initiatives originating at state level between 2020-2024. Energy Efficiency Council, "State of Energy Efficiency 2024", pp.15-18.] The table below provides a snapshot summary of key relevant measures at Commonwealth and State / Territory level across Australia:
 
+#block[
 #figure([
 #table(
-  columns: (25%, 75%),
-  align: (auto,auto,),
+  columns: 2,
+  align: (left,left,),
   table.header([Jurisdiction], [Key Measures],),
   table.hline(),
   [Commonwealth], [The Household Energy Upgrades Fund provides discounted loans for energy-efficient home upgrades through the Clean Energy Finance Corporation, including \$300 million for social housing upgrades. The Small-scale Renewable Energy Scheme offers benefits for installing renewable energy systems, while the Community Solar Banks Program provides \$101 million in funding for low-income households and apartment residents to access solar power.],
@@ -402,8 +403,6 @@ State governments have emerged as key drivers of residential energy efficiency p
   [South Australia], [The Retailer Energy Productivity Scheme (REPS) supports households in reducing energy costs through various activities. South Australia’s Virtual Power Plant, a collaboration with Tesla, has provided free solar and battery installations to over 5,500 Housing SA homes.],
   [Western Australia], [The Distributed Energy Buyback Scheme enables customers to receive payments for electricity exported to the grid from solar PV systems and batteries. The Energy Ahead program provides free assistance to Synergy customers experiencing financial hardship.],
   [Tasmania], [The Energy Saver Loan Scheme offers interest-free loans between \$500 and \$10,000 for energy-efficient products. The Homes Tasmania Energy Efficiency Program delivers upgrades including heat pump hot water systems and insulation to social housing properties.],
-  [ACT], [The Sustainable Household Scheme provides zero-interest loans up to \$15,000 for energy-efficient upgrades. The Home Energy Support Program offers rebates up to \$5,000 for rooftop solar and energy-efficient appliances, while the Home Energy Efficiency Program provides free assistance to those experiencing financial hardship.],
-  [Northern Territory], [The Home and Business Battery Scheme offers grants up to \$6,000 for solar PV systems and batteries. The Solar for Multi Dwellings Grant Scheme provides up to \$7,500 per individual dwelling in multi-dwelling developments for shared rooftop solar PV systems.],
 )
 ], caption: figure.caption(
 position: top, 
@@ -413,9 +412,10 @@ Key measures implemented by different jurisdictions
 kind: "quarto-float-tbl", 
 supplement: "Table", 
 )
-<tbl-measuressnapshot>
+<tbl-jurisdiction_summary>
 
 
+]
 The implementation of enhanced building energy standards illustrates this jurisdictional variation. Following the 2022 NCC update increasing minimum thermal performance requirements to 7-stars under NatHERS, adoption patterns have varied significantly. The ACT and NSW led implementation, with Victoria and Queensland following in May 2024, while Western Australia delayed adoption until 2025. Tasmania opted not to adopt the new standard, and the Northern Territory chose to implement only a 5-star requirement.#footnote[Detailed tracking of NCC 2022 implementation shows correlation between adoption timing and existing state energy efficiency frameworks. States with established programs (ACT, NSW, VIC) achieved faster implementation. Building Codes Committee, "Energy Efficiency Requirements Implementation Report", January 2025.]
 
 Several states have developed sophisticated market-based mechanisms to drive energy efficiency improvements. Victoria’s Victorian Energy Upgrades program demonstrates this approach through its comprehensive suite of initiatives, including specific streams for rental properties and mandatory disclosure requirements.#footnote[Victorian Energy Upgrades delivered over 6.7 million energy efficiency upgrades since 2009, saving households average \$120 annually. Program expanded in 2023 to include electrification activities. Essential Services Commission Victoria, "VEU Performance Report 2023".] Similarly, NSW’s Energy Security Safeguard has pioneered innovative policy design, while Queensland’s Energy Savers Program offers targeted support for energy efficiency improvements.#footnote[NSW Energy Security Safeguard combines Energy Savings Scheme with Peak Demand Reduction Scheme, targeting 13 million tonnes CO2-e reduction by 2030. Queensland Energy Savers achieved 24,000 upgrades in 2023-24. State program annual reports.]
@@ -534,16 +534,19 @@ Implementation priorities for infrastructure integration include: - Development 
 
 = Appendices
 <appendices>
-== Primary datasets
-<primary-datasets>
+== Datasets
+<datasets>
 Refer to the Github repository for underlying datasets: #link("https://github.com/SustainableDevelopmentReform/Australian-Homes-Energy-Efficiency-Policy")
 
 == Scope of Local Government Evidence Review
 <scope-of-local-government-evidence-review>
+The review of LGA activities involved iterative web searches for all LGAs in Australia. Summary results of these searches are documented in the datasets linked above. A quantitative snapshot of LGA activities identified per State or Territory jurisdiction is provided in the table below:
+
+#block[
 #figure([
 #table(
-  columns: (14%, 43%, 43%),
-  align: (auto,auto,auto,),
+  columns: 3,
+  align: (left,left,left,),
   table.header([State/Territory], [LGAs Reviewed], [LGAs with Identified Measures],),
   table.hline(),
   [New South Wales], [167], [81],
@@ -553,8 +556,6 @@ Refer to the Github repository for underlying datasets: #link("https://github.co
   [South Australia], [74], [18],
   [Tasmania], [35], [12],
   [Northern Territory], [20], [2],
-  [Australian Capital Territory], [1], [1],
-  [#strong[Total];], [#strong[652];], [#strong[231];],
 )
 ], caption: figure.caption(
 position: top, 
@@ -564,9 +565,10 @@ Scope of Local Government Evidence Review
 kind: "quarto-float-tbl", 
 supplement: "Table", 
 )
-<tbl-lgascope>
+<tbl-LGA_Measures_Summary>
 
 
+]
 Note: Variations in recording practices between jurisdictions mean that direct interstate comparisons of measure implementation rates should be interpreted with caution. Measures are recorded as 'identified' where at least one substantive energy efficiency measure was documented in the dataset.
 
 // // 
