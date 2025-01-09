@@ -1,0 +1,162 @@
+# Notes: VIC
+
+## **Energy Efficiency in New Residential Buildings**
+
+### **Policy Goals**
+
+Victoria has implemented stringent energy efficiency requirements for new homes to reduce energy consumption, greenhouse gas emissions, and improve occupant comfort[^notes-vic-1]. The state aims to achieve net-zero emissions by 2050 and has set ambitious targets to reduce greenhouse gas emissions by 45-50% from 2005 levels by 2030[^notes-vic-2]. Given that residential buildings are a significant contributor to Australia's overall emissions, they represent a key area for improvement[^notes-vic-3].
+
+[^notes-vic-1]: Building EE03-2022 - Energy efficiency requirements for new residential buildings CURRENT 16 Oct 2023 - Victorian Building Authority, accessed on January 8, 2025, <https://www.vba.vic.gov.au/__data/assets/pdf_file/0018/162108/Building-EE-03-2022-Energy-efficiency-requirements-for-new-residential-buildings-CURRENT-16-Oct-2023.pdf>
+
+[^notes-vic-2]: New home energy efficiency standards explained, accessed on January 8, 2025, <https://www.energy.vic.gov.au/__data/assets/pdf_file/0033/670299/7-star-new-home-standards-factsheets-home-buyers.pdf>
+
+[^notes-vic-3]: New home energy efficiency standards explained, accessed on January 8, 2025, <https://www.energy.vic.gov.au/__data/assets/pdf_file/0033/670299/7-star-new-home-standards-factsheets-home-buyers.pdf>
+
+### **Implementation Strategies**
+
+#### **7-Star Energy Efficiency Standards**
+
+In 2022, Victoria raised the minimum energy efficiency building standards for new homes from 6 to 7 stars[^notes-vic-4]. This change necessitates improvements in insulation, window glazing, and the use of energy-efficient appliances in new homes[^notes-vic-5]. The 7-star standard ensures that new homes are designed and built to minimize energy consumption and maximize thermal comfort. Notably, this shift towards higher energy efficiency standards has created a demand for new skills and occupations in the building sector, with professionals now required to design and implement these energy-efficient measures[^notes-vic-6].
+
+[^notes-vic-4]: Buildings and energy efficiency \| vic.gov.au, accessed on January 8, 2025, <https://www.vic.gov.au/training-clean-economy-sector/buildings-and-energy-efficiency>
+
+[^notes-vic-5]: Buildings and energy efficiency \| vic.gov.au, accessed on January 8, 2025, <https://www.vic.gov.au/training-clean-economy-sector/buildings-and-energy-efficiency>
+
+[^notes-vic-6]: Buildings and energy efficiency \| vic.gov.au, accessed on January 8, 2025, <https://www.vic.gov.au/training-clean-economy-sector/buildings-and-energy-efficiency>
+
+To support the transition to 7-star homes, Sustainability Victoria's 7 Star Homes program provided rebates and verification assessments to builders and land developers[^notes-vic-7]. This program aimed to accelerate the adoption of energy-efficient practices in the residential building market. For instance, the program offered \$4,000 rebates per home, for up to 4 homes built, to assist with upgrade costs and provided as-built verification assessments to ensure homes are built to achieve the same efficiency rating as designed[^notes-vic-8].
+
+[^notes-vic-7]: 7 Star Homes Program \| Sustainability Victoria, accessed on January 8, 2025, <https://www.sustainability.vic.gov.au/energy-efficiency-and-reducing-emissions/building-or-renovating/7-star-homes-program>
+
+[^notes-vic-8]: 7 Star Homes Program \| Sustainability Victoria, accessed on January 8, 2025, <https://www.sustainability.vic.gov.au/energy-efficiency-and-reducing-emissions/building-or-renovating/7-star-homes-program>
+
+#### **National Construction Code (NCC)**
+
+The NCC establishes the energy efficiency requirements for new homes, renovations, alterations, and additions[^notes-vic-9]. The NCC aims to enhance the sustainability and liveability of buildings by reducing energy consumption and greenhouse gas emissions while improving occupant health and amenity[^notes-vic-10].
+
+[^notes-vic-9]: Building EE03-2022 - Energy efficiency requirements for new residential buildings CURRENT 16 Oct 2023 - Victorian Building Authority, accessed on January 8, 2025, <https://www.vba.vic.gov.au/__data/assets/pdf_file/0018/162108/Building-EE-03-2022-Energy-efficiency-requirements-for-new-residential-buildings-CURRENT-16-Oct-2023.pdf>
+
+[^notes-vic-10]: Building EE03-2022 - Energy efficiency requirements for new residential buildings CURRENT 16 Oct 2023 - Victorian Building Authority, accessed on January 8, 2025, <https://www.vba.vic.gov.au/__data/assets/pdf_file/0018/162108/Building-EE-03-2022-Energy-efficiency-requirements-for-new-residential-buildings-CURRENT-16-Oct-2023.pdf>
+
+Performance requirement H6P1 in the NCC mandates that habitable rooms and conditioned spaces use less energy than the calculated heating and cooling loads[^notes-vic-11]. This requirement promotes the construction of building fabrics that minimize reliance on artificial heating and cooling, thereby reducing energy consumption.
+
+[^notes-vic-11]: Building EE03-2022 - Energy efficiency requirements for new residential buildings CURRENT 16 Oct 2023 - Victorian Building Authority, accessed on January 8, 2025, <https://www.vba.vic.gov.au/__data/assets/pdf_file/0018/162108/Building-EE-03-2022-Energy-efficiency-requirements-for-new-residential-buildings-CURRENT-16-Oct-2023.pdf>
+
+## **Energy Efficiency in Existing Residential Buildings**
+
+Recognizing that existing homes constitute a substantial portion of the housing stock, Victoria has implemented various programs and initiatives to improve their energy efficiency.
+
+The One Million Homes Alliance, a collaborative effort between leading environment, social sector, local government, and consumer organizations, is committed to transforming the efficiency and affordability of Victoria's housing[^notes-vic-12]. This alliance advocates for policies and programs that promote energy efficiency upgrades in existing homes.
+
+[^notes-vic-12]: One Million Homes - Environment Victoria, accessed on January 8, 2025, <https://environmentvictoria.org.au/campaign/one-million-homes/>
+
+### **Victorian Energy Upgrades (VEU) Program**
+
+The VEU program is a key initiative aimed at reducing greenhouse gas emissions by providing Victorians with access to discounted energy-efficient products and services[^notes-vic-13]. The program encourages investment, employment, and innovation in industries that supply these products and services[^notes-vic-14].
+
+[^notes-vic-13]: About the Victorian Energy Upgrades program \| Essential Services Commission, accessed on January 8, 2025, <https://www.esc.vic.gov.au/victorian-energy-upgrades/about-victorian-energy-upgrades-program>
+
+[^notes-vic-14]: About the Victorian Energy Upgrades program \| Essential Services Commission, accessed on January 8, 2025, <https://www.esc.vic.gov.au/victorian-energy-upgrades/about-victorian-energy-upgrades-program>
+
+Under the VEU program, large energy retailers are required to acquire and surrender Victorian energy efficiency certificates (VEECs) to meet annual targets set by legislation[^notes-vic-15]. Accredited persons who install energy-efficient products in homes can create VEECs[^notes-vic-16].
+
+[^notes-vic-15]: About the Victorian Energy Upgrades program \| Essential Services Commission, accessed on January 8, 2025, <https://www.esc.vic.gov.au/victorian-energy-upgrades/about-victorian-energy-upgrades-program>
+
+[^notes-vic-16]: About the Victorian Energy Upgrades program \| Essential Services Commission, accessed on January 8, 2025, <https://www.esc.vic.gov.au/victorian-energy-upgrades/about-victorian-energy-upgrades-program>
+
+The VEU program offers various incentives for homeowners to improve their energy efficiency, including discounts on a range of upgrades. These are summarized in the table below:
+
+| Upgrade Type | Current System | New System | Discount | Annual Savings |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Heating and Cooling | Gas ducted heating system | Electric heating system | Up to \$3,600 | Around \$600 |
+| Hot Water System | Gas water heater | Electric heat pump hot water system | N/A | \$250 |
+
+In addition to these upgrades, VEU also offers home energy rating assessments to provide targeted recommendations for improving energy efficiency[^notes-vic-17].
+
+[^notes-vic-17]: Energy efficiency for rental properties in Victoria, accessed on January 8, 2025, <https://www.energy.vic.gov.au/renewable-energy/victorias-gas-substitution-roadmap/energy-efficiency-for-rental-properties-in-victoria>
+
+The VEU program has been successful in driving the adoption of energy-efficient technologies. Since the introduction of new electrification activities in mid-2023, over 24,000 Victorians have switched to efficient electric heating and cooling, and over 34,000 have upgraded to heat pump water heaters[^notes-vic-18]. Importantly, 90% of VEU participants are satisfied with the program and the installed products, highlighting its positive impact on consumers[^notes-vic-19].
+
+[^notes-vic-18]: VEU latest industry news - Energy, accessed on January 8, 2025, <https://www.energy.vic.gov.au/victorian-energy-upgrades/installers/veu-industry-latest-news>
+
+[^notes-vic-19]: VEU latest industry news - Energy, accessed on January 8, 2025, <https://www.energy.vic.gov.au/victorian-energy-upgrades/installers/veu-industry-latest-news>
+
+### **Energy Efficiency in Social Housing Program (EESHP)**
+
+The EESHP is a joint initiative between the Victorian and Australian governments to improve the energy efficiency and liveability of social housing properties[^notes-vic-20]. The program aims to deliver up to 45,000 individual energy efficiency upgrades, including 5,000 fully electrified homes[^notes-vic-21].
+
+[^notes-vic-20]: Energy Efficiency in Social Housing Program - Homes Victoria, accessed on January 8, 2025, <https://www.homes.vic.gov.au/energy-efficiency-social-housing-program>
+
+[^notes-vic-21]: Energy Efficiency in Social Housing Program - Homes Victoria, accessed on January 8, 2025, <https://www.homes.vic.gov.au/energy-efficiency-social-housing-program>
+
+The EESHP specifically targets older social housing dwellings with gas appliances and low energy efficiency[^notes-vic-22]. Renters in eligible properties are offered a package of upgrades to significantly improve their energy efficiency[^notes-vic-23].
+
+[^notes-vic-22]: Energy Efficiency in Social Housing Program - Homes Victoria, accessed on January 8, 2025, <https://www.homes.vic.gov.au/energy-efficiency-social-housing-program>
+
+[^notes-vic-23]: Energy Efficiency in Social Housing Program - Homes Victoria, accessed on January 8, 2025, <https://www.homes.vic.gov.au/energy-efficiency-social-housing-program>
+
+### **Comprehensive Retrofit Trial**
+
+Sustainability Victoria conducted a Comprehensive Retrofit Trial to assess the potential for energy efficiency upgrades in existing homes[^notes-vic-24]. The trial involved a range of building shell, appliance, and lighting upgrades in 60 houses representative of Victoria's housing stock[^notes-vic-25].
+
+[^notes-vic-24]: Comprehensive Energy Efficiency Retrofits to Existing Victorian Houses \| Sustainability Victoria, accessed on January 8, 2025, <https://assets.sustainability.vic.gov.au/susvic/Report-Energy-Comprehensive-Energy-Efficiency-Retrofits-to-Existing-Victorian-Houses-PDF.pdf>
+
+[^notes-vic-25]: Comprehensive Energy Efficiency Retrofits to Existing Victorian Houses \| Sustainability Victoria, accessed on January 8, 2025, <https://assets.sustainability.vic.gov.au/susvic/Report-Energy-Comprehensive-Energy-Efficiency-Retrofits-to-Existing-Victorian-Houses-PDF.pdf>
+
+The trial demonstrated that significant energy and greenhouse gas savings could be achieved through comprehensive retrofits[^notes-vic-26]. For example, the study found that comprehensive retrofits could reduce energy consumption by up to 70% and greenhouse gas emissions by up to 80%. The findings of this trial inform policy development and program design for improving energy efficiency in existing homes.
+
+[^notes-vic-26]: Comprehensive Energy Efficiency Retrofits to Existing Victorian Houses \| Sustainability Victoria, accessed on January 8, 2025, <https://assets.sustainability.vic.gov.au/susvic/Report-Energy-Comprehensive-Energy-Efficiency-Retrofits-to-Existing-Victorian-Houses-PDF.pdf>
+
+## **Electrification of Homes**
+
+Victoria is actively pursuing the electrification of homes to reduce reliance on gas and transition to cleaner energy sources. This policy direction aligns with the Victorian government's support for repowering homes with efficient electric appliances, a vital approach to lowering energy prices and reducing emissions[^notes-vic-27].
+
+[^notes-vic-27]: Victoria on the move away from gas towards electrification as support mounts for federal push to lower energy prices, accessed on January 8, 2025, <https://environmentvictoria.org.au/2024/09/11/victoria-on-the-move-away-from-gas-towards-electrification-as-support-mounts-for-federal-push-to-lower-energy-prices/>
+
+### **Gas Substitution Roadmap**
+
+The Gas Substitution Roadmap outlines Victoria's plan to phase out gas connections in new homes and transition to all-electric appliances[^notes-vic-28]. This roadmap supports the state's goal of achieving net-zero emissions by 2045.
+
+[^notes-vic-28]: Minimum energy efficiency and safety standards for rental homes – Regulatory Impact Statement - Vic Gov, accessed on January 8, 2025, <https://www.vic.gov.au/sites/default/files/2024-08/regulatory-impact-assessment-residential-tenancies-and-residential-tenancies-rooming-house-standards-amendment-minimum-energy-efficiency-and-safety-standards-regulations-2024_f57f-%282%29.pdf>
+
+### **Regulatory Impact Statement on Building Electrification**
+
+In 2024, the Victorian Government released a Regulatory Impact Statement on building electrification measures[^notes-vic-29]. The preferred policy includes requiring gas appliances to be replaced with electric options at the end of their life and mandating all-electric systems in new homes and many new commercial buildings[^notes-vic-30].
+
+[^notes-vic-29]: www.eec.org.au, accessed on January 8, 2025, <https://www.eec.org.au/news/eec-news/article/media-release-home-energy-experts-back-in-proposal-to-electrify-victorian-households>
+
+[^notes-vic-30]: www.eec.org.au, accessed on January 8, 2025, <https://www.eec.org.au/news/eec-news/article/media-release-home-energy-experts-back-in-proposal-to-electrify-victorian-households>
+
+These measures are expected to generate significant bill savings for Victorian households and contribute to the state's emissions reduction targets[^notes-vic-31]. For example, data from Renew indicates that ditching gas and switching to reverse cycle split systems for heating can save at least two-thirds of annual energy bills, with the upfront investment paying for itself within one year[^notes-vic-32].
+
+[^notes-vic-31]: Media Release: Home energy experts back in proposal to electrify Victorian households 13 December 2024, accessed on January 8, 2025, <https://www.eec.org.au/news/eec-news/article/media-release-home-energy-experts-back-in-proposal-to-electrify-victorian-households>
+
+[^notes-vic-32]: Switch from gas to electric can save two thirds off annual energy bills, increase comfort and reduce emissions – new report - Environment Victoria, accessed on January 8, 2025, <https://environmentvictoria.org.au/2024/10/16/switch-from-gas-to-electric-can-save-two-thirds-off-annual-energy-bills-increase-comfort-and-reduce-emissions-new-report/>
+
+## **Energy Efficiency Regulations for Rental Properties**
+
+The Victorian Government is committed to improving energy efficiency in rental properties to ensure affordable and comfortable living conditions for tenants. It is important to note that energy efficiency in rental properties is often lower than in owner-occupied homes, highlighting the need for specific regulations and support in this area[^notes-vic-33].
+
+[^notes-vic-33]: Energy efficiency in the private rental sector in Victoria, Australia: When and why do small-scale private landlords retrofit? \| Request PDF - ResearchGate, accessed on January 8, 2025, <https://www.researchgate.net/publication/358459877_Energy_efficiency_in_the_private_rental_sector_in_Victoria_Australia_When_and_why_do_small-scale_private_landlords_retrofit>
+
+### **Minimum Energy Efficiency Standards**
+
+Rental homes in Victoria are required to have a fixed heater in the main living area with at least a 2-star energy rating[^notes-vic-34]. In December 2023, the Gas Substitution Roadmap update proposed new energy efficiency standards for rental properties, including ceiling insulation, draught sealing, efficient hot water systems and showerheads, and cooling[^notes-vic-35].
+
+[^notes-vic-34]: Energy efficiency for rental properties in Victoria, accessed on January 8, 2025, <https://www.energy.vic.gov.au/renewable-energy/victorias-gas-substitution-roadmap/energy-efficiency-for-rental-properties-in-victoria>
+
+[^notes-vic-35]: Energy efficiency for rental properties in Victoria, accessed on January 8, 2025, <https://www.energy.vic.gov.au/renewable-energy/victorias-gas-substitution-roadmap/energy-efficiency-for-rental-properties-in-victoria>
+
+## **Conclusion**
+
+Victoria has implemented a comprehensive suite of policies, regulations, and schemes to improve energy efficiency in residential housing. The state's commitment to net-zero emissions by 2045[^notes-vic-36] is driving the transition to energy-efficient building practices, the adoption of renewable energy technologies, and the electrification of homes.
+
+[^notes-vic-36]: New home energy efficiency standards explained, accessed on January 8, 2025, <https://www.energy.vic.gov.au/__data/assets/pdf_file/0033/670299/7-star-new-home-standards-factsheets-home-buyers.pdf>
+
+The VEU program, EESHP, and proposed minimum energy efficiency standards for rental properties are key initiatives that are transforming the residential housing sector in Victoria. These measures are contributing to lower energy bills for households[^notes-vic-37], improved thermal comfort[^notes-vic-38], and reduced greenhouse gas emissions[^notes-vic-39].
+
+[^notes-vic-37]: Moving To Extend Victorian Bill Saving Upgrades To 2045 - Premier of Victoria, accessed on January 8, 2025, <https://www.premier.vic.gov.au/moving-extend-victorian-bill-saving-upgrades-2045>
+
+[^notes-vic-38]: Building EE03-2022 - Energy efficiency requirements for new residential buildings CURRENT 16 Oct 2023 - Victorian Building Authority, accessed on January 8, 2025, <https://www.vba.vic.gov.au/__data/assets/pdf_file/0018/162108/Building-EE-03-2022-Energy-efficiency-requirements-for-new-residential-buildings-CURRENT-16-Oct-2023.pdf>
+
+[^notes-vic-39]: New home energy efficiency standards explained, accessed on January 8, 2025, <https://www.energy.vic.gov.au/__data/assets/pdf_file/0033/670299/7-star-new-home-standards-factsheets-home-buyers.pdf>

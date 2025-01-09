@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.6.40">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>notes-sa</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+      </head>
+
+  <body class="quarto-notebook">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Notes: SA</h6>
+
+            <a href="./Notes-SA.qmd" class="btn btn-primary quarto-download-embed" download="Notes-SA.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#notes-sa" id="toc-notes-sa" class="nav-link active" data-scroll-target="#notes-sa">Notes: SA</a>
+  <ul class="collapse">
+  <li><a href="#government-agencies-and-departments" id="toc-government-agencies-and-departments" class="nav-link" data-scroll-target="#government-agencies-and-departments"><strong>Government Agencies and Departments</strong></a></li>
+  <li><a href="#building-regulations" id="toc-building-regulations" class="nav-link" data-scroll-target="#building-regulations"><strong>Building Regulations</strong></a></li>
+  <li><a href="#energy-efficiency-schemes-and-incentives" id="toc-energy-efficiency-schemes-and-incentives" class="nav-link" data-scroll-target="#energy-efficiency-schemes-and-incentives"><strong>Energy Efficiency Schemes and Incentives</strong></a></li>
+  <li><a href="#other-energy-efficiency-measures" id="toc-other-energy-efficiency-measures" class="nav-link" data-scroll-target="#other-energy-efficiency-measures"><strong>Other Energy Efficiency Measures</strong></a></li>
+  <li><a href="#role-of-the-essential-services-commission-of-south-australia" id="toc-role-of-the-essential-services-commission-of-south-australia" class="nav-link" data-scroll-target="#role-of-the-essential-services-commission-of-south-australia"><strong>Role of the Essential Services Commission of South Australia</strong></a></li>
+  <li><a href="#energy-providers" id="toc-energy-providers" class="nav-link" data-scroll-target="#energy-providers"><strong>Energy Providers</strong></a></li>
+  <li><a href="#ngos-and-other-organizations" id="toc-ngos-and-other-organizations" class="nav-link" data-scroll-target="#ngos-and-other-organizations"><strong>NGOs and Other Organizations</strong></a></li>
+  <li><a href="#academic-research" id="toc-academic-research" class="nav-link" data-scroll-target="#academic-research"><strong>Academic Research</strong></a></li>
+  <li><a href="#social-housing" id="toc-social-housing" class="nav-link" data-scroll-target="#social-housing"><strong>Social Housing</strong></a></li>
+  <li><a href="#support-for-businesses" id="toc-support-for-businesses" class="nav-link" data-scroll-target="#support-for-businesses"><strong>Support for Businesses</strong></a></li>
+  <li><a href="#future-policy-directions" id="toc-future-policy-directions" class="nav-link" data-scroll-target="#future-policy-directions"><strong>Future Policy Directions</strong></a></li>
+  <li><a href="#energy-equity-and-access" id="toc-energy-equity-and-access" class="nav-link" data-scroll-target="#energy-equity-and-access"><strong>Energy Equity and Access</strong></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong>Conclusion</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">      <section id="notes-sa" class="level1">
+<h1>Notes: SA</h1>
+<p>South Australia has declared a Climate Emergency and is committed to achieving net-zero emissions by 2050<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In line with this ambition, the state government is actively promoting energy efficiency in residential housing through a range of policies, regulations, schemes, and other measures. This report provides a comprehensive overview of these efforts, drawing on a variety of sources, including government websites, academic research papers, reports from NGOs, news articles, and websites of energy providers.</p>
+<section id="government-agencies-and-departments" class="level2">
+<h2 class="anchored" data-anchor-id="government-agencies-and-departments"><strong>Government Agencies and Departments</strong></h2>
+<p>Several government agencies and departments play a crucial role in developing and implementing energy efficiency initiatives in South Australia. These include:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Agency/Department</th>
+<th style="text-align: left;">Role in Energy Efficiency</th>
+<th style="text-align: left;">Relevant Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Department for Energy and Mining</td>
+<td style="text-align: left;">Develops and implements energy efficiency policies and programs.</td>
+<td style="text-align: left;"><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Department for Environment and Water</td>
+<td style="text-align: left;">Promotes sustainable living, including energy efficiency, and protects the environment.</td>
+<td style="text-align: left;"><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Essential Services Commission of South Australia (ESCOSA)</td>
+<td style="text-align: left;">Sets energy prices, promotes competition in the energy market, and has a role in promoting energy efficiency.</td>
+<td style="text-align: left;"><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Department of the Premier and Cabinet</td>
+<td style="text-align: left;">Has overarching responsibility for government policy, including energy efficiency.</td>
+<td style="text-align: left;"><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shared Services SA</td>
+<td style="text-align: left;">Provides shared services to government agencies and promotes energy efficiency within government operations.</td>
+<td style="text-align: left;"><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Department for Infrastructure and Transport</td>
+<td style="text-align: left;">Administers the Building Code of Australia in South Australia.</td>
+<td style="text-align: left;"><a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Department of Industry, Science, Energy and Resources (DISER)</td>
+<td style="text-align: left;">Provides grants for community energy efficiency and solar projects through the Energy Efficient Communities Program.</td>
+<td style="text-align: left;"><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="building-regulations" class="level2">
+<h2 class="anchored" data-anchor-id="building-regulations"><strong>Building Regulations</strong></h2>
+<p>The Building Code of Australia (BCA) is a national code adopted by each state and territory, setting minimum energy efficiency standards for new residential buildings. In South Australia, the BCA is administered by the Department for Infrastructure and Transport<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>. The BCA’s energy efficiency provisions aim to reduce energy consumption and greenhouse gas emissions from residential buildings by setting requirements for:</p>
+<ul>
+<li><strong>Building envelope:</strong> This includes requirements for insulation, glazing, and air tightness to minimize heat loss and gain.</li>
+<li><strong>Heating and cooling systems:</strong> This includes minimum energy efficiency standards for heating and cooling systems, such as air conditioners and heat pumps.</li>
+<li><strong>Hot water systems:</strong> This includes requirements for the energy efficiency of hot water systems, such as solar hot water systems and heat pumps.</li>
+<li><strong>Lighting:</strong> This includes requirements for energy-efficient lighting, such as LED lights.</li>
+</ul>
+</section>
+<section id="energy-efficiency-schemes-and-incentives" class="level2">
+<h2 class="anchored" data-anchor-id="energy-efficiency-schemes-and-incentives"><strong>Energy Efficiency Schemes and Incentives</strong></h2>
+<p>The South Australian government offers various schemes and incentives to encourage energy efficiency in residential housing:</p>
+<ul>
+<li><p><strong>Retailer Energy Productivity Scheme (REPS):</strong> This scheme requires energy retailers to meet energy savings targets by providing energy efficiency products and services to households<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. Retailers can achieve these targets by offering discounts on energy-efficient appliances, providing energy audits, and installing energy-saving devices. To meet their targets, retailers can use energy credits earned in previous years, although the use of credits is being phased out<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>.</p></li>
+<li><p><strong>Home Energy Efficiency Scheme:</strong> This scheme provides financial assistance to homeowners to install energy-efficient products and appliances<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>. Eligible upgrades may include insulation, solar hot water systems, and energy-efficient lighting. The scheme aims to reduce household energy consumption and lower energy bills.</p></li>
+<li><p><strong>Community Batteries for Household Solar:</strong> This program, funded by the Australian Renewable Energy Agency (ARENA), supports the installation of community batteries in South Australia<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. These batteries allow households with solar panels to store excess energy and use it during peak demand periods, reducing reliance on the grid and maximizing the benefits of solar power. The program also provides eligible SA Housing Trust tenants with access to an exclusive energy plan with a reduced tariff<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>.</p></li>
+</ul>
+</section>
+<section id="other-energy-efficiency-measures" class="level2">
+<h2 class="anchored" data-anchor-id="other-energy-efficiency-measures"><strong>Other Energy Efficiency Measures</strong></h2>
+<p>In addition to government schemes, homeowners can implement various measures to improve the energy efficiency of their homes:</p>
+<ul>
+<li><p><strong>Installing insulation:</strong> Insulation helps to reduce heat loss in winter and heat gain in summer, leading to lower energy consumption for heating and cooling<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>. Different types of insulation are available for ceilings, walls, and floors.</p></li>
+<li><p><strong>Using energy-efficient appliances:</strong> Energy-efficient appliances, such as refrigerators, washing machines, and dishwashers, consume less energy than standard appliances<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>. Look for appliances with high energy star ratings to maximize energy savings.</p></li>
+</ul>
+</section>
+<section id="role-of-the-essential-services-commission-of-south-australia" class="level2">
+<h2 class="anchored" data-anchor-id="role-of-the-essential-services-commission-of-south-australia"><strong>Role of the Essential Services Commission of South Australia</strong></h2>
+<p>The Essential Services Commission of South Australia (ESCOSA) plays a vital role in promoting energy efficiency through various mechanisms:</p>
+<ul>
+<li><p><strong>Setting energy prices:</strong> ESCOSA sets energy prices to ensure they are fair and reasonable, which can incentivize energy efficiency by making it more expensive to use excessive energy<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>. By reflecting the true cost of energy, ESCOSA’s pricing structures encourage consumers to reduce their energy consumption.</p></li>
+<li><p><strong>Promoting competition in the energy market:</strong> Competition in the energy market can lead to lower prices and more innovative energy efficiency products and services<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>. ESCOSA fosters competition by ensuring a level playing field for energy retailers and encouraging new entrants into the market.</p></li>
+</ul>
+</section>
+<section id="energy-providers" class="level2">
+<h2 class="anchored" data-anchor-id="energy-providers"><strong>Energy Providers</strong></h2>
+<p>Energy providers in South Australia also contribute to promoting energy efficiency. While specific programs and rebates vary between providers, some common offerings include:</p>
+<ul>
+<li><p><strong>Discounts on energy-efficient appliances:</strong> Some providers offer discounts on energy-efficient appliances, such as refrigerators and washing machines, to encourage customers to upgrade to more energy-saving models<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>.</p></li>
+<li><p><strong>Energy audits:</strong> Some providers offer free or subsidized energy audits to help customers identify areas where they can improve energy efficiency in their homes<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a>.</p></li>
+<li><p><strong>Installation of energy-saving devices:</strong> Some providers offer free or subsidized installation of energy-saving devices, such as smart thermostats and energy-efficient lighting<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>.</p></li>
+<li><p><strong>Bundled discounts:</strong> Dodo offers a monthly discount to customers who bundle their electricity and nbn plans<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>.</p></li>
+</ul>
+</section>
+<section id="ngos-and-other-organizations" class="level2">
+<h2 class="anchored" data-anchor-id="ngos-and-other-organizations"><strong>NGOs and Other Organizations</strong></h2>
+<p>Several NGOs and other organizations are actively involved in promoting energy efficiency in South Australia:</p>
+<ul>
+<li><p><strong>The Energy Efficiency Council (EEC):</strong> The EEC is a not-for-profit membership association that promotes energy efficiency across the Australian economy<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a>. They advocate for policies that support energy efficiency, provide information and resources to businesses and consumers, and promote best practices in energy management.</p></li>
+<li><p><strong>CORENA South Australia:</strong> CORENA is a not-for-profit organization that supports community-based renewable energy projects<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>. They provide funding and support for projects that promote the uptake of renewable energy and energy efficiency in communities.</p></li>
+<li><p><strong>Tutti Arts South Australia:</strong> Tutti Arts is a multi-arts organization that supports artists with disabilities<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a>. They have a program that provides energy-efficient lighting to artists, helping them reduce their energy consumption and costs.</p></li>
+</ul>
+</section>
+<section id="academic-research" class="level2">
+<h2 class="anchored" data-anchor-id="academic-research"><strong>Academic Research</strong></h2>
+<p>Academic research provides valuable insights into the factors that influence energy consumption in homes and the effectiveness of different energy efficiency measures. Some key findings from research on energy efficiency in residential housing in South Australia include:</p>
+<ul>
+<li><p><strong>Gap between expected and actual benefits:</strong> Research has shown that there can be a gap between the expected and actual benefits of energy-efficient housing<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>. This highlights the importance of considering occupant behavior and providing ongoing support to ensure that energy-efficient features are used effectively.</p></li>
+<li><p><strong>Incentives and barriers to adoption:</strong> Financial incentives, such as rebates and grants, can play a significant role in encouraging the adoption of energy-efficient measures<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a>. However, barriers such as upfront costs and lack of awareness can hinder the uptake of energy efficiency.</p></li>
+<li><p><strong>Role of occupants:</strong> Occupant behavior plays a crucial role in achieving energy savings in residential buildings<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a>. Educating occupants about energy-efficient practices and providing feedback on their energy consumption can help to maximize the benefits of energy-efficient features.</p></li>
+</ul>
+</section>
+<section id="social-housing" class="level2">
+<h2 class="anchored" data-anchor-id="social-housing"><strong>Social Housing</strong></h2>
+<p>The South Australian government is investing in energy efficiency upgrades for social housing properties<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a>. This initiative aims to improve the comfort and affordability of social housing for tenants while reducing energy consumption and greenhouse gas emissions. Upgrades may include insulation, energy-efficient appliances, and solar panels.</p>
+</section>
+<section id="support-for-businesses" class="level2">
+<h2 class="anchored" data-anchor-id="support-for-businesses"><strong>Support for Businesses</strong></h2>
+<p>Recognizing the impact of rising energy costs on small businesses, the South Australian government has increased its support for energy efficiency in the business sector<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a>. Due to unprecedented demand for the Energy Efficiency Grants scheme, the government lifted the cap on Round 2 of the program, allowing more businesses to access grants for energy-efficient equipment and upgrades<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a>. This demonstrates the government’s commitment to supporting businesses in reducing their energy costs and improving their sustainability.</p>
+</section>
+<section id="future-policy-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-policy-directions"><strong>Future Policy Directions</strong></h2>
+<p>South Australia is exploring new policy mechanisms to ensure grid stability and reliability as it transitions to a 100% renewable energy grid by 2027<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a>. One such mechanism is the proposed “Firm Energy Reliability Mechanism,” which would provide payments to long-duration energy storage, including batteries and potentially gas generators<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a>. This mechanism aims to address the challenges of “dunkelflaute,” a term describing periods of low wind and solar generation<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a>.</p>
+</section>
+<section id="energy-equity-and-access" class="level2">
+<h2 class="anchored" data-anchor-id="energy-equity-and-access"><strong>Energy Equity and Access</strong></h2>
+<p>Ensuring equitable access to energy efficiency measures is crucial for achieving a just energy transition. While South Australia has made significant progress in promoting energy efficiency, challenges remain in ensuring that all households, including those in remote communities, can benefit from these initiatives<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a>. Targeted programs and support are needed to address the specific needs of remote and disadvantaged communities, ensuring that they can access the benefits of energy efficiency and contribute to a sustainable energy future.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h2>
+<p>South Australia has a strong commitment to energy efficiency in residential housing, driven by its ambitious climate targets and a desire to reduce energy costs for households and businesses. The government has implemented a comprehensive suite of policies, regulations, schemes, and incentives to promote energy efficiency, complemented by the efforts of energy providers, NGOs, and academic researchers. While significant progress has been made, challenges remain in ensuring equitable access to energy efficiency measures and maintaining grid stability as the state transitions to a renewable energy future.</p>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>South Australia’s Green Paper on the energy transition - YourSAy, accessed on January 7, 2025, <a href="https://yoursay.sa.gov.au/84846/widgets/400937/documents/261912" class="uri">https://yoursay.sa.gov.au/84846/widgets/400937/documents/261912</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>SA.GOV.AU - Departments and agencies - Government of South Australia, accessed on January 7, 2025, <a href="https://www.sa.gov.au/topics/about-sa/government/departments" class="uri">https://www.sa.gov.au/topics/about-sa/government/departments</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>SA.GOV.AU - Departments and agencies - Government of South Australia, accessed on January 7, 2025, <a href="https://www.sa.gov.au/topics/about-sa/government/departments" class="uri">https://www.sa.gov.au/topics/about-sa/government/departments</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>www.google.com, accessed on January 7, 2025, <a href="https://www.google.com/search?q=government+agencies+of+South+Australia" class="uri">https://www.google.com/search?q=government+agencies+of+South+Australia</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Organisations - data.sa.gov.au, accessed on January 7, 2025, <a href="https://data.sa.gov.au/data/organization?page=2" class="uri">https://data.sa.gov.au/data/organization?page=2</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Agencies | Shared Services SA, accessed on January 7, 2025, <a href="https://sharedservices.sa.gov.au/agencies-0" class="uri">https://sharedservices.sa.gov.au/agencies-0</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>SA.GOV.AU - Departments and agencies - Government of South Australia, accessed on January 7, 2025, <a href="https://www.sa.gov.au/topics/about-sa/government/departments" class="uri">https://www.sa.gov.au/topics/about-sa/government/departments</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Energy Efficient Communities Program – 2020 Community Energy Efficiency and Solar Grants Australia, accessed on January 7, 2025, <a href="https://www2.fundsforngos.org/latest-funds-for-ngos/energy-efficient-communities-program-2020-community-energy-efficiency-and-solar-grants-australia/" class="uri">https://www2.fundsforngos.org/latest-funds-for-ngos/energy-efficient-communities-program-2020-community-energy-efficiency-and-solar-grants-australia/</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>accessed on January 1, 1970, <a href="https://www.sa.gov.au/topics/building/building-regulations" class="uri">https://www.sa.gov.au/topics/building/building-regulations</a><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Retailer Energy Productivity Scheme – Annual Report 2023 - Essential Services Commission of South Australia, accessed on January 7, 2025, <a href="https://www.escosa.sa.gov.au/ArticleDocuments/21892/20240830-REPS-AnnualReport2023.pdf.aspx?Embed=Y" class="uri">https://www.escosa.sa.gov.au/ArticleDocuments/21892/20240830-REPS-AnnualReport2023.pdf.aspx?Embed=Y</a><a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Retailer Energy Productivity Scheme – Annual Report 2023 - Essential Services Commission of South Australia, accessed on January 7, 2025, <a href="https://www.escosa.sa.gov.au/ArticleDocuments/21892/20240830-REPS-AnnualReport2023.pdf.aspx?Embed=Y" class="uri">https://www.escosa.sa.gov.au/ArticleDocuments/21892/20240830-REPS-AnnualReport2023.pdf.aspx?Embed=Y</a><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>accessed on January 1, 1970, <a href="https://www.sa.gov.au/topics/energy-and-mining/save-energy-and-money" class="uri">https://www.sa.gov.au/topics/energy-and-mining/save-energy-and-money</a><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Investing in energy equity for South Australia, accessed on January 7, 2025, <a href="https://www.energymining.sa.gov.au/home/news/latest/investing-in-energy-equity-for-south-australia" class="uri">https://www.energymining.sa.gov.au/home/news/latest/investing-in-energy-equity-for-south-australia</a><a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Investing in energy equity for South Australia, accessed on January 7, 2025, <a href="https://www.energymining.sa.gov.au/home/news/latest/investing-in-energy-equity-for-south-australia" class="uri">https://www.energymining.sa.gov.au/home/news/latest/investing-in-energy-equity-for-south-australia</a><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>accessed on January 1, 1970, <a href="https://www.sa.gov.au/topics/energy-and-mining/home-energy-efficiency" class="uri">https://www.sa.gov.au/topics/energy-and-mining/home-energy-efficiency</a><a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>accessed on January 1, 1970, <a href="https://www.sa.gov.au/topics/energy-and-mining/home-energy-efficiency" class="uri">https://www.sa.gov.au/topics/energy-and-mining/home-energy-efficiency</a><a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>accessed on January 1, 1970, <a href="https://www.escosa.sa.gov.au/" class="uri">https://www.escosa.sa.gov.au/</a><a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>accessed on January 1, 1970, <a href="https://www.escosa.sa.gov.au/" class="uri">https://www.escosa.sa.gov.au/</a><a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Compare South Australian electricity and gas providers, accessed on January 7, 2025, <a href="https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/" class="uri">https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/</a><a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Compare South Australian electricity and gas providers, accessed on January 7, 2025, <a href="https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/" class="uri">https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/</a><a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>Compare South Australian electricity and gas providers, accessed on January 7, 2025, <a href="https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/" class="uri">https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/</a><a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>Energy Plans South Australia - Dodo, accessed on January 7, 2025, <a href="https://www.dodo.com/energy/south-australia" class="uri">https://www.dodo.com/energy/south-australia</a><a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>Organisations We Support | Ecovantage, accessed on January 7, 2025, <a href="https://www.ecovantage.com.au/organisations-we-support/" class="uri">https://www.ecovantage.com.au/organisations-we-support/</a><a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>South Australia - CORENA - Citizens’ Own Renewable Energy Network Australia, accessed on January 7, 2025, <a href="https://corenafund.org.au/south-australia/" class="uri">https://corenafund.org.au/south-australia/</a><a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>Organisations We Support | Ecovantage, accessed on January 7, 2025, <a href="https://www.ecovantage.com.au/organisations-we-support/" class="uri">https://www.ecovantage.com.au/organisations-we-support/</a><a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>(PDF) Energy Efficiency Housing in South Australia – A Gap Analysis between the Expected and Actual Benefits - ResearchGate, accessed on January 7, 2025, <a href="https://www.researchgate.net/publication/311360097_Energy_Efficiency_Housing_in_South_Australia_-_A_Gap_Analysis_between_the_Expected_and_Actual_Benefits" class="uri">https://www.researchgate.net/publication/311360097_Energy_Efficiency_Housing_in_South_Australia_-_A_Gap_Analysis_between_the_Expected_and_Actual_Benefits</a><a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>Case Studies of Energy Efficiency Housing in South Australia - ResearchGate, accessed on January 7, 2025, <a href="https://www.researchgate.net/publication/332932708_Case_Studies_of_Energy_Efficiency_Housing_in_South_Australia" class="uri">https://www.researchgate.net/publication/332932708_Case_Studies_of_Energy_Efficiency_Housing_in_South_Australia</a><a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>(PDF) Energy Efficiency Housing in South Australia – A Gap Analysis between the Expected and Actual Benefits - ResearchGate, accessed on January 7, 2025, <a href="https://www.researchgate.net/publication/311360097_Energy_Efficiency_Housing_in_South_Australia_-_A_Gap_Analysis_between_the_Expected_and_Actual_Benefits" class="uri">https://www.researchgate.net/publication/311360097_Energy_Efficiency_Housing_in_South_Australia_-_A_Gap_Analysis_between_the_Expected_and_Actual_Benefits</a><a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>Upgrading home energy for up to 3,500 South Australian households - DCCEEW, accessed on January 7, 2025, <a href="https://www.dcceew.gov.au/about/news/upgrading-home-energy-3500-sa-households" class="uri">https://www.dcceew.gov.au/about/news/upgrading-home-energy-3500-sa-households</a><a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>State Government lifts cap on small business Energy Efficiency Grants, amid unprecedented demand | Premier of South Australia, accessed on January 7, 2025, <a href="https://www.premier.sa.gov.au/media-releases/news-items/state-government-lifts-cap-on-small-business-energy-efficiency-grants,-amid-unprecedented-demand" class="uri">https://www.premier.sa.gov.au/media-releases/news-items/state-government-lifts-cap-on-small-business-energy-efficiency-grants,-amid-unprecedented-demand</a><a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p>State Government lifts cap on small business Energy Efficiency Grants, amid unprecedented demand | Premier of South Australia, accessed on January 7, 2025, <a href="https://www.premier.sa.gov.au/media-releases/news-items/state-government-lifts-cap-on-small-business-energy-efficiency-grants,-amid-unprecedented-demand" class="uri">https://www.premier.sa.gov.au/media-releases/news-items/state-government-lifts-cap-on-small-business-energy-efficiency-grants,-amid-unprecedented-demand</a><a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p>Gas lobby hoorays South Australia capacity payment plan as clean energy industry fears backward step | RenewEconomy, accessed on January 7, 2025, <a href="https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/" class="uri">https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/</a><a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p>Gas lobby hoorays South Australia capacity payment plan as clean energy industry fears backward step | RenewEconomy, accessed on January 7, 2025, <a href="https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/" class="uri">https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/</a><a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>Gas lobby hoorays South Australia capacity payment plan as clean energy industry fears backward step | RenewEconomy, accessed on January 7, 2025, <a href="https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/" class="uri">https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/</a><a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p>Full article: Impact of energy conservation measures in residential buildings in very remote communities in Australia - Taylor &amp; Francis Online, accessed on January 7, 2025, <a href="https://www.tandfonline.com/doi/full/10.1080/00038628.2023.2223183" class="uri">https://www.tandfonline.com/doi/full/10.1080/00038628.2023.2223183</a><a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>  </div> <!-- /content --> 
+  
+</body></html>

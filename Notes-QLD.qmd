@@ -1,0 +1,138 @@
+# Notes: QLD
+
+## **National Construction Code (NCC) 2022 Energy Efficiency Standards**
+
+The NCC 2022 introduces new energy efficiency requirements for residential buildings across Australia, including Queensland. These standards aim to improve the energy performance of new homes and reduce greenhouse gas emissions. Key aspects of the NCC 2022 include:
+
+* **Whole-of-Home Rating:** New houses and townhouses must achieve a minimum Whole-of-Home rating of 60 (out of 100), while new units must achieve a rating of 50[^1].
+* **Climate Zones:** Queensland is divided into four climate zones, and the specific energy efficiency features required for compliance vary depending on the region. This ensures that the building design considers the local climate conditions to optimize energy performance[^1].
+* **Expected Savings:** The new standards are projected to deliver average annual electricity savings of $185 per household across Queensland[^1].
+
+The NCC 2022 provides detailed guidelines and specifications for various aspects of energy efficiency in residential buildings, including:
+
+* **Building Fabric:** Requirements for insulation, glazing, and thermal mass to minimize heat transfer. This includes specifications for insulation materials, R-values, and installation methods to ensure optimal thermal performance of walls, roofs, and floors.
+* **Building Sealing:** Standards for airtightness to reduce energy loss through drafts. This involves sealing gaps and cracks in the building envelope to prevent air leakage, improving energy efficiency and comfort.
+* **Glazing:** Specifications for window performance to control solar heat gain and minimize heat loss. This includes requirements for window U-values, solar heat gain coefficients (SHGC), and window frame materials to optimize energy performance.
+* **Heating and Cooling:** Requirements for energy-efficient heating and cooling systems. This includes minimum energy efficiency standards for heating and cooling equipment, such as air conditioners and heat pumps, as well as provisions for zoning and control systems to optimize energy use.
+* **Hot Water Systems:** Standards for energy-efficient hot water systems. This includes minimum energy efficiency ratings for hot water systems, such as solar hot water systems, heat pumps, and gas-fired systems, as well as requirements for insulation and pipe sizing to minimize heat loss.
+* **Lighting:** Requirements for energy-efficient lighting. This includes promoting the use of energy-efficient lighting technologies, such as LEDs, and specifying minimum energy efficiency standards for lighting fixtures.
+
+## **Climate Smart Energy Savers Program**
+
+The Queensland Government has launched a new $22 million Climate Smart Energy Savers Program to help Queenslanders reduce their energy consumption and costs[^2]. The program offers:
+
+* **Rebates:** Rebates of up to $1,000 for the purchase and installation of eligible energy-efficient appliances with a four-star energy rating[^2].
+* **Eligible Appliances:** Rebates are available for a range of appliances, including:
+
+| Appliance Type | Rebate Amount |
+| :---- | :---- |
+| Solar and heat pump hot water systems | Up to $1,000 |
+| Air conditioners | Up to $1,000 |
+| Washing machines | Up to $1,000 |
+| Dishwashers | Up to $1,000 |
+| Dryers | Up to $1,000 |
+| Refrigerators | Up to $1,000 |
+
+This program provides financial incentives for households to adopt energy-efficient appliances, contributing to lower energy bills and reduced emissions. The Climate Council research indicates that Queenslanders could save more than $800 per year by switching from gas hot water to a solar hot water system, making the program's rebates a potentially compelling offer for many households[^2].
+
+## **Queensland Development Code (QDC)**
+
+The Queensland Development Code (QDC) provides a comprehensive framework for planning and development in Queensland, ensuring sustainable and efficient building practices[^1]. QDC Part 4.1 focuses on sustainable buildings and includes specific provisions for energy efficiency in residential housing. Key aspects of QDC Part 4.1 include:
+
+* **Energy Efficiency Performance:** Requirements for new residential buildings to meet minimum energy efficiency standards, aligned with the NCC.
+* **Renewable Energy:** Encouragement for the use of renewable energy sources, such as solar power, in residential buildings.
+* **Water Efficiency:** Provisions for water efficiency measures in residential buildings to conserve water resources.
+
+## **Social Housing Energy Performance Initiative**
+
+The Australian and Queensland Governments have partnered to deliver energy performance upgrades for social housing properties across the state. This $116 million initiative aims to improve thermal comfort, reduce energy consumption, and lower power bills for residents in social housing[^3]. Key features of the initiative include:
+
+* **Targeted Upgrades:** Up to 32,000 social housing properties will receive energy performance upgrades, with an expected completion date of 2027[^3].
+* **Upgrade Measures:** Upgrades may include ceiling insulation, air cooling solutions, ceiling fans, solar systems, and energy-efficient hot water systems[^3].
+* **Improved Comfort:** The upgrades will help to keep homes warmer in winter and cooler in summer, improving the quality of life for residents[^3].
+* **Reduced Bills:** The initiative is expected to reduce energy consumption and lower power bills for social housing residents[^3].
+* **Funding:** The initiative is jointly funded by the Queensland Government and the Australian Government[^4].
+* **Broader Impacts:** The initiative aims to support Queensland's clean energy transformation and reduce the cost of living for vulnerable residents, highlighting its social and environmental benefits[^5].
+
+However, there are concerns that Queensland may miss out on federal funding for energy efficiency in social housing if the state government does not take more proactive steps to improve energy efficiency and promote rooftop solar in this sector[^6].
+
+## **Energy Efficiency Grants for SMEs**
+
+The Australian Government's Energy Efficiency Grants for Small and Medium Sized Enterprises program provides grants to businesses to upgrade or replace inefficient equipment and implement energy efficiency activities[^7]. While this program focuses on SMEs, it reflects the government's commitment to energy efficiency and may indirectly benefit residential housing by driving innovation and adoption of energy-efficient technologies.
+
+## **Manufacturing Energy Efficiency Grant (MEEG) Program**
+
+The MEEG Program is a Queensland Government initiative that provides grants ranging from $7,500 to $50,000 to manufacturers to improve energy efficiency measures and technology, reduce energy usage, costs, and emissions[^8]. The program is part of the Queensland Energy and Jobs Plan and aligns with the Queensland Government's Advanced Manufacturing 10-Year Roadmap and Action Plan[^8]. The MEEG Program guidelines provide detailed information on eligibility criteria and funding amounts[^9].
+
+## **Equipment Energy Efficiency (E3) Program**
+
+The Australian Government, in collaboration with states and territories and the New Zealand Government, has implemented the Equipment Energy Efficiency (E3) Program to enhance the energy efficiency of appliances and equipment[^10]. The program aims to deliver a single, integrated approach to energy efficiency standards and labeling. This involves setting minimum energy performance standards (MEPS) for appliances and equipment before they can be sold, and providing energy efficiency information through labels to help consumers make informed purchasing decisions[^10].
+
+The E3 Program plays a crucial role in reducing energy consumption and greenhouse gas emissions in the residential sector by promoting the use of energy-efficient appliances. By promoting the development and adoption of energy-efficient appliances and equipment, the program contributes to reducing greenhouse gas emissions and supports the transition to Net Zero[^11]. Examples of appliances covered by the program include refrigerators, washing machines, and air conditioners. The energy rating labels provide consumers with information on the energy efficiency of these appliances, allowing them to make informed choices that can lead to lower energy bills and reduced environmental impact.
+
+## **Energy Efficiency Agencies and Organizations**
+
+Several agencies and organizations in Queensland play a role in promoting energy efficiency in residential housing:
+
+* **Anderson Energy Efficiency:** A Queensland-based consultancy service that provides energy efficiency assessments for buildings[^12].
+* **Energy and Water Ombudsman Queensland (EWOQ):** Provides a dispute resolution service for energy consumers, including residential customers[^13].
+* **Energy Efficiency Council (EEC):** A national peak body for energy efficiency, with members in Queensland providing energy efficiency services[^14].
+* **Energy Engineers:** A Queensland-based company that offers energy audits and solar solutions to help businesses and households save energy[^15].
+
+## **Queensland Energy Data and Research**
+
+The Queensland Energy DataBase is a valuable resource that provides time series data on Queensland's energy production, consumption, and prices for all energy sources from 1970 to 2017[^16]. This database provides valuable insights into Queensland's energy landscape, which can inform policy decisions and research on energy efficiency in residential housing.
+
+## **Academic Research**
+
+Academic institutions in Queensland contribute to research on energy efficiency in residential housing. The University of Queensland, for example, has conducted research on energy efficiency and sustainability in buildings, with a focus on reducing energy consumption and carbon emissions on campus[^17].
+
+## **Industry Associations**
+
+Industry associations, such as the Master Builders Association of Queensland, provide resources and guidance on energy efficiency in residential construction, offering training programs, publications, and online resources to help builders and homeowners understand and implement energy-efficient building practices.
+
+## **Conclusion**
+
+Queensland has implemented a range of policies, regulations, schemes, and initiatives to promote energy efficiency in residential housing. These measures aim to improve the energy performance of homes, reduce energy consumption, lower greenhouse gas emissions, and help households save money on their energy bills. The government's commitment to energy efficiency is evident in programs like the NCC 2022, the Social Housing Energy Performance Initiative, and the Climate Smart Energy Savers Program.
+
+While these initiatives demonstrate a strong commitment to energy efficiency, there are potential areas for improvement. Concerns have been raised about the potential for Queensland to miss out on federal funding for energy efficiency in social housing due to a perceived lack of urgency in addressing this issue[^6]. This highlights the need for continued efforts to improve energy efficiency in social housing, including promoting the adoption of rooftop solar.
+
+Furthermore, there is a need for greater awareness and education among homeowners about the benefits of energy efficiency and the available programs and incentives. Expanding outreach and education programs could encourage more homeowners to invest in energy-efficient upgrades and appliances.
+
+Overall, Queensland's energy efficiency policies for residential housing demonstrate a positive trend towards a more sustainable energy future. Continued efforts in this area, with a focus on addressing gaps and improving existing measures, will be crucial in achieving long-term energy efficiency goals and reducing the state's carbon footprint.
+
+## **Works Cited**
+
+[^1]: "Residential energy efficiency standards," Department of Housing Queensland, accessed January 7, 2025, https://www.housing.qld.gov.au/initiatives/modern-homes/residential-energy-efficiency-standards
+
+[^2]: "Queenslanders win with new Climate Smart Energy Savers Program," Power Together, accessed January 7, 2025, https://powertogether.org.au/queenslanders-win-with-new-climate-smart-energy-savers-program/
+
+[^3]: "Energy performance upgrades for up to 32,000 Queensland homes," Department of Climate Change, Energy, the Environment and Water, accessed January 7, 2025, https://www.dcceew.gov.au/about/news/energy-performance-upgrades-32000-queensland-homes
+
+[^4]: "Social Housing Energy Performance Initiative," Department of Housing and Public Works, accessed January 7, 2025, https://www.housing.qld.gov.au/initiatives/social-housing-energy-performance-initiative
+
+[^5]: "Joint media release: 32000 Queensland households to benefit from energy upgrades," Minister for Climate Change and Energy, accessed January 7, 2025, https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-32000-queensland-households-benefit-energy-upgrades
+
+[^6]: "Queensland only eastern state missing out on federal funding," Power Together, accessed January 7, 2025, https://powertogether.org.au/queensland-only-eastern-state-missing-out-on-federal-funding/
+
+[^7]: "Energy Efficiency Grants for Small and Medium Sized Enterprises," Department of Climate Change, Energy, the Environment and Water, accessed January 7, 2025, https://www.dcceew.gov.au/energy/programs/energy-efficiency-grants-small-medium-sized-enterprises
+
+[^8]: "Manufacturing Energy Efficiency Grant Program," Department of Local Government, Water and Volunteers, accessed January 7, 2025, https://www.rdmw.qld.gov.au/manufacturing/manufacturing-assistance-programs/meeg
+
+[^9]: "Manufacturing Energy Efficiency Grant Program Round 2 guidelines," Queensland Government, accessed January 7, 2025, https://www.rdmw.qld.gov.au/__data/assets/pdf_file/0007/1911193/meeg-guidelines-round-2.pdf
+
+[^10]: "Equipment Energy Efficiency Program," Energy Rating, accessed January 7, 2025, https://www.energyrating.gov.au/industry-information/energy-efficiency-initiatives/equipment-energy-efficiency-program
+
+[^11]: "Equipment Energy Efficiency Program," One Planet network, accessed January 7, 2025, https://www.oneplanetnetwork.org/knowledge-centre/policies/equipment-energy-efficiency-program
+
+[^12]: "Anderson Energy Efficiency," Anderson Energy, accessed January 7, 2025, https://andersonenergy.com.au/
+
+[^13]: "Queensland regulators, market institutions and other bodies," Business Queensland, accessed January 7, 2025, https://www.business.qld.gov.au/industries/mining-energy-water/energy/regulators/queensland-regulators
+
+[^14]: "Find a provider," Energy Efficiency Council, accessed January 7, 2025, https://www.eec.org.au/for-energy-users/find-a-provider
+
+[^15]: "Energy Engineers," Energy Engineers Australia, accessed January 7, 2025, https://energyengineers.com.au/
+
+[^16]: "Queensland Energy DataBase," UQ eSpace, accessed January 7, 2025, https://espace.library.uq.edu.au/view/UQ:3c3a8ce
+
+[^17]: "Energy Efficiency - Sustainability," University of Queensland, accessed January 7, 2025, https://sustainability.uq.edu.au/campus-sustainability/energy

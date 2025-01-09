@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.6.40">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>notes-act</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+      </head>
+
+  <body class="quarto-notebook">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Notes: ACT</h6>
+
+            <a href="./Notes-ACT.qmd" class="btn btn-primary quarto-download-embed" download="Notes-ACT.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#notes-act" id="toc-notes-act" class="nav-link active" data-scroll-target="#notes-act">Notes: ACT</a>
+  <ul class="collapse">
+  <li><a href="#energy-efficiency-policies-and-regulations" id="toc-energy-efficiency-policies-and-regulations" class="nav-link" data-scroll-target="#energy-efficiency-policies-and-regulations"><strong>Energy Efficiency Policies and Regulations</strong></a></li>
+  <li><a href="#electrification-of-canberra" id="toc-electrification-of-canberra" class="nav-link" data-scroll-target="#electrification-of-canberra"><strong>Electrification of Canberra</strong></a></li>
+  <li><a href="#energy-efficiency-schemes-and-programs" id="toc-energy-efficiency-schemes-and-programs" class="nav-link" data-scroll-target="#energy-efficiency-schemes-and-programs"><strong>Energy Efficiency Schemes and Programs</strong></a></li>
+  <li><a href="#housing-assistance-programs" id="toc-housing-assistance-programs" class="nav-link" data-scroll-target="#housing-assistance-programs"><strong>Housing Assistance Programs</strong></a></li>
+  <li><a href="#other-measures" id="toc-other-measures" class="nav-link" data-scroll-target="#other-measures"><strong>Other Measures</strong></a></li>
+  <li><a href="#research-and-reports" id="toc-research-and-reports" class="nav-link" data-scroll-target="#research-and-reports"><strong>Research and Reports</strong></a></li>
+  <li><a href="#industry-perspectives" id="toc-industry-perspectives" class="nav-link" data-scroll-target="#industry-perspectives"><strong>Industry Perspectives</strong></a></li>
+  <li><a href="#news-and-media-coverage" id="toc-news-and-media-coverage" class="nav-link" data-scroll-target="#news-and-media-coverage"><strong>News and Media Coverage</strong></a></li>
+  <li><a href="#summary-of-key-schemes-and-programs" id="toc-summary-of-key-schemes-and-programs" class="nav-link" data-scroll-target="#summary-of-key-schemes-and-programs"><strong>Summary of Key Schemes and Programs</strong></a></li>
+  <li><a href="#works-cited" id="toc-works-cited" class="nav-link" data-scroll-target="#works-cited"><strong>Works Cited</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">      <section id="notes-act" class="level1">
+<h1>Notes: ACT</h1>
+<p>This report provides a comprehensive overview of energy efficiency policies, regulations, schemes, and other measures relevant to residential housing in the Australian Capital Territory (ACT). The information presented here draws upon a variety of sources, including government websites<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, PDF reports<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, academic papers<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, industry reports<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, and news articles<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
+<section id="energy-efficiency-policies-and-regulations" class="level2">
+<h2 class="anchored" data-anchor-id="energy-efficiency-policies-and-regulations"><strong>Energy Efficiency Policies and Regulations</strong></h2>
+<p>The ACT Government is committed to improving energy efficiency in the residential sector to reduce energy consumption and greenhouse gas emissions. This commitment is reflected in various policies and regulations, with key initiatives including:</p>
+<ul>
+<li><strong>Building Codes:</strong> The ACT has implemented building codes that mandate minimum energy performance standards for new residential buildings. These codes ensure that new homes are built with energy-efficient features, such as insulation, double glazing, and energy-efficient appliances. For example, new homes may be required to have a minimum level of insulation in walls and ceilings, and windows must meet certain energy efficiency standards<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.</li>
+<li><strong>Energy Efficiency Certification:</strong> The ACT Government requires energy efficiency certification for residential buildings. This certification provides information about a building’s energy performance, using a standardized rating system, and helps buyers and renters make informed decisions<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>.</li>
+<li><strong>Appliance Standards and Labelling:</strong> The ACT has adopted energy efficiency standards and labelling for household appliances. This helps consumers identify and choose appliances that consume less energy by providing a clear and comparable energy efficiency rating on appliances<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>.</li>
+</ul>
+</section>
+<section id="electrification-of-canberra" class="level2">
+<h2 class="anchored" data-anchor-id="electrification-of-canberra"><strong>Electrification of Canberra</strong></h2>
+<p>The ACT Government is preparing to electrify the city and transition away from fossil fuel gas by 2045<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>. This initiative aims to reduce greenhouse gas emissions and create a cleaner energy future for Canberra. The government plans to achieve this transition by phasing out gas connections in new suburbs and providing incentives for households to switch to electric appliances and heating systems. The benefits of an all-electric Canberra include reduced reliance on fossil fuels, improved air quality, and lower energy costs for households.</p>
+</section>
+<section id="energy-efficiency-schemes-and-programs" class="level2">
+<h2 class="anchored" data-anchor-id="energy-efficiency-schemes-and-programs"><strong>Energy Efficiency Schemes and Programs</strong></h2>
+<p>The ACT Government offers a range of schemes and programs to support households in improving the energy efficiency of their homes and to assist those facing housing stress:</p>
+<ul>
+<li><strong>Home Energy Efficiency Program:</strong> This free program provides advice and support to renters and homeowners on how to save money on energy bills while maintaining comfort. The program offers information kits with energy-saving tips, draught-proofing assistance, and in-home energy assessments to help households identify and implement energy-saving measures<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>.</li>
+<li><strong>Sustainable Household Scheme:</strong> This scheme provides interest-free loans to eligible households for energy-efficient upgrades, such as solar panels, battery storage, and efficient heating and cooling systems<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>.</li>
+<li><strong>Utilities Concession Scheme:</strong> This scheme offers discounts on electricity, natural gas, water, and sewerage bills to eligible households, including pensioners and low-income health care card holders<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>.</li>
+<li><strong>Supportive Tenancy Service:</strong> This service provides support to tenants who are in housing stress or at risk of homelessness. The service advocates for tenants with landlords and lenders, refers tenants to support services, and provides support at ACAT hearings. This service is available to all households, including public and private tenants and homeowners<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>.</li>
+</ul>
+<p>The ACT Government is also committed to making energy efficiency programs more accessible to underserved populations<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>. This includes providing targeted assistance and resources to low-income households and those facing barriers to accessing energy efficiency programs.</p>
+</section>
+<section id="housing-assistance-programs" class="level2">
+<h2 class="anchored" data-anchor-id="housing-assistance-programs"><strong>Housing Assistance Programs</strong></h2>
+<p>The ACT Government provides a range of assistance programs to help residents buy or rent homes:</p>
+<ul>
+<li><strong>Home Buyer Assistance:</strong> The ACT Government offers grants, stamp duty reductions, and other programs to assist with the purchase of a home. These programs aim to make homeownership more accessible and affordable for first-time buyers and other eligible residents<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>.</li>
+<li><strong>Rental Bond Assistance:</strong> Interest-free loans are available to help eligible tenants pay the bond for a private rental property. This helps to reduce the upfront costs associated with renting a home<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>.</li>
+<li><strong>Financial Support for Homeowners:</strong> The ACT Government provides financial support to help homeowners with the costs of owning and maintaining their homes. This includes assistance with lowering running costs, such as energy bills<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>.</li>
+</ul>
+</section>
+<section id="other-measures" class="level2">
+<h2 class="anchored" data-anchor-id="other-measures"><strong>Other Measures</strong></h2>
+<p>In addition to the policies, regulations, schemes, and programs mentioned above, the ACT Government has implemented other measures to promote energy efficiency in residential housing:</p>
+<ul>
+<li><strong>Energy Innovation Fund:</strong> This fund supports the development and deployment of innovative energy efficiency technologies in the ACT. This includes funding research and development projects, pilot programs, and community-based initiatives<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>.</li>
+<li><strong>Public Housing Programs:</strong> The ACT Government is committed to improving the energy efficiency of its public housing stock. This includes initiatives to upgrade insulation, install energy-efficient appliances, and provide energy advice to tenants<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>.
+<ul>
+<li><strong>Types of Public and Community Housing:</strong> The ACT Government offers a variety of public and community housing options to meet the needs of different households. This includes single-family homes, apartments, and specialized housing for seniors and people with disabilities. Eligibility criteria and the application process vary depending on the type of housing<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a>.</li>
+<li><strong>Option to Purchase:</strong> Eligible public housing tenants have the option to purchase their homes. This provides tenants with the opportunity to build equity and achieve homeownership<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>.</li>
+</ul></li>
+<li><strong>Community Education and Awareness:</strong> The ACT Government conducts various campaigns and initiatives to raise awareness about energy efficiency among residents. This includes providing information and resources on energy-saving tips, rebates, and programs<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>.
+<ul>
+<li><strong>Home Energy Action Kit:</strong> This kit helps residents understand their energy and water usage and identify opportunities for improvement. The kit provides practical tips and resources to help households save energy and reduce their environmental impact<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="research-and-reports" class="level2">
+<h2 class="anchored" data-anchor-id="research-and-reports"><strong>Research and Reports</strong></h2>
+<p>Several research papers and reports have examined energy efficiency in residential housing in the ACT and beyond. These studies provide valuable insights into the effectiveness of different policies and programs, as well as the challenges and opportunities for further improvement.</p>
+<p>One key area of research focuses on identifying effective Energy Efficiency Measures (EEMs) that can reduce energy consumption in homes. Studies have shown that measures such as insulation, heating and cooling upgrades, and efficient lighting can significantly reduce energy use and greenhouse gas emissions<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>.</p>
+<p>Research has also explored the factors that influence the adoption of energy efficiency measures in households. Studies have identified barriers such as financial constraints, lack of awareness, and perceived complexity of upgrades<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a>. Understanding these barriers and drivers is crucial for designing effective policies and programs that encourage energy efficiency upgrades.</p>
+<p>Another important area of research examines the impact of energy efficiency on rental properties. Studies have shown that energy-efficient features in rental properties can lead to higher rental prices, suggesting a positive economic impact for property owners<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>.</p>
+<p>Furthermore, research has highlighted the connection between energy efficiency and sustainable development goals<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a>. Improving energy efficiency in residential housing contributes to broader sustainability goals, such as reducing greenhouse gas emissions, improving air quality, and promoting resource conservation.</p>
+</section>
+<section id="industry-perspectives" class="level2">
+<h2 class="anchored" data-anchor-id="industry-perspectives"><strong>Industry Perspectives</strong></h2>
+<p>Industry reports and white papers provide further insights into energy efficiency in residential housing in the ACT. One concern raised by industry reports is the potential impact of stricter energy efficiency standards on housing affordability<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a>. While acknowledging the benefits of energy efficiency, some stakeholders argue that stricter standards could increase construction costs and make housing less affordable, particularly for first-time buyers and low-income households.</p>
+<p>Industry stakeholders also emphasize the importance of market transformation strategies to encourage the adoption of energy-efficient technologies and practices<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a>. Another key perspective from industry reports is the need for innovative financing mechanisms to support homeowners in making energy efficiency upgrades<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a>.</p>
+<p>Furthermore, industry reports highlight the importance of considering the long-term cost-effectiveness of energy efficiency measures<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a>. This includes evaluating the payback periods for different upgrades and considering factors such as energy prices, maintenance costs, and the lifespan of energy-efficient technologies.</p>
+</section>
+<section id="news-and-media-coverage" class="level2">
+<h2 class="anchored" data-anchor-id="news-and-media-coverage"><strong>News and Media Coverage</strong></h2>
+<p>News articles and media reports provide updates on energy efficiency policies and initiatives in the ACT. Recent coverage has focused on several key developments:</p>
+<ul>
+<li><strong>New Energy Standards:</strong> The adoption of updated energy efficiency standards for new construction of single and multifamily homes has been a key topic in the news<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a>.</li>
+<li><strong>Federal Funding:</strong> Media reports have highlighted the role of federal funding in supporting energy efficiency programs and initiatives in the ACT[^23].</li>
+<li><strong>Consumer Savings:</strong> News articles have reported on the significant energy savings that households are achieving through energy efficiency upgrades and programs[^24].</li>
+</ul>
+</section>
+<section id="summary-of-key-schemes-and-programs" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-key-schemes-and-programs"><strong>Summary of Key Schemes and Programs</strong></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Scheme/Program</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Eligibility</th>
+<th style="text-align: left;">Website</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Home Energy Efficiency Program</td>
+<td style="text-align: left;">Provides advice and support to households on energy efficiency</td>
+<td style="text-align: left;">Renters and homeowners</td>
+<td style="text-align: left;">[Visit website]<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sustainable Household Scheme</td>
+<td style="text-align: left;">Offers interest-free loans for energy-efficient upgrades</td>
+<td style="text-align: left;">Eligible households</td>
+<td style="text-align: left;">[Visit website]<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Utilities Concession Scheme</td>
+<td style="text-align: left;">Provides discounts on utility bills</td>
+<td style="text-align: left;">Pensioners and low-income health care card holders</td>
+<td style="text-align: left;">[Visit website]<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Supportive Tenancy Service</td>
+<td style="text-align: left;">Provides support to tenants in housing stress or at risk of homelessness</td>
+<td style="text-align: left;">All households, including public and private tenants and homeowners</td>
+<td style="text-align: left;">[Visit website]<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="works-cited" class="level2">
+<h2 class="anchored" data-anchor-id="works-cited"><strong>Works Cited</strong></h2>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>“ACT | energy.gov.au,” accessed January 8, 2025, https://www.energy.gov.au/state/act<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>“Energy Efficiency Policies and Measures,” accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>“Residential energy efficiency interventions: A meta‐analysis of effectiveness studies,” PMC, accessed January 8, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC8988770/<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>“Energy Efficiency Trends in Residential and Commercial Buildings,” accessed January 8, 2025, https://www1.eere.energy.gov/buildings/publications/pdfs/corporate/bt_stateindustry.pdf<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>“U.S. Reps. Castor, Clarke Introduce Bill to Lower Costs, Boost Energy Efficiency Across America,” accessed January 8, 2025, https://castor.house.gov/news/documentsingle.aspx?DocumentID=404670<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>“Energy Efficiency Policies and Measures,” accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>“Energy Efficiency Policies and Measures,” accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>“Energy Efficiency Policies and Measures,” accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>“Energy schemes &amp; rebates,” Home Energy Tune Up, accessed January 8, 2025, https://www.homeenergytuneup.com.au/energy-schemes-rebates<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>“Home Energy Efficiency Program - Climate Choices - ACT Government,” accessed January 8, 2025, https://www.climatechoices.act.gov.au/policy-programs/home-energy-efficiency-program<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>“The ACT Sustainable Household Scheme,” Brighte, accessed January 8, 2025, https://brighte.com.au/act-sustainable-household-scheme/households<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>“ACT Government programs to help tenants,” ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>“ACT Government programs to help tenants,” ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>“Energy Transition Risk in the Housing Market,” Federal Housing Finance Agency, accessed January 8, 2025, https://www.fhfa.gov/blog/insights/energy-transition-risk-in-the-housing-market<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>“Housing - ACT Government,” accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/housing<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>“Housing - ACT Government,” accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/housing<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>“Housing - ACT Government,” accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/housing<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>“Climate Choices: Home,” accessed January 8, 2025, https://www.climatechoices.act.gov.au/<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>“Public housing - ACT Government,” accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/public-housing<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>“Public housing - ACT Government,” accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/public-housing<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>“Public housing - ACT Government,” accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/public-housing<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>“Energy efficiency - Climate Choices - ACT Government,” accessed January 8, 2025, https://www.climatechoices.act.gov.au/energy/energy-efficiency<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>“Energy efficiency - Climate Choices - ACT Government,” accessed January 8, 2025, https://www.climatechoices.act.gov.au/energy/energy-efficiency<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>“Residential energy efficiency interventions: A meta‐analysis of effectiveness studies,” PMC, accessed January 8, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC8988770/<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>“Energy Efficiency in the Residential, Service and Energy Sectors: Barriers, Drivers and System Studies,” DiVA, accessed January 8, 2025, https://liu.diva-portal.org/smash/get/diva2:1744531/FULLTEXT01.pdf<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>“Energy efficiency in U.S. residential rental housing: Adoption rates and impact on rent,” ResearchGate, accessed January 8, 2025, https://www.researchgate.net/publication/319345804_Energy_efficiency_in_US_residential_rental_housing_Adoption_rates_and_impact_on_rent<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>“Energy efficiency of housing as a tool for sustainable development,” ResearchGate, accessed January 8, 2025, https://www.researchgate.net/publication/329646308_Energy_efficiency_of_housing_as_a_tool_for_sustainable_development<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>“New Energy Codes Mandate a Blow to Housing Affordability,” NAHB, accessed January 8, 2025, https://www.nahb.org/blog/2024/04/new-energy-codes-mandate-blow-to-housing-affordability<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>“Updated Home Energy Efficiency Standards Could Affect One in Four Homes,” RMI, accessed January 8, 2025, https://rmi.org/updated-home-energy-efficiency-standards-could-affect-one-in-four-homes/<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>“Retrofitting America’s Homes: Designing Home Energy Programs that Leverage Federal Climate Investments with Other Funding,” ACEEE, accessed January 8, 2025, https://www.aceee.org/white-paper/2024/05/retrofitting-americas-homes-designing-home-energy-programs-leverage-federal<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p>“Energy Efficiency and Housing Affordability White Paper,” Institute for Market Transformation, accessed January 8, 2025, https://imt.org/resources/energy-efficiency-and-housing-affordability-white-paper/<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p>“HUD announces new energy standards for affordable housing,” NACo, accessed January 8, 2025, https://www.naco.org/news/hud-announces-new-energy-standards-affordable-housing<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p>“Home Energy Efficiency Program - Climate Choices - ACT Government,” accessed January 8, 2025, https://www.climatechoices.act.gov.au/policy-programs/home-energy-efficiency-program<a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>“The ACT Sustainable Household Scheme,” Brighte, accessed January 8, 2025, https://brighte.com.au/act-sustainable-household-scheme/households<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p>“ACT Government programs to help tenants,” ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p>“ACT Government programs to help tenants,” ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/<a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>  </div> <!-- /content --> 
+  
+</body></html>

@@ -1,0 +1,174 @@
+# Notes: SA
+
+South Australia has declared a Climate Emergency and is committed to achieving net-zero emissions by 2050[^notes-sa-1]. In line with this ambition, the state government is actively promoting energy efficiency in residential housing through a range of policies, regulations, schemes, and other measures. This report provides a comprehensive overview of these efforts, drawing on a variety of sources, including government websites, academic research papers, reports from NGOs, news articles, and websites of energy providers.
+
+[^notes-sa-1]: South Australia's Green Paper on the energy transition - YourSAy, accessed on January 7, 2025, <https://yoursay.sa.gov.au/84846/widgets/400937/documents/261912>
+
+## **Government Agencies and Departments**
+
+Several government agencies and departments play a crucial role in developing and implementing energy efficiency initiatives in South Australia. These include:
+
+| Agency/Department | Role in Energy Efficiency | Relevant Citation |
+|:-----------------------|:-----------------------|:-----------------------|
+| Department for Energy and Mining | Develops and implements energy efficiency policies and programs. | [^notes-sa-2] |
+| Department for Environment and Water | Promotes sustainable living, including energy efficiency, and protects the environment. | [^notes-sa-3] |
+| Essential Services Commission of South Australia (ESCOSA) | Sets energy prices, promotes competition in the energy market, and has a role in promoting energy efficiency. | [^notes-sa-4] |
+| Department of the Premier and Cabinet | Has overarching responsibility for government policy, including energy efficiency. | [^notes-sa-5] |
+| Shared Services SA | Provides shared services to government agencies and promotes energy efficiency within government operations. | [^notes-sa-6] |
+| Department for Infrastructure and Transport | Administers the Building Code of Australia in South Australia. | [^notes-sa-7] |
+| Department of Industry, Science, Energy and Resources (DISER) | Provides grants for community energy efficiency and solar projects through the Energy Efficient Communities Program. | [^notes-sa-8] |
+
+[^notes-sa-2]: SA.GOV.AU - Departments and agencies - Government of South Australia, accessed on January 7, 2025, <https://www.sa.gov.au/topics/about-sa/government/departments>
+
+[^notes-sa-3]: SA.GOV.AU - Departments and agencies - Government of South Australia, accessed on January 7, 2025, <https://www.sa.gov.au/topics/about-sa/government/departments>
+
+[^notes-sa-4]: www.google.com, accessed on January 7, 2025, <https://www.google.com/search?q=government+agencies+of+South+Australia>
+
+[^notes-sa-5]: Organisations - data.sa.gov.au, accessed on January 7, 2025, <https://data.sa.gov.au/data/organization?page=2>
+
+[^notes-sa-6]: Agencies \| Shared Services SA, accessed on January 7, 2025, <https://sharedservices.sa.gov.au/agencies-0>
+
+[^notes-sa-7]: SA.GOV.AU - Departments and agencies - Government of South Australia, accessed on January 7, 2025, <https://www.sa.gov.au/topics/about-sa/government/departments>
+
+[^notes-sa-8]: Energy Efficient Communities Program – 2020 Community Energy Efficiency and Solar Grants Australia, accessed on January 7, 2025, <https://www2.fundsforngos.org/latest-funds-for-ngos/energy-efficient-communities-program-2020-community-energy-efficiency-and-solar-grants-australia/>
+
+## **Building Regulations**
+
+The Building Code of Australia (BCA) is a national code adopted by each state and territory, setting minimum energy efficiency standards for new residential buildings. In South Australia, the BCA is administered by the Department for Infrastructure and Transport[^notes-sa-9]. The BCA's energy efficiency provisions aim to reduce energy consumption and greenhouse gas emissions from residential buildings by setting requirements for:
+
+[^notes-sa-9]: accessed on January 1, 1970, <https://www.sa.gov.au/topics/building/building-regulations>
+
+-   **Building envelope:** This includes requirements for insulation, glazing, and air tightness to minimize heat loss and gain.
+-   **Heating and cooling systems:** This includes minimum energy efficiency standards for heating and cooling systems, such as air conditioners and heat pumps.
+-   **Hot water systems:** This includes requirements for the energy efficiency of hot water systems, such as solar hot water systems and heat pumps.
+-   **Lighting:** This includes requirements for energy-efficient lighting, such as LED lights.
+
+## **Energy Efficiency Schemes and Incentives**
+
+The South Australian government offers various schemes and incentives to encourage energy efficiency in residential housing:
+
+-   **Retailer Energy Productivity Scheme (REPS):** This scheme requires energy retailers to meet energy savings targets by providing energy efficiency products and services to households[^notes-sa-10]. Retailers can achieve these targets by offering discounts on energy-efficient appliances, providing energy audits, and installing energy-saving devices. To meet their targets, retailers can use energy credits earned in previous years, although the use of credits is being phased out[^notes-sa-11].
+
+-   **Home Energy Efficiency Scheme:** This scheme provides financial assistance to homeowners to install energy-efficient products and appliances[^notes-sa-12]. Eligible upgrades may include insulation, solar hot water systems, and energy-efficient lighting. The scheme aims to reduce household energy consumption and lower energy bills.
+
+-   **Community Batteries for Household Solar:** This program, funded by the Australian Renewable Energy Agency (ARENA), supports the installation of community batteries in South Australia[^notes-sa-13]. These batteries allow households with solar panels to store excess energy and use it during peak demand periods, reducing reliance on the grid and maximizing the benefits of solar power. The program also provides eligible SA Housing Trust tenants with access to an exclusive energy plan with a reduced tariff[^notes-sa-14].
+
+[^notes-sa-10]: Retailer Energy Productivity Scheme – Annual Report 2023 - Essential Services Commission of South Australia, accessed on January 7, 2025, <https://www.escosa.sa.gov.au/ArticleDocuments/21892/20240830-REPS-AnnualReport2023.pdf.aspx?Embed=Y>
+
+[^notes-sa-11]: Retailer Energy Productivity Scheme – Annual Report 2023 - Essential Services Commission of South Australia, accessed on January 7, 2025, <https://www.escosa.sa.gov.au/ArticleDocuments/21892/20240830-REPS-AnnualReport2023.pdf.aspx?Embed=Y>
+
+[^notes-sa-12]: accessed on January 1, 1970, <https://www.sa.gov.au/topics/energy-and-mining/save-energy-and-money>
+
+[^notes-sa-13]: Investing in energy equity for South Australia, accessed on January 7, 2025, <https://www.energymining.sa.gov.au/home/news/latest/investing-in-energy-equity-for-south-australia>
+
+[^notes-sa-14]: Investing in energy equity for South Australia, accessed on January 7, 2025, <https://www.energymining.sa.gov.au/home/news/latest/investing-in-energy-equity-for-south-australia>
+
+## **Other Energy Efficiency Measures**
+
+In addition to government schemes, homeowners can implement various measures to improve the energy efficiency of their homes:
+
+-   **Installing insulation:** Insulation helps to reduce heat loss in winter and heat gain in summer, leading to lower energy consumption for heating and cooling[^notes-sa-15]. Different types of insulation are available for ceilings, walls, and floors.
+
+-   **Using energy-efficient appliances:** Energy-efficient appliances, such as refrigerators, washing machines, and dishwashers, consume less energy than standard appliances[^notes-sa-16]. Look for appliances with high energy star ratings to maximize energy savings.
+
+[^notes-sa-15]: accessed on January 1, 1970, <https://www.sa.gov.au/topics/energy-and-mining/home-energy-efficiency>
+
+[^notes-sa-16]: accessed on January 1, 1970, <https://www.sa.gov.au/topics/energy-and-mining/home-energy-efficiency>
+
+## **Role of the Essential Services Commission of South Australia**
+
+The Essential Services Commission of South Australia (ESCOSA) plays a vital role in promoting energy efficiency through various mechanisms:
+
+-   **Setting energy prices:** ESCOSA sets energy prices to ensure they are fair and reasonable, which can incentivize energy efficiency by making it more expensive to use excessive energy[^notes-sa-17]. By reflecting the true cost of energy, ESCOSA's pricing structures encourage consumers to reduce their energy consumption.
+
+-   **Promoting competition in the energy market:** Competition in the energy market can lead to lower prices and more innovative energy efficiency products and services[^notes-sa-18]. ESCOSA fosters competition by ensuring a level playing field for energy retailers and encouraging new entrants into the market.
+
+[^notes-sa-17]: accessed on January 1, 1970, <https://www.escosa.sa.gov.au/>
+
+[^notes-sa-18]: accessed on January 1, 1970, <https://www.escosa.sa.gov.au/>
+
+## **Energy Providers**
+
+Energy providers in South Australia also contribute to promoting energy efficiency. While specific programs and rebates vary between providers, some common offerings include:
+
+-   **Discounts on energy-efficient appliances:** Some providers offer discounts on energy-efficient appliances, such as refrigerators and washing machines, to encourage customers to upgrade to more energy-saving models[^notes-sa-19].
+
+-   **Energy audits:** Some providers offer free or subsidized energy audits to help customers identify areas where they can improve energy efficiency in their homes[^notes-sa-20].
+
+-   **Installation of energy-saving devices:** Some providers offer free or subsidized installation of energy-saving devices, such as smart thermostats and energy-efficient lighting[^notes-sa-21].
+
+-   **Bundled discounts:** Dodo offers a monthly discount to customers who bundle their electricity and nbn plans[^notes-sa-22].
+
+[^notes-sa-19]: Compare South Australian electricity and gas providers, accessed on January 7, 2025, <https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/>
+
+[^notes-sa-20]: Compare South Australian electricity and gas providers, accessed on January 7, 2025, <https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/>
+
+[^notes-sa-21]: Compare South Australian electricity and gas providers, accessed on January 7, 2025, <https://www.comparethemarket.com.au/energy/compare-south-australia-electricity/>
+
+[^notes-sa-22]: Energy Plans South Australia - Dodo, accessed on January 7, 2025, <https://www.dodo.com/energy/south-australia>
+
+## **NGOs and Other Organizations**
+
+Several NGOs and other organizations are actively involved in promoting energy efficiency in South Australia:
+
+-   **The Energy Efficiency Council (EEC):** The EEC is a not-for-profit membership association that promotes energy efficiency across the Australian economy[^notes-sa-23]. They advocate for policies that support energy efficiency, provide information and resources to businesses and consumers, and promote best practices in energy management.
+
+-   **CORENA South Australia:** CORENA is a not-for-profit organization that supports community-based renewable energy projects[^notes-sa-24]. They provide funding and support for projects that promote the uptake of renewable energy and energy efficiency in communities.
+
+-   **Tutti Arts South Australia:** Tutti Arts is a multi-arts organization that supports artists with disabilities[^notes-sa-25]. They have a program that provides energy-efficient lighting to artists, helping them reduce their energy consumption and costs.
+
+[^notes-sa-23]: Organisations We Support \| Ecovantage, accessed on January 7, 2025, <https://www.ecovantage.com.au/organisations-we-support/>
+
+[^notes-sa-24]: South Australia - CORENA - Citizens' Own Renewable Energy Network Australia, accessed on January 7, 2025, <https://corenafund.org.au/south-australia/>
+
+[^notes-sa-25]: Organisations We Support \| Ecovantage, accessed on January 7, 2025, <https://www.ecovantage.com.au/organisations-we-support/>
+
+## **Academic Research**
+
+Academic research provides valuable insights into the factors that influence energy consumption in homes and the effectiveness of different energy efficiency measures. Some key findings from research on energy efficiency in residential housing in South Australia include:
+
+-   **Gap between expected and actual benefits:** Research has shown that there can be a gap between the expected and actual benefits of energy-efficient housing[^notes-sa-26]. This highlights the importance of considering occupant behavior and providing ongoing support to ensure that energy-efficient features are used effectively.
+
+-   **Incentives and barriers to adoption:** Financial incentives, such as rebates and grants, can play a significant role in encouraging the adoption of energy-efficient measures[^notes-sa-27]. However, barriers such as upfront costs and lack of awareness can hinder the uptake of energy efficiency.
+
+-   **Role of occupants:** Occupant behavior plays a crucial role in achieving energy savings in residential buildings[^notes-sa-28]. Educating occupants about energy-efficient practices and providing feedback on their energy consumption can help to maximize the benefits of energy-efficient features.
+
+[^notes-sa-26]: (PDF) Energy Efficiency Housing in South Australia – A Gap Analysis between the Expected and Actual Benefits - ResearchGate, accessed on January 7, 2025, <https://www.researchgate.net/publication/311360097_Energy_Efficiency_Housing_in_South_Australia_-_A_Gap_Analysis_between_the_Expected_and_Actual_Benefits>
+
+[^notes-sa-27]: Case Studies of Energy Efficiency Housing in South Australia - ResearchGate, accessed on January 7, 2025, <https://www.researchgate.net/publication/332932708_Case_Studies_of_Energy_Efficiency_Housing_in_South_Australia>
+
+[^notes-sa-28]: (PDF) Energy Efficiency Housing in South Australia – A Gap Analysis between the Expected and Actual Benefits - ResearchGate, accessed on January 7, 2025, <https://www.researchgate.net/publication/311360097_Energy_Efficiency_Housing_in_South_Australia_-_A_Gap_Analysis_between_the_Expected_and_Actual_Benefits>
+
+## **Social Housing**
+
+The South Australian government is investing in energy efficiency upgrades for social housing properties[^notes-sa-29]. This initiative aims to improve the comfort and affordability of social housing for tenants while reducing energy consumption and greenhouse gas emissions. Upgrades may include insulation, energy-efficient appliances, and solar panels.
+
+[^notes-sa-29]: Upgrading home energy for up to 3,500 South Australian households - DCCEEW, accessed on January 7, 2025, <https://www.dcceew.gov.au/about/news/upgrading-home-energy-3500-sa-households>
+
+## **Support for Businesses**
+
+Recognizing the impact of rising energy costs on small businesses, the South Australian government has increased its support for energy efficiency in the business sector[^notes-sa-30]. Due to unprecedented demand for the Energy Efficiency Grants scheme, the government lifted the cap on Round 2 of the program, allowing more businesses to access grants for energy-efficient equipment and upgrades[^notes-sa-31]. This demonstrates the government's commitment to supporting businesses in reducing their energy costs and improving their sustainability.
+
+[^notes-sa-30]: State Government lifts cap on small business Energy Efficiency Grants, amid unprecedented demand \| Premier of South Australia, accessed on January 7, 2025, <https://www.premier.sa.gov.au/media-releases/news-items/state-government-lifts-cap-on-small-business-energy-efficiency-grants,-amid-unprecedented-demand>
+
+[^notes-sa-31]: State Government lifts cap on small business Energy Efficiency Grants, amid unprecedented demand \| Premier of South Australia, accessed on January 7, 2025, <https://www.premier.sa.gov.au/media-releases/news-items/state-government-lifts-cap-on-small-business-energy-efficiency-grants,-amid-unprecedented-demand>
+
+## **Future Policy Directions**
+
+South Australia is exploring new policy mechanisms to ensure grid stability and reliability as it transitions to a 100% renewable energy grid by 2027[^notes-sa-32]. One such mechanism is the proposed "Firm Energy Reliability Mechanism," which would provide payments to long-duration energy storage, including batteries and potentially gas generators[^notes-sa-33]. This mechanism aims to address the challenges of "dunkelflaute," a term describing periods of low wind and solar generation[^notes-sa-34].
+
+[^notes-sa-32]: Gas lobby hoorays South Australia capacity payment plan as clean energy industry fears backward step \| RenewEconomy, accessed on January 7, 2025, <https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/>
+
+[^notes-sa-33]: Gas lobby hoorays South Australia capacity payment plan as clean energy industry fears backward step \| RenewEconomy, accessed on January 7, 2025, <https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/>
+
+[^notes-sa-34]: Gas lobby hoorays South Australia capacity payment plan as clean energy industry fears backward step \| RenewEconomy, accessed on January 7, 2025, <https://reneweconomy.com.au/gas-lobby-hoorays-south-australia-capacity-payment-plan-as-clean-energy-industry-fears-backward-step/>
+
+## **Energy Equity and Access**
+
+Ensuring equitable access to energy efficiency measures is crucial for achieving a just energy transition. While South Australia has made significant progress in promoting energy efficiency, challenges remain in ensuring that all households, including those in remote communities, can benefit from these initiatives[^notes-sa-35]. Targeted programs and support are needed to address the specific needs of remote and disadvantaged communities, ensuring that they can access the benefits of energy efficiency and contribute to a sustainable energy future.
+
+[^notes-sa-35]: Full article: Impact of energy conservation measures in residential buildings in very remote communities in Australia - Taylor & Francis Online, accessed on January 7, 2025, <https://www.tandfonline.com/doi/full/10.1080/00038628.2023.2223183>
+
+## **Conclusion**
+
+South Australia has a strong commitment to energy efficiency in residential housing, driven by its ambitious climate targets and a desire to reduce energy costs for households and businesses. The government has implemented a comprehensive suite of policies, regulations, schemes, and incentives to promote energy efficiency, complemented by the efforts of energy providers, NGOs, and academic researchers. While significant progress has been made, challenges remain in ensuring equitable access to energy efficiency measures and maintaining grid stability as the state transitions to a renewable energy future.

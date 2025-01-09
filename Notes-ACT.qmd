@@ -1,0 +1,156 @@
+# Notes: ACT
+
+This report provides a comprehensive overview of energy efficiency policies, regulations, schemes, and other measures relevant to residential housing in the Australian Capital Territory (ACT). The information presented here draws upon a variety of sources, including government websites[^notes-act-1], PDF reports[^notes-act-2], academic papers[^notes-act-3], industry reports[^notes-act-4], and news articles[^notes-act-5].
+
+[^notes-act-1]: "ACT \| energy.gov.au," accessed January 8, 2025, https://www.energy.gov.au/state/act
+
+[^notes-act-2]: "Energy Efficiency Policies and Measures," accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf
+
+[^notes-act-3]: "Residential energy efficiency interventions: A meta‐analysis of effectiveness studies," PMC, accessed January 8, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC8988770/
+
+[^notes-act-4]: "Energy Efficiency Trends in Residential and Commercial Buildings," accessed January 8, 2025, https://www1.eere.energy.gov/buildings/publications/pdfs/corporate/bt_stateindustry.pdf
+
+[^notes-act-5]: "U.S. Reps. Castor, Clarke Introduce Bill to Lower Costs, Boost Energy Efficiency Across America," accessed January 8, 2025, https://castor.house.gov/news/documentsingle.aspx?DocumentID=404670
+
+## **Energy Efficiency Policies and Regulations**
+
+The ACT Government is committed to improving energy efficiency in the residential sector to reduce energy consumption and greenhouse gas emissions. This commitment is reflected in various policies and regulations, with key initiatives including:
+
+-   **Building Codes:** The ACT has implemented building codes that mandate minimum energy performance standards for new residential buildings. These codes ensure that new homes are built with energy-efficient features, such as insulation, double glazing, and energy-efficient appliances. For example, new homes may be required to have a minimum level of insulation in walls and ceilings, and windows must meet certain energy efficiency standards[^notes-act-6].
+-   **Energy Efficiency Certification:** The ACT Government requires energy efficiency certification for residential buildings. This certification provides information about a building's energy performance, using a standardized rating system, and helps buyers and renters make informed decisions[^notes-act-7].
+-   **Appliance Standards and Labelling:** The ACT has adopted energy efficiency standards and labelling for household appliances. This helps consumers identify and choose appliances that consume less energy by providing a clear and comparable energy efficiency rating on appliances[^notes-act-8].
+
+[^notes-act-6]: "Energy Efficiency Policies and Measures," accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf
+
+[^notes-act-7]: "Energy Efficiency Policies and Measures," accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf
+
+[^notes-act-8]: "Energy Efficiency Policies and Measures," accessed January 8, 2025, https://c2e2.unepccc.org/wp-content/uploads/sites/3/2021/01/energy-efficiency-policies-and-measures.pdf
+
+## **Electrification of Canberra**
+
+The ACT Government is preparing to electrify the city and transition away from fossil fuel gas by 2045[^notes-act-9]. This initiative aims to reduce greenhouse gas emissions and create a cleaner energy future for Canberra. The government plans to achieve this transition by phasing out gas connections in new suburbs and providing incentives for households to switch to electric appliances and heating systems. The benefits of an all-electric Canberra include reduced reliance on fossil fuels, improved air quality, and lower energy costs for households.
+
+[^notes-act-9]: "Energy schemes & rebates," Home Energy Tune Up, accessed January 8, 2025, https://www.homeenergytuneup.com.au/energy-schemes-rebates
+
+## **Energy Efficiency Schemes and Programs**
+
+The ACT Government offers a range of schemes and programs to support households in improving the energy efficiency of their homes and to assist those facing housing stress:
+
+-   **Home Energy Efficiency Program:** This free program provides advice and support to renters and homeowners on how to save money on energy bills while maintaining comfort. The program offers information kits with energy-saving tips, draught-proofing assistance, and in-home energy assessments to help households identify and implement energy-saving measures[^notes-act-10].
+-   **Sustainable Household Scheme:** This scheme provides interest-free loans to eligible households for energy-efficient upgrades, such as solar panels, battery storage, and efficient heating and cooling systems[^notes-act-11].
+-   **Utilities Concession Scheme:** This scheme offers discounts on electricity, natural gas, water, and sewerage bills to eligible households, including pensioners and low-income health care card holders[^notes-act-12].
+-   **Supportive Tenancy Service:** This service provides support to tenants who are in housing stress or at risk of homelessness. The service advocates for tenants with landlords and lenders, refers tenants to support services, and provides support at ACAT hearings. This service is available to all households, including public and private tenants and homeowners[^notes-act-13].
+
+[^notes-act-10]: "Home Energy Efficiency Program - Climate Choices - ACT Government," accessed January 8, 2025, https://www.climatechoices.act.gov.au/policy-programs/home-energy-efficiency-program
+
+[^notes-act-11]: "The ACT Sustainable Household Scheme," Brighte, accessed January 8, 2025, https://brighte.com.au/act-sustainable-household-scheme/households
+
+[^notes-act-12]: "ACT Government programs to help tenants," ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/
+
+[^notes-act-13]: "ACT Government programs to help tenants," ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/
+
+The ACT Government is also committed to making energy efficiency programs more accessible to underserved populations[^notes-act-14]. This includes providing targeted assistance and resources to low-income households and those facing barriers to accessing energy efficiency programs.
+
+[^notes-act-14]: "Energy Transition Risk in the Housing Market," Federal Housing Finance Agency, accessed January 8, 2025, https://www.fhfa.gov/blog/insights/energy-transition-risk-in-the-housing-market
+
+## **Housing Assistance Programs**
+
+The ACT Government provides a range of assistance programs to help residents buy or rent homes:
+
+-   **Home Buyer Assistance:** The ACT Government offers grants, stamp duty reductions, and other programs to assist with the purchase of a home. These programs aim to make homeownership more accessible and affordable for first-time buyers and other eligible residents[^notes-act-15].
+-   **Rental Bond Assistance:** Interest-free loans are available to help eligible tenants pay the bond for a private rental property. This helps to reduce the upfront costs associated with renting a home[^notes-act-16].
+-   **Financial Support for Homeowners:** The ACT Government provides financial support to help homeowners with the costs of owning and maintaining their homes. This includes assistance with lowering running costs, such as energy bills[^notes-act-17].
+
+[^notes-act-15]: "Housing - ACT Government," accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/housing
+
+[^notes-act-16]: "Housing - ACT Government," accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/housing
+
+[^notes-act-17]: "Housing - ACT Government," accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/housing
+
+## **Other Measures**
+
+In addition to the policies, regulations, schemes, and programs mentioned above, the ACT Government has implemented other measures to promote energy efficiency in residential housing:
+
+-   **Energy Innovation Fund:** This fund supports the development and deployment of innovative energy efficiency technologies in the ACT. This includes funding research and development projects, pilot programs, and community-based initiatives[^notes-act-18].
+-   **Public Housing Programs:** The ACT Government is committed to improving the energy efficiency of its public housing stock. This includes initiatives to upgrade insulation, install energy-efficient appliances, and provide energy advice to tenants[^notes-act-19].
+    -   **Types of Public and Community Housing:** The ACT Government offers a variety of public and community housing options to meet the needs of different households. This includes single-family homes, apartments, and specialized housing for seniors and people with disabilities. Eligibility criteria and the application process vary depending on the type of housing[^notes-act-20].
+    -   **Option to Purchase:** Eligible public housing tenants have the option to purchase their homes. This provides tenants with the opportunity to build equity and achieve homeownership[^notes-act-21].
+-   **Community Education and Awareness:** The ACT Government conducts various campaigns and initiatives to raise awareness about energy efficiency among residents. This includes providing information and resources on energy-saving tips, rebates, and programs[^notes-act-22].
+    -   **Home Energy Action Kit:** This kit helps residents understand their energy and water usage and identify opportunities for improvement. The kit provides practical tips and resources to help households save energy and reduce their environmental impact[^notes-act-23].
+
+[^notes-act-18]: "Climate Choices: Home," accessed January 8, 2025, https://www.climatechoices.act.gov.au/
+
+[^notes-act-19]: "Public housing - ACT Government," accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/public-housing
+
+[^notes-act-20]: "Public housing - ACT Government," accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/public-housing
+
+[^notes-act-21]: "Public housing - ACT Government," accessed January 8, 2025, https://www.act.gov.au/housing-planning-and-property/public-housing
+
+[^notes-act-22]: "Energy efficiency - Climate Choices - ACT Government," accessed January 8, 2025, https://www.climatechoices.act.gov.au/energy/energy-efficiency
+
+[^notes-act-23]: "Energy efficiency - Climate Choices - ACT Government," accessed January 8, 2025, https://www.climatechoices.act.gov.au/energy/energy-efficiency
+
+## **Research and Reports**
+
+Several research papers and reports have examined energy efficiency in residential housing in the ACT and beyond. These studies provide valuable insights into the effectiveness of different policies and programs, as well as the challenges and opportunities for further improvement.
+
+One key area of research focuses on identifying effective Energy Efficiency Measures (EEMs) that can reduce energy consumption in homes. Studies have shown that measures such as insulation, heating and cooling upgrades, and efficient lighting can significantly reduce energy use and greenhouse gas emissions[^notes-act-24].
+
+[^notes-act-24]: "Residential energy efficiency interventions: A meta‐analysis of effectiveness studies," PMC, accessed January 8, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC8988770/
+
+Research has also explored the factors that influence the adoption of energy efficiency measures in households. Studies have identified barriers such as financial constraints, lack of awareness, and perceived complexity of upgrades[^notes-act-25]. Understanding these barriers and drivers is crucial for designing effective policies and programs that encourage energy efficiency upgrades.
+
+[^notes-act-25]: "Energy Efficiency in the Residential, Service and Energy Sectors: Barriers, Drivers and System Studies," DiVA, accessed January 8, 2025, https://liu.diva-portal.org/smash/get/diva2:1744531/FULLTEXT01.pdf
+
+Another important area of research examines the impact of energy efficiency on rental properties. Studies have shown that energy-efficient features in rental properties can lead to higher rental prices, suggesting a positive economic impact for property owners[^notes-act-26].
+
+[^notes-act-26]: "Energy efficiency in U.S. residential rental housing: Adoption rates and impact on rent," ResearchGate, accessed January 8, 2025, https://www.researchgate.net/publication/319345804_Energy_efficiency_in_US_residential_rental_housing_Adoption_rates_and_impact_on_rent
+
+Furthermore, research has highlighted the connection between energy efficiency and sustainable development goals[^notes-act-27]. Improving energy efficiency in residential housing contributes to broader sustainability goals, such as reducing greenhouse gas emissions, improving air quality, and promoting resource conservation.
+
+[^notes-act-27]: "Energy efficiency of housing as a tool for sustainable development," ResearchGate, accessed January 8, 2025, https://www.researchgate.net/publication/329646308_Energy_efficiency_of_housing_as_a_tool_for_sustainable_development
+
+## **Industry Perspectives**
+
+Industry reports and white papers provide further insights into energy efficiency in residential housing in the ACT. One concern raised by industry reports is the potential impact of stricter energy efficiency standards on housing affordability[^notes-act-28]. While acknowledging the benefits of energy efficiency, some stakeholders argue that stricter standards could increase construction costs and make housing less affordable, particularly for first-time buyers and low-income households.
+
+[^notes-act-28]: "New Energy Codes Mandate a Blow to Housing Affordability," NAHB, accessed January 8, 2025, https://www.nahb.org/blog/2024/04/new-energy-codes-mandate-blow-to-housing-affordability
+
+Industry stakeholders also emphasize the importance of market transformation strategies to encourage the adoption of energy-efficient technologies and practices[^notes-act-29]. Another key perspective from industry reports is the need for innovative financing mechanisms to support homeowners in making energy efficiency upgrades[^notes-act-30].
+
+[^notes-act-29]: "Updated Home Energy Efficiency Standards Could Affect One in Four Homes," RMI, accessed January 8, 2025, https://rmi.org/updated-home-energy-efficiency-standards-could-affect-one-in-four-homes/
+
+[^notes-act-30]: "Retrofitting America's Homes: Designing Home Energy Programs that Leverage Federal Climate Investments with Other Funding," ACEEE, accessed January 8, 2025, https://www.aceee.org/white-paper/2024/05/retrofitting-americas-homes-designing-home-energy-programs-leverage-federal
+
+Furthermore, industry reports highlight the importance of considering the long-term cost-effectiveness of energy efficiency measures[^notes-act-31]. This includes evaluating the payback periods for different upgrades and considering factors such as energy prices, maintenance costs, and the lifespan of energy-efficient technologies.
+
+[^notes-act-31]: "Energy Efficiency and Housing Affordability White Paper," Institute for Market Transformation, accessed January 8, 2025, https://imt.org/resources/energy-efficiency-and-housing-affordability-white-paper/
+
+## **News and Media Coverage**
+
+News articles and media reports provide updates on energy efficiency policies and initiatives in the ACT. Recent coverage has focused on several key developments:
+
+-   **New Energy Standards:** The adoption of updated energy efficiency standards for new construction of single and multifamily homes has been a key topic in the news[^notes-act-32].
+-   **Federal Funding:** Media reports have highlighted the role of federal funding in supporting energy efficiency programs and initiatives in the ACT\[\^23\].
+-   **Consumer Savings:** News articles have reported on the significant energy savings that households are achieving through energy efficiency upgrades and programs\[\^24\].
+
+[^notes-act-32]: "HUD announces new energy standards for affordable housing," NACo, accessed January 8, 2025, https://www.naco.org/news/hud-announces-new-energy-standards-affordable-housing
+
+## **Summary of Key Schemes and Programs**
+
+| Scheme/Program | Description | Eligibility | Website |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| Home Energy Efficiency Program | Provides advice and support to households on energy efficiency | Renters and homeowners | \[Visit website\][^notes-act-33] |
+| Sustainable Household Scheme | Offers interest-free loans for energy-efficient upgrades | Eligible households | \[Visit website\][^notes-act-34] |
+| Utilities Concession Scheme | Provides discounts on utility bills | Pensioners and low-income health care card holders | \[Visit website\][^notes-act-35] |
+| Supportive Tenancy Service | Provides support to tenants in housing stress or at risk of homelessness | All households, including public and private tenants and homeowners | \[Visit website\][^notes-act-36] |
+
+[^notes-act-33]: "Home Energy Efficiency Program - Climate Choices - ACT Government," accessed January 8, 2025, https://www.climatechoices.act.gov.au/policy-programs/home-energy-efficiency-program
+
+[^notes-act-34]: "The ACT Sustainable Household Scheme," Brighte, accessed January 8, 2025, https://brighte.com.au/act-sustainable-household-scheme/households
+
+[^notes-act-35]: "ACT Government programs to help tenants," ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/
+
+[^notes-act-36]: "ACT Government programs to help tenants," ADACAS, accessed January 8, 2025, https://adacas.org.au/information-resources/housing-opportunities/government-programs-for-tenants/
+
+## **Works Cited**
