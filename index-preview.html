@@ -1,30 +1,119 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.6.40">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="dcterms.date" content="2025-06-01">
+    <meta name="keywords" content="Australian Housing, Energy Efficiency, Climate Policy">
 
-<meta name="dcterms.date" content="2025-06-01">
-<meta name="keywords" content="Australian Housing, Energy Efficiency, Climate Policy">
+    <title>Policy design features and next steps for improving the energy efficiency of Australian Homes</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
 
-<title>Policy design features and next steps for improving the energy efficiency of Australian Homes</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
 
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
 
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="site_libs/manuscript-notebook/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -35,9 +124,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-
-
-<meta name="citation_title" content="Policy design features and next steps for improving the energy efficiency of Australian Homes">
+     
+      <meta name="citation_title" content="Policy design features and next steps for improving the energy efficiency of Australian Homes">
 <meta name="citation_abstract" content="Australian residential housing faces significant energy efficiency challenges, with the average home achieving only 1.7 stars under the Nationwide House Energy Rating Scheme (NatHERS). This paper analyzes the evolution and current state of energy efficiency policy responses across Commonwealth, state, and local government jurisdictions. While recent years have seen strengthened standards through the National Construction Code and expanded financial support through programs like the $1.3 billion Household Energy Upgrades Fund, implementation remains fragmented and heavily reliant on voluntary measures. State governments have emerged as key policy innovators, implementing market-based mechanisms and equity-focused programs, though approaches vary significantly across jurisdictions. Local governments demonstrate particular strengths in community engagement and implementation support, especially in addressing split-incentive barriers in the rental sector. Non-government actors play increasingly important roles through standard-setting, program delivery, and policy advocacy, though systematic evaluation of their contributions remains limited. Analysis reveals several priorities for strengthening policy frameworks: establishing mandatory disclosure requirements, enhancing compliance mechanisms, developing robust data infrastructure, addressing rental sector barriers, and implementing comprehensive retrofit strategies for existing housing stock. Success requires stronger cross-jurisdictional coordination while maintaining flexibility for local adaptation. These findings highlight the need for a more coordinated and ambitious approach to residential energy efficiency improvement, combining regulatory requirements with targeted support mechanisms to achieve widespread adoption of high-performance housing.
 ">
 <meta name="citation_keywords" content="Australian Housing,Energy Efficiency,Climate Policy">
@@ -104,9 +192,16 @@ ul.task-list li input[type="checkbox"] {
 <meta name="citation_reference" content="citation_title=Nature-based credit markets at a crossroads;,citation_abstract=Continuing to produce nature-based credits using dubious accounting methodologies will yield limited carbon and biodiversity gains. Establishing scientific credibility unlocks the potential of credits to meaningfully contribute to targets of the Paris and Kunming-Montreal agreements.;,citation_author=Tom Swinfield;,citation_author=Siddarth Shrikanth;,citation_author=Joseph W. Bull;,citation_author=Anil Madhavapeddy;,citation_author=Sophus O. S. E. Ermgassen;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://doi.org/10.1038/s41893-024-01403-w;,citation_issue=10;,citation_doi=10.1038/s41893-024-01403-w;,citation_isbn=2398-9629;,citation_volume=7;,citation_journal_title=Nature Sustainability;">
 </head>
 
-<body>
+  <body class="quarto-notebook">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Article Notebook</h6>
 
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+            <a href="./index.qmd" class="btn btn-primary quarto-download-embed" download="index.qmd">Download Source</a>
+          </div>
+
+     <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Policy design features and next steps for improving the energy efficiency of Australian Homes</h1>
@@ -201,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
               </div>
       </div>
       <div class="quarto-title-meta-column-end quarto-other-formats-target">
-      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div><div class="quarto-title-meta-contents"><p><a href="index.pdf"><i class="bi bi-file-pdf"></i>Typst</a></p></div><div class="quarto-title-meta-contents"><p><a href="index-meca.zip" data-meca-link="true"><i class="bi bi-archive"></i>MECA Bundle</a></p></div></div></div>
+      </div>
     </div>
 
     <div>
@@ -243,18 +338,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#scope-of-local-government-evidence-review" id="toc-scope-of-local-government-evidence-review" class="nav-link" data-scroll-target="#scope-of-local-government-evidence-review"><span class="header-section-number">12.2</span> Scope of Local Government Evidence Review</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="Notes-ACT-preview.html"><i class="bi bi-journal-code"></i>Notes: ACT</a></li><li><a href="Notes-Cth-preview.html"><i class="bi bi-journal-code"></i>Notes: Cth</a></li><li><a href="Notes-NSW-preview.html"><i class="bi bi-journal-code"></i>Notes: NSW</a></li><li><a href="Notes-NT-preview.html"><i class="bi bi-journal-code"></i>Notes: NT</a></li><li><a href="Notes-QLD-preview.html"><i class="bi bi-journal-code"></i>Notes: QLD</a></li><li><a href="Notes-SA-preview.html"><i class="bi bi-journal-code"></i>Notes: SA</a></li><li><a href="Notes-Tas-preview.html"><i class="bi bi-journal-code"></i>Notes: TAS</a></li><li><a href="Notes-VIC-preview.html"><i class="bi bi-journal-code"></i>Notes: VIC</a></li><li><a href="Notes-WA-preview.html"><i class="bi bi-journal-code"></i>Notes: WA</a></li></ul></div></nav>
+</nav>
 </div>
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
 </div>
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">      
 
-
-
-  
-
-
-<section id="key-findings" class="level1" data-number="1">
+       <section id="key-findings" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Key findings</h1>
 <ul>
 <li><p>The research suggests that implementing a national mandatory disclosure framework for residential energy performance could significantly improve outcomes, with international evidence indicating mandatory schemes achieve 2.2% annual efficiency improvements compared to Australia’s current 0.3% under voluntary approaches.</p></li>
@@ -506,10 +596,8 @@ Table&nbsp;2: Scope of Local Government Evidence Review
 <p>Note: Variations in recording practices between jurisdictions mean that direct interstate comparisons of measure implementation rates should be interpreted with caution. Measures are recorded as ‘identified’ where at least one substantive energy efficiency measure was documented in the dataset.</p>
 </section>
 </section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
 <ol>
 <li id="fn1"><p>Analysis by Built to Perform (2018) found average energy efficiency of pre-2000 housing stock was below 2 stars NatHERS equivalent. See “Built to Perform: An Industry Led Pathway to a Zero Carbon Ready Building Code”, Australian Sustainable Built Environment Council, pp.24-26. Website: www.asbec.asn.au/research<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>The 2003 Building Code of Australia introduced mandatory minimum energy efficiency requirements through Part 3.12 (Class 1 and 10 buildings). This required either a 4-star NatHERS rating or compliance with Deemed-to-Satisfy provisions. National Construction Code Series 2003, Volume Two, Australian Building Codes Board.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -604,52 +692,9 @@ Table&nbsp;2: Scope of Local Government Evidence Review
 <li id="fn91"><p>Tariff analysis identifies $250-400 annual undervaluation of household contributions to network efficiency under current structures. AEMC, “Network Pricing Review”, 2024.<a href="#fnref91" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn92"><p>System integration framework identifies 5 key requirements based on review of international programs. Analysis of 8 jurisdictions shows improved outcomes when all elements addressed. CSIRO, “Energy System Integration”, February 2024.<a href="#fnref92" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@report{lam2025,
-  author = {Lam, Joshua and Xing, Dong and Malik, Shanzeh and Hollaway,
-    Liz and Northrop, Eliza and Milligan, Ben},
-  title = {Policy Design Features and Next Steps for Improving the
-    Energy Efficiency of {Australian} {Homes}},
-  date = {2025-06-01},
-  doi = {Temp0.0000000},
-  langid = {en},
-  abstract = {Australian residential housing faces significant energy
-    efficiency challenges, with the average home achieving only 1.7
-    stars under the Nationwide House Energy Rating Scheme (NatHERS).
-    This paper analyzes the evolution and current state of energy
-    efficiency policy responses across Commonwealth, state, and local
-    government jurisdictions. While recent years have seen strengthened
-    standards through the National Construction Code and expanded
-    financial support through programs like the \$1.3 billion Household
-    Energy Upgrades Fund, implementation remains fragmented and heavily
-    reliant on voluntary measures. State governments have emerged as key
-    policy innovators, implementing market-based mechanisms and
-    equity-focused programs, though approaches vary significantly across
-    jurisdictions. Local governments demonstrate particular strengths in
-    community engagement and implementation support, especially in
-    addressing split-incentive barriers in the rental sector.
-    Non-government actors play increasingly important roles through
-    standard-setting, program delivery, and policy advocacy, though
-    systematic evaluation of their contributions remains limited.
-    Analysis reveals several priorities for strengthening policy
-    frameworks: establishing mandatory disclosure requirements,
-    enhancing compliance mechanisms, developing robust data
-    infrastructure, addressing rental sector barriers, and implementing
-    comprehensive retrofit strategies for existing housing stock.
-    Success requires stronger cross-jurisdictional coordination while
-    maintaining flexibility for local adaptation. These findings
-    highlight the need for a more coordinated and ambitious approach to
-    residential energy efficiency improvement, combining regulatory
-    requirements with targeted support mechanisms to achieve widespread
-    adoption of high-performance housing.}
-}
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-lam2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Lam, Joshua, Dong Xing, Shanzeh Malik, Liz Hollaway, Eliza Northrop, and
-Ben Milligan. 2025. <span>“Policy Design Features and Next Steps for
-Improving the Energy Efficiency of Australian Homes.”</span> <em>CSDR
-Research Papers</em>. <a href="https://doi.org/Temp0.0000000">https://doi.org/Temp0.0000000</a>.
-</div></div></section></div></main>
-<!-- /main column -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -1065,10 +1110,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-</div> <!-- /content -->
-
-
-
-
+</script>  </div> <!-- /content --> 
+  
 </body></html>
