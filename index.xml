@@ -91,10 +91,10 @@ energy efficiency of Australian Homes</article-title>
       <author-notes>
         <corresp id="cor-6">b.milligan@unsw.edu.au</corresp>
       </author-notes>
-      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-06-01">
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-01-06">
         <year>2025</year>
-        <month>6</month>
-        <day>1</day>
+        <month>1</month>
+        <day>6</day>
       </pub-date>
       <history/>
       <abstract>
@@ -290,101 +290,84 @@ widespread adoption of high-performance housing.</p>
   across jurisdictions.<xref ref-type="fn" rid="fn22">22</xref> The
   table below provides a snapshot summary of key relevant measures at
   Commonwealth and State / Territory level across Australia:</p>
-      <fig id="tbl-measuressnapshot">
+      <fig id="tbl-jurisdiction_summary">
         <caption>
           <p>Table 1: Key measures implemented by different
     jurisdictions</p>
         </caption>
         <table-wrap>
           <table>
-            <colgroup>
-              <col width="25%"/>
-              <col width="75%"/>
-            </colgroup>
             <thead>
               <tr>
-                <th>Jurisdiction</th>
-                <th>Key Measures</th>
+                <th align="left">Jurisdiction</th>
+                <th align="left">Key Measures</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Commonwealth</td>
-                <td>The Household Energy Upgrades Fund provides discounted
-            loans for energy-efficient home upgrades through the Clean
-            Energy Finance Corporation, including $300 million for
-            social housing upgrades. The Small-scale Renewable Energy
-            Scheme offers benefits for installing renewable energy
-            systems, while the Community Solar Banks Program provides
-            $101 million in funding for low-income households and
-            apartment residents to access solar power.</td>
+                <td align="left">Commonwealth</td>
+                <td align="left">The Household Energy Upgrades Fund provides
+            discounted loans for energy-efficient home upgrades through
+            the Clean Energy Finance Corporation, including $300 million
+            for social housing upgrades. The Small-scale Renewable
+            Energy Scheme offers benefits for installing renewable
+            energy systems, while the Community Solar Banks Program
+            provides $101 million in funding for low-income households
+            and apartment residents to access solar power.</td>
               </tr>
               <tr>
-                <td>New South Wales</td>
-                <td>The Energy Saver Scheme encourages energy-efficient
-            technology adoption through financial incentives, while the
-            Battery Incentive Scheme offers up to $2,400 for residential
-            battery storage installation. The Social Housing Energy
-            Performance Initiative commits $175 million to upgrade
-            approximately 24,000 social housing homes by 2027.</td>
+                <td align="left">New South Wales</td>
+                <td align="left">The Energy Saver Scheme encourages
+            energy-efficient technology adoption through financial
+            incentives, while the Battery Incentive Scheme offers up to
+            $2,400 for residential battery storage installation. The
+            Social Housing Energy Performance Initiative commits $175
+            million to upgrade approximately 24,000 social housing homes
+            by 2027.</td>
               </tr>
               <tr>
-                <td>Victoria</td>
-                <td>The Solar Homes Program offers comprehensive support
-            including solar panel rebates up to $1,400, interest-free
-            loans for batteries up to $8,800, and hot water rebates up
-            to $1,000. The Victorian Energy Upgrades program provides
-            discounts on energy-efficient appliances and installations
-            through accredited providers.</td>
+                <td align="left">Victoria</td>
+                <td align="left">The Solar Homes Program offers
+            comprehensive support including solar panel rebates up to
+            $1,400, interest-free loans for batteries up to $8,800, and
+            hot water rebates up to $1,000. The Victorian Energy
+            Upgrades program provides discounts on energy-efficient
+            appliances and installations through accredited
+            providers.</td>
               </tr>
               <tr>
-                <td>Queensland</td>
-                <td>The PeakSmart Air Conditioning program offers up to $400
-            cashback for installing compatible systems that help reduce
-            peak demand. Queensland has also launched Australia’s first
-            Battery Supply Chain Database to help homeowners make
-            informed decisions about battery storage systems.</td>
+                <td align="left">Queensland</td>
+                <td align="left">The PeakSmart Air Conditioning program
+            offers up to $400 cashback for installing compatible systems
+            that help reduce peak demand. Queensland has also launched
+            Australia’s first Battery Supply Chain Database to help
+            homeowners make informed decisions about battery storage
+            systems.</td>
               </tr>
               <tr>
-                <td>South Australia</td>
-                <td>The Retailer Energy Productivity Scheme (REPS) supports
-            households in reducing energy costs through various
-            activities. South Australia’s Virtual Power Plant, a
+                <td align="left">South Australia</td>
+                <td align="left">The Retailer Energy Productivity Scheme
+            (REPS) supports households in reducing energy costs through
+            various activities. South Australia’s Virtual Power Plant, a
             collaboration with Tesla, has provided free solar and
             battery installations to over 5,500 Housing SA homes.</td>
               </tr>
               <tr>
-                <td>Western Australia</td>
-                <td>The Distributed Energy Buyback Scheme enables customers
-            to receive payments for electricity exported to the grid
-            from solar PV systems and batteries. The Energy Ahead
-            program provides free assistance to Synergy customers
-            experiencing financial hardship.</td>
+                <td align="left">Western Australia</td>
+                <td align="left">The Distributed Energy Buyback Scheme
+            enables customers to receive payments for electricity
+            exported to the grid from solar PV systems and batteries.
+            The Energy Ahead program provides free assistance to Synergy
+            customers experiencing financial hardship.</td>
               </tr>
               <tr>
-                <td>Tasmania</td>
-                <td>The Energy Saver Loan Scheme offers interest-free loans
-            between $500 and $10,000 for energy-efficient products. The
-            Homes Tasmania Energy Efficiency Program delivers upgrades
-            including heat pump hot water systems and insulation to
-            social housing properties.</td>
-              </tr>
-              <tr>
-                <td>ACT</td>
-                <td>The Sustainable Household Scheme provides zero-interest
-            loans up to $15,000 for energy-efficient upgrades. The Home
-            Energy Support Program offers rebates up to $5,000 for
-            rooftop solar and energy-efficient appliances, while the
-            Home Energy Efficiency Program provides free assistance to
-            those experiencing financial hardship.</td>
-              </tr>
-              <tr>
-                <td>Northern Territory</td>
-                <td>The Home and Business Battery Scheme offers grants up to
-            $6,000 for solar PV systems and batteries. The Solar for
-            Multi Dwellings Grant Scheme provides up to $7,500 per
-            individual dwelling in multi-dwelling developments for
-            shared rooftop solar PV systems.</td>
+                <td align="left">Tasmania</td>
+                <td align="left">The Energy Saver Loan Scheme offers
+            interest-free loans between $500 and $10,000 for
+            energy-efficient products. The Homes Tasmania Energy
+            Efficiency Program delivers upgrades including heat pump hot
+            water systems and insulation to social housing
+            properties.</td>
               </tr>
             </tbody>
           </table>
@@ -832,83 +815,67 @@ widespread adoption of high-performance housing.</p>
     </sec>
     <sec id="appendices">
       <title>12. Appendices</title>
-      <sec id="primary-datasets">
-        <title>12.1 Primary datasets</title>
+      <sec id="datasets">
+        <title>12.1 Datasets</title>
         <p>Refer to the Github repository for underlying datasets:
     <ext-link ext-link-type="uri" xlink:href="https://github.com/SustainableDevelopmentReform/Australian-Homes-Energy-Efficiency-Policy">https://github.com/SustainableDevelopmentReform/Australian-Homes-Energy-Efficiency-Policy</ext-link></p>
       </sec>
       <sec id="scope-of-local-government-evidence-review">
         <title>12.2 Scope of Local Government Evidence Review</title>
-        <fig id="tbl-lgascope">
+        <p>The review of LGA activities involved iterative web searches for
+    all LGAs in Australia. Summary results of these searches are
+    documented in the datasets linked above. A quantitative snapshot of
+    LGA activities identified per State or Territory jurisdiction is
+    provided in the table below:</p>
+        <fig id="tbl-LGA_Measures_Summary">
           <caption>
             <p>Table 2: Scope of Local Government Evidence
       Review</p>
           </caption>
           <table-wrap>
             <table>
-              <colgroup>
-                <col width="14%"/>
-                <col width="43%"/>
-                <col width="43%"/>
-              </colgroup>
               <thead>
                 <tr>
-                  <th>State/Territory</th>
-                  <th>LGAs Reviewed</th>
-                  <th>LGAs with Identified Measures</th>
+                  <th align="left">State/Territory</th>
+                  <th align="left">LGAs Reviewed</th>
+                  <th align="left">LGAs with Identified Measures</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>New South Wales</td>
-                  <td>167</td>
-                  <td>81</td>
+                  <td align="left">New South Wales</td>
+                  <td align="left">167</td>
+                  <td align="left">81</td>
                 </tr>
                 <tr>
-                  <td>Western Australia</td>
-                  <td>154</td>
-                  <td>31</td>
+                  <td align="left">Western Australia</td>
+                  <td align="left">154</td>
+                  <td align="left">31</td>
                 </tr>
                 <tr>
-                  <td>Victoria</td>
-                  <td>119</td>
-                  <td>79</td>
+                  <td align="left">Victoria</td>
+                  <td align="left">119</td>
+                  <td align="left">79</td>
                 </tr>
                 <tr>
-                  <td>Queensland</td>
-                  <td>82</td>
-                  <td>7</td>
+                  <td align="left">Queensland</td>
+                  <td align="left">82</td>
+                  <td align="left">7</td>
                 </tr>
                 <tr>
-                  <td>South Australia</td>
-                  <td>74</td>
-                  <td>18</td>
+                  <td align="left">South Australia</td>
+                  <td align="left">74</td>
+                  <td align="left">18</td>
                 </tr>
                 <tr>
-                  <td>Tasmania</td>
-                  <td>35</td>
-                  <td>12</td>
+                  <td align="left">Tasmania</td>
+                  <td align="left">35</td>
+                  <td align="left">12</td>
                 </tr>
                 <tr>
-                  <td>Northern Territory</td>
-                  <td>20</td>
-                  <td>2</td>
-                </tr>
-                <tr>
-                  <td>Australian Capital Territory</td>
-                  <td>1</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td>
-                    <bold>Total</bold>
-                  </td>
-                  <td>
-                    <bold>652</bold>
-                  </td>
-                  <td>
-                    <bold>231</bold>
-                  </td>
+                  <td align="left">Northern Territory</td>
+                  <td align="left">20</td>
+                  <td align="left">2</td>
                 </tr>
               </tbody>
             </table>
@@ -1620,7 +1587,7 @@ widespread adoption of high-performance housing.</p>
       </fn>
     </fn-group>
   </back>
-  <sub-article article-type="notebook" id="nb-20-nb-article">
+  <sub-article article-type="notebook" id="nb-22-nb-article">
     <front-stub>
       <title-group>
         <article-title>Policy design features and next steps for improving the
@@ -1885,106 +1852,103 @@ widespread adoption of high-performance housing.</p>
   across jurisdictions.<xref ref-type="fn" rid="fn22-nb-article">22</xref> The
   table below provides a snapshot summary of key relevant measures at
   Commonwealth and State / Territory level across Australia:</p>
-        <fig id="tbl-measuressnapshot-nb-article">
-          <caption>
-            <p>Table 1: Key measures implemented by different
+        <sec specific-use="notebook-content">
+          <code language="css">.small .table {font-size: 13px;}</code>
+        </sec>
+        <sec specific-use="notebook-content">
+          <code language="r script">data &lt;- read.csv(file = "JurisdictionSummary.csv", check.names = F)
+library(knitr)
+kable(data[1:7, ], 
+      format = "simple",
+      booktabs = TRUE,
+      align = 'l'#,
+      # caption = "Key measures implemented by different jurisdictions",
+      #label = "jurisdiction_summary"
+      )</code>
+          <fig id="tbl-jurisdiction_summary-nb-article">
+            <caption>
+              <p>Table 1: Key measures implemented by different
     jurisdictions</p>
-          </caption>
-          <table-wrap>
-            <table>
-              <colgroup>
-                <col width="25%"/>
-                <col width="75%"/>
-              </colgroup>
-              <thead>
-                <tr>
-                  <th>Jurisdiction</th>
-                  <th>Key Measures</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Commonwealth</td>
-                  <td>The Household Energy Upgrades Fund provides discounted
-            loans for energy-efficient home upgrades through the Clean
-            Energy Finance Corporation, including $300 million for
-            social housing upgrades. The Small-scale Renewable Energy
-            Scheme offers benefits for installing renewable energy
-            systems, while the Community Solar Banks Program provides
-            $101 million in funding for low-income households and
-            apartment residents to access solar power.</td>
-                </tr>
-                <tr>
-                  <td>New South Wales</td>
-                  <td>The Energy Saver Scheme encourages energy-efficient
-            technology adoption through financial incentives, while the
-            Battery Incentive Scheme offers up to $2,400 for residential
-            battery storage installation. The Social Housing Energy
-            Performance Initiative commits $175 million to upgrade
-            approximately 24,000 social housing homes by 2027.</td>
-                </tr>
-                <tr>
-                  <td>Victoria</td>
-                  <td>The Solar Homes Program offers comprehensive support
-            including solar panel rebates up to $1,400, interest-free
-            loans for batteries up to $8,800, and hot water rebates up
-            to $1,000. The Victorian Energy Upgrades program provides
-            discounts on energy-efficient appliances and installations
-            through accredited providers.</td>
-                </tr>
-                <tr>
-                  <td>Queensland</td>
-                  <td>The PeakSmart Air Conditioning program offers up to $400
-            cashback for installing compatible systems that help reduce
-            peak demand. Queensland has also launched Australia’s first
-            Battery Supply Chain Database to help homeowners make
-            informed decisions about battery storage systems.</td>
-                </tr>
-                <tr>
-                  <td>South Australia</td>
-                  <td>The Retailer Energy Productivity Scheme (REPS) supports
-            households in reducing energy costs through various
-            activities. South Australia’s Virtual Power Plant, a
+            </caption>
+            <table-wrap>
+              <table>
+                <thead>
+                  <tr>
+                    <th align="left">Jurisdiction</th>
+                    <th align="left">Key Measures</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left">Commonwealth</td>
+                    <td align="left">The Household Energy Upgrades Fund provides
+            discounted loans for energy-efficient home upgrades through
+            the Clean Energy Finance Corporation, including $300 million
+            for social housing upgrades. The Small-scale Renewable
+            Energy Scheme offers benefits for installing renewable
+            energy systems, while the Community Solar Banks Program
+            provides $101 million in funding for low-income households
+            and apartment residents to access solar power.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">New South Wales</td>
+                    <td align="left">The Energy Saver Scheme encourages
+            energy-efficient technology adoption through financial
+            incentives, while the Battery Incentive Scheme offers up to
+            $2,400 for residential battery storage installation. The
+            Social Housing Energy Performance Initiative commits $175
+            million to upgrade approximately 24,000 social housing homes
+            by 2027.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">Victoria</td>
+                    <td align="left">The Solar Homes Program offers
+            comprehensive support including solar panel rebates up to
+            $1,400, interest-free loans for batteries up to $8,800, and
+            hot water rebates up to $1,000. The Victorian Energy
+            Upgrades program provides discounts on energy-efficient
+            appliances and installations through accredited
+            providers.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">Queensland</td>
+                    <td align="left">The PeakSmart Air Conditioning program
+            offers up to $400 cashback for installing compatible systems
+            that help reduce peak demand. Queensland has also launched
+            Australia’s first Battery Supply Chain Database to help
+            homeowners make informed decisions about battery storage
+            systems.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">South Australia</td>
+                    <td align="left">The Retailer Energy Productivity Scheme
+            (REPS) supports households in reducing energy costs through
+            various activities. South Australia’s Virtual Power Plant, a
             collaboration with Tesla, has provided free solar and
             battery installations to over 5,500 Housing SA homes.</td>
-                </tr>
-                <tr>
-                  <td>Western Australia</td>
-                  <td>The Distributed Energy Buyback Scheme enables customers
-            to receive payments for electricity exported to the grid
-            from solar PV systems and batteries. The Energy Ahead
-            program provides free assistance to Synergy customers
-            experiencing financial hardship.</td>
-                </tr>
-                <tr>
-                  <td>Tasmania</td>
-                  <td>The Energy Saver Loan Scheme offers interest-free loans
-            between $500 and $10,000 for energy-efficient products. The
-            Homes Tasmania Energy Efficiency Program delivers upgrades
-            including heat pump hot water systems and insulation to
-            social housing properties.</td>
-                </tr>
-                <tr>
-                  <td>ACT</td>
-                  <td>The Sustainable Household Scheme provides zero-interest
-            loans up to $15,000 for energy-efficient upgrades. The Home
-            Energy Support Program offers rebates up to $5,000 for
-            rooftop solar and energy-efficient appliances, while the
-            Home Energy Efficiency Program provides free assistance to
-            those experiencing financial hardship.</td>
-                </tr>
-                <tr>
-                  <td>Northern Territory</td>
-                  <td>The Home and Business Battery Scheme offers grants up to
-            $6,000 for solar PV systems and batteries. The Solar for
-            Multi Dwellings Grant Scheme provides up to $7,500 per
-            individual dwelling in multi-dwelling developments for
-            shared rooftop solar PV systems.</td>
-                </tr>
-              </tbody>
-            </table>
-          </table-wrap>
-        </fig>
+                  </tr>
+                  <tr>
+                    <td align="left">Western Australia</td>
+                    <td align="left">The Distributed Energy Buyback Scheme
+            enables customers to receive payments for electricity
+            exported to the grid from solar PV systems and batteries.
+            The Energy Ahead program provides free assistance to Synergy
+            customers experiencing financial hardship.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">Tasmania</td>
+                    <td align="left">The Energy Saver Loan Scheme offers
+            interest-free loans between $500 and $10,000 for
+            energy-efficient products. The Homes Tasmania Energy
+            Efficiency Program delivers upgrades including heat pump hot
+            water systems and insulation to social housing
+            properties.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
         <p>The implementation of enhanced building energy standards
   illustrates this jurisdictional variation. Following the 2022 NCC
   update increasing minimum thermal performance requirements to 7-stars
@@ -2427,88 +2391,86 @@ widespread adoption of high-performance housing.</p>
       </sec>
       <sec id="appendices-nb-article">
         <title>12. Appendices</title>
-        <sec id="primary-datasets-nb-article">
-          <title>12.1 Primary datasets</title>
+        <sec id="datasets-nb-article">
+          <title>12.1 Datasets</title>
           <p>Refer to the Github repository for underlying datasets:
     <ext-link ext-link-type="uri" xlink:href="https://github.com/SustainableDevelopmentReform/Australian-Homes-Energy-Efficiency-Policy">https://github.com/SustainableDevelopmentReform/Australian-Homes-Energy-Efficiency-Policy</ext-link></p>
         </sec>
         <sec id="scope-of-local-government-evidence-review-nb-article">
           <title>12.2 Scope of Local Government Evidence Review</title>
-          <fig id="tbl-lgascope-nb-article">
-            <caption>
-              <p>Table 2: Scope of Local Government Evidence
+          <p>The review of LGA activities involved iterative web searches for
+    all LGAs in Australia. Summary results of these searches are
+    documented in the datasets linked above. A quantitative snapshot of
+    LGA activities identified per State or Territory jurisdiction is
+    provided in the table below:</p>
+          <sec specific-use="notebook-content">
+            <code language="css">.small .table {font-size: 13px;}</code>
+          </sec>
+          <sec specific-use="notebook-content">
+            <code language="r script">data &lt;- read.csv(file = "LGAMeasuresSummary.csv", check.names = F)
+library(knitr)
+kable(data[1:7, ], 
+      format = "simple",
+      booktabs = TRUE,
+      align = 'l'#,
+      #caption = "Scope of Local Government Evidence Review",
+      #label = "tbl-LGA_Measures_Summary"
+      )</code>
+            <fig id="tbl-LGA_Measures_Summary-nb-article">
+              <caption>
+                <p>Table 2: Scope of Local Government Evidence
       Review</p>
-            </caption>
-            <table-wrap>
-              <table>
-                <colgroup>
-                  <col width="14%"/>
-                  <col width="43%"/>
-                  <col width="43%"/>
-                </colgroup>
-                <thead>
-                  <tr>
-                    <th>State/Territory</th>
-                    <th>LGAs Reviewed</th>
-                    <th>LGAs with Identified Measures</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>New South Wales</td>
-                    <td>167</td>
-                    <td>81</td>
-                  </tr>
-                  <tr>
-                    <td>Western Australia</td>
-                    <td>154</td>
-                    <td>31</td>
-                  </tr>
-                  <tr>
-                    <td>Victoria</td>
-                    <td>119</td>
-                    <td>79</td>
-                  </tr>
-                  <tr>
-                    <td>Queensland</td>
-                    <td>82</td>
-                    <td>7</td>
-                  </tr>
-                  <tr>
-                    <td>South Australia</td>
-                    <td>74</td>
-                    <td>18</td>
-                  </tr>
-                  <tr>
-                    <td>Tasmania</td>
-                    <td>35</td>
-                    <td>12</td>
-                  </tr>
-                  <tr>
-                    <td>Northern Territory</td>
-                    <td>20</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>Australian Capital Territory</td>
-                    <td>1</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <bold>Total</bold>
-                    </td>
-                    <td>
-                      <bold>652</bold>
-                    </td>
-                    <td>
-                      <bold>231</bold>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </table-wrap>
-          </fig>
+              </caption>
+              <table-wrap>
+                <table>
+                  <thead>
+                    <tr>
+                      <th align="left">State/Territory</th>
+                      <th align="left">LGAs Reviewed</th>
+                      <th align="left">LGAs with Identified Measures</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left">New South Wales</td>
+                      <td align="left">167</td>
+                      <td align="left">81</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Western Australia</td>
+                      <td align="left">154</td>
+                      <td align="left">31</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Victoria</td>
+                      <td align="left">119</td>
+                      <td align="left">79</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Queensland</td>
+                      <td align="left">82</td>
+                      <td align="left">7</td>
+                    </tr>
+                    <tr>
+                      <td align="left">South Australia</td>
+                      <td align="left">74</td>
+                      <td align="left">18</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Tasmania</td>
+                      <td align="left">35</td>
+                      <td align="left">12</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Northern Territory</td>
+                      <td align="left">20</td>
+                      <td align="left">2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+            </fig>
+          </sec>
           <p>Note: Variations in recording practices between jurisdictions
     mean that direct interstate comparisons of measure implementation
     rates should be interpreted with caution. Measures are recorded as
