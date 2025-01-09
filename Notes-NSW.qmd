@@ -1,0 +1,263 @@
+# Notes: NSW
+
+### Policies
+
+NSW Government policies provide frameworks for energy efficiency in the residential housing sector, setting targets, defining standards, and guiding program development.
+
+#### NSW Energy Efficiency Action Plan
+
+The NSW Energy Efficiency Action Plan[^notes-nsw-1] focuses on reducing household energy use and improving business energy productivity. The plan sets targets for annual energy savings of 16,000 gigawatt-hours by 2020 and aims to support 220,000 low-income households in reducing energy consumption.
+
+[^notes-nsw-1]: "NSW Energy Efficiency Action Plan," Environment and Heritage, accessed January 7, 2025, https://www.environment.nsw.gov.au/resources/energyefficiencyindustry/130588-energy-efficiency-action-plan.pdf
+
+#### NSW Government Resource Efficiency Policy (GREP)
+
+The NSW Government Resource Efficiency Policy (GREP)[^notes-nsw-2] addresses government operating costs and resource efficiency through measures in energy, water, waste, and air emissions. Key energy measures include:
+
+[^notes-nsw-2]: "NSW Government Resource Efficiency Policy," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2022-08/2019_02_NSW_GovernmentResourceEfficiencyPolicy.pdf
+
+-   Energy savings targets across government sites
+-   Minimum National Australian Built Environment Rating System (NABERS) Energy ratings for offices and data centers
+-   Standards for new electrical appliances and equipment
+-   Standards for new buildings and fit-outs
+-   Solar target implementation
+-   Fuel efficiency standards for new light vehicles
+-   6% GreenPower purchase requirement
+
+#### Australian Energy Efficiency Policy Handbook
+
+The Australian Energy Efficiency Policy Handbook[^notes-nsw-3] outlines energy efficiency policies in Australia. It addresses energy retailer obligations, climate change policy alignment, and energy market policy coordination. The handbook discusses national residential energy efficiency disclosure schemes, rental property standards, and public housing upgrade programs.
+
+[^notes-nsw-3]: "Australian Energy Efficiency Policy Handbook," accessed January 7, 2025, https://www.eec.org.au/uploads/Documents/Platofrm%20Documents/Australian%20Energy%20Efficiency%20Policy%20Handbook%20%E2%80%93%20July%202016.pdf
+
+### Regulations
+
+NSW Government regulations set standards for energy performance in residential housing. These regulations establish requirements for new and existing homes[^notes-nsw-4].
+
+[^notes-nsw-4]: "Energy efficiency in social housing: Interview findings and policy recommendations," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2022-09/energy-efficiency-in-social-housing-interview-findings-and-policy-recommendations-200487.pdf
+
+#### Building Sustainability Index (BASIX)
+
+The Building Sustainability Index (BASIX)[^notes-nsw-5] sets minimum requirements for energy efficiency, water efficiency, and thermal comfort in new homes and renovations. BASIX supplements the National Construction Code (NCC) by providing a framework for sustainable building practices in NSW. The index evaluates climate zone, building design, and material selection factors to address environmental impact.
+
+[^notes-nsw-5]: "Increased home energy use: unintended outcomes of energy efficiency focused policy," accessed January 7, 2025, https://www.tandfonline.com/doi/full/10.1080/09613218.2023.2301574
+
+#### Home Energy Efficiency Retrofits - Measurement of Energy Savings (HEER) Method Guide
+
+The HEER Method Guide[^notes-nsw-6] provides methodology for measuring energy savings from residential building retrofits. It specifies requirements for calculating and verifying energy savings and defines roles for Accredited Certificate Providers (ACPs) and purchasers.
+
+[^notes-nsw-6]: "Home Energy Efficiency Retrofits," accessed January 7, 2025, https://www.energysustainabilityschemes.nsw.gov.au/sites/default/files/cm9_documents/HEER-Method-Guide-V4.1.PDF
+
+#### Home Energy Ratings Disclosure Framework
+
+The Home Energy Ratings Disclosure Framework[^notes-nsw-7] aims to standardize energy efficiency information disclosure for residential buildings. The framework coordinates with existing disclosure schemes and promotes consistency across jurisdictions. It focuses on providing clear energy performance information to inform consumer decisions.
+
+[^notes-nsw-7]: "Home Energy Ratings Disclosure Framework," accessed January 7, 2025, https://www.energy.gov.au/sites/default/files/2024-07/home-energy-ratings-disclosure-framework-version-1.pdf
+
+### Schemes
+
+NSW Government schemes provide financial incentives and support for residential energy efficiency upgrades.
+
+#### Energy Savings Scheme (ESS)
+
+The Energy Savings Scheme (ESS)[^notes-nsw-8] creates financial incentives for energy savings activities through a market for energy savings certificates (ESCs). Electricity retailers must acquire specified numbers of ESCs annually. The scheme continues until a comparable national scheme is introduced.
+
+[^notes-nsw-8]: "Overview of the ESS," accessed January 7, 2025, https://www.gbca.org.au/uploads/128/35968/Overview%20of%20the%20Energy%20Savings%20Scheme.pdf
+
+#### NSW Consumer Energy Strategy 2024
+
+The NSW Consumer Energy Strategy 2024[^notes-nsw-9] includes initiatives for:
+
+[^notes-nsw-9]: "NSW Consumer Energy Strategy \| Powering our people and communities," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2024-09/NSW_Consumer_Energy_Strategy_2024.pdf
+
+-   Community incentives
+-   Community action investment
+-   Incentive scheme improvements
+-   EV charging development
+-   Renter energy cost reduction
+-   Apartment solar investment support
+-   Social housing energy bill reduction
+-   Financial assistance for bill payment
+-   Community battery storage support
+
+#### Household Energy Upgrades Fund
+
+The Australian Government has allocated \$1.3 billion for the Household Energy Upgrades Fund[^notes-nsw-10]. The Clean Energy Finance Corporation partners with financial institutions to provide loans for upgrades including battery-ready solar PV and energy-efficient appliances. The fund includes \$300 million for social housing property upgrades.
+
+[^notes-nsw-10]: "Residential buildings - DCCEEW," accessed January 7, 2025, https://www.dcceew.gov.au/energy/energy-efficiency/buildings/residential-buildings
+
+## Comparative Analysis of Energy Efficiency Schemes
+
+NSW offers several energy efficiency schemes for households and businesses. The following table compares key schemes:
+
+| Scheme | Eligibility | Incentives | Application Process |
+|----------------|----------------|----------------|------------------------|
+| Energy Savings Scheme (ESS)[^notes-nsw-11] | Households and businesses | Financial incentives for energy efficiency upgrades | Application through Accredited Certificate Providers |
+| Home Energy Saver Program[^notes-nsw-12] | Eligible households | Financial support for energy efficiency upgrades | Program implementation by end of 2025 |
+| Solar Banks program[^notes-nsw-13] | Low-income households and apartment residents | Up to 50% rebates for rooftop solar installations | Direct program application |
+
+[^notes-nsw-11]: "Energy efficiency upgrades for over 30,000 NSW homes," DCCEEW, accessed January 7, 2025, https://www.dcceew.gov.au/about/news/energy-efficiency-upgrades-for-over-30000-nsw-homes
+
+[^notes-nsw-12]: "NSW Consumer Energy Strategy," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2024-09/FACTSHEET_Consumer_Energy_saving_tips_households_NSW.pdf
+
+[^notes-nsw-13]: "Energy efficiency upgrades for over 30,000 NSW homes - DCCEEW," accessed January 7, 2025, https://www.dcceew.gov.au/about/news/energy-efficiency-upgrades-for-over-30000-nsw-homes
+
+## Energy Efficiency Upgrades for Residential Housing
+
+Energy efficiency upgrades in residential housing can reduce energy consumption and operating costs. Available upgrades target different building aspects:
+
+### Appliances and Lighting
+
+Energy-efficient appliances and lighting upgrades include[^notes-nsw-14]: \* Replacement of older appliances with higher energy star rated models \* LED lighting installation to replace incandescent bulbs
+
+[^notes-nsw-14]: "NSW Consumer Energy Strategy," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2024-09/FACTSHEET_Consumer_Energy_saving_tips_households_NSW.pdf
+
+### Insulation and Draught Proofing
+
+Building envelope improvements include[^notes-nsw-15]: \* Ceiling, wall, and floor insulation installation \* Window and door gap sealing
+
+[^notes-nsw-15]: "Ensure all rental homes are safe and healthy," Energy Efficiency Council, accessed January 7, 2025, https://www.eec.org.au/uploads/submissions/Ensure%20all%20rental%20homes%20are%20safe%20and%20healthy%20-%20NSW.pdf
+
+### Heating and Cooling Systems
+
+HVAC system upgrades include[^notes-nsw-16]: \* Replacement of older systems with efficient models \* Installation of reverse-cycle air conditioners \* Heat pump hot water system implementation
+
+[^notes-nsw-16]: "NSW Consumer Energy Strategy," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2024-09/FACTSHEET_Consumer_Energy_saving_tips_households_NSW.pdf
+
+### Solar Panels and Battery Storage
+
+Renewable energy installations include[^notes-nsw-17]: \* Rooftop solar panel systems \* Battery storage systems \* Grid connection optimization
+
+[^notes-nsw-17]: "NSW Consumer Energy Strategy," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2024-09/FACTSHEET_Consumer_Energy_saving_tips_households_NSW.pdf
+
+## NSW Government Agencies and Energy Efficiency
+
+Several NSW government agencies implement energy efficiency policies and programs:
+
+### Department of Climate Change, Energy, the Environment and Water (DCCEEW)
+
+The DCCEEW[^notes-nsw-18] manages: \* Climate change and energy policy \* Water management \* Environment and heritage protection
+
+[^notes-nsw-18]: "Department of Climate Change, Energy, the Environment and Water (New South Wales)," accessed January 7, 2025, https://en.wikipedia.org/wiki/Department_of_Climate_Change,\_Energy,*the_Environment_and_Water*(New_South_Wales)
+
+### Energy Saver Resources and Programs
+
+NSW Government energy saver initiatives[^notes-nsw-19] include: \* Energy Savings Scheme (ESS) \* Sustainability Advantage program
+
+[^notes-nsw-19]: "NSW Government support - Navigating a dynamic energy landscape," accessed January 7, 2025, https://www.energybriefing.org.au/nsw-government-support
+
+### Government Resource Efficiency Policy (GREP)
+
+The NSW Government's GREP implementation[^notes-nsw-20] includes: \* Policy compliance guidelines \* GREP reporting procedures \* Online reporting tools
+
+[^notes-nsw-20]: "Government Resource Efficiency Policy \| NSW Climate and Energy Action," accessed January 7, 2025, https://www.energy.nsw.gov.au/nsw-plans-and-progress/regulation-and-policy/sustainability-government/government-resource
+
+## Academic Research on Energy Efficiency Policies in NSW
+
+Academic research informs energy efficiency policies and programs in NSW through analysis of effectiveness and implementation:
+
+### Energy Efficiency in Social Housing
+
+Research by CSIRO, University of Wollongong, and the University of New South Wales[^notes-nsw-21] examines social housing provider decision-making processes and implementation barriers for energy efficiency upgrades.
+
+[^notes-nsw-21]: "Energy efficiency in social housing: Literature and program review," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2022-09/energy-efficiency-in-social-housing-literature-and-program-review-200483.pdf
+
+### Energy Efficiency Policy Models
+
+Research on policy models[^notes-nsw-22] examines: \* Social context influence on energy efficiency \* Infrastructure provision impacts \* Price signal effectiveness \* Policy design considerations
+
+[^notes-nsw-22]: "An energy efficiency policy model that addresses the influences of the 'infrastructures of provision'," ResearchGate, accessed January 7, 2025, https://www.researchgate.net/publication/271705502_An_energy_efficiency_policy_model_that_addresses_the_influences_of_the\_'infrastructures_of_provision'
+
+### Impact Analysis of Energy Conservation
+
+Research on energy conservation measures (ECMs)[^notes-nsw-23] analyzes: \* Annual electricity consumption effects \* Cost implications \* Implementation effectiveness
+
+[^notes-nsw-23]: "Impact of energy conservation measures in residential buildings in very remote communities in Australia," Taylor & Francis Online, accessed January 7, 2025, https://www.tandfonline.com/doi/full/10.1080/00038628.2023.2223183
+
+## Industry Reports and Publications on Energy Efficiency in NSW
+
+Industry reports provide data and analysis on energy efficiency trends and implementation in NSW:
+
+### Property Investment Analysis
+
+Analysis of energy efficiency in property investment[^notes-nsw-24] indicates: \* 40% of NSW tenants prefer energy-efficient properties \* Energy-efficient properties command 5-10% rental premiums \* Lower utility costs drive tenant preferences
+
+[^notes-nsw-24]: "Unlocking Profit Potential: How Energy Efficiency Can Boost Your Property Investment in NSW," CM Lawyers, accessed January 7, 2025, https://cmlaw.com.au/unlocking-profit-potential-how-energy-efficiency-can-boost-your-property-investment-in-nsw
+
+### Consumer Perceptions Study
+
+Research on consumer experiences[^notes-nsw-25] examines: \* Consumer awareness of energy efficiency benefits \* Support needs for energy efficiency improvements \* Implementation barriers
+
+[^notes-nsw-25]: "Energy Efficient Housing Research," accessed January 7, 2025, https://energyconsumersaustralia.com.au/wp-content/uploads/Energy-Efficient-Housing-PUBLIC-Report.pdf
+
+### Social Housing Energy Performance
+
+Analysis of social housing energy efficiency[^notes-nsw-26] covers: \* Decision-making processes \* Implementation barriers \* Policy recommendations
+
+[^notes-nsw-26]: "Energy efficiency in social housing: Literature and program review," accessed January 7, 2025, https://www.energy.nsw.gov.au/sites/default/files/2022-09/energy-efficiency-in-social-housing-literature-and-program-review-200483.pdf
+
+## NGOs and Non-Profit Organizations
+
+Non-government organizations contribute to energy efficiency implementation in NSW through various programs:
+
+### Social Housing Energy Performance Initiative (SHEPI)
+
+SHEPI[^notes-nsw-27] provides: \* Grants for Community Housing Providers \* Energy efficiency upgrade funding \* Solar system installation support \* Reverse-cycle air conditioner installation \* Insulation improvements
+
+[^notes-nsw-27]: "NSW Social Housing Energy Performance Initiative (SHEPI)," accessed January 7, 2025, https://www.energy.nsw.gov.au/government-and-local-organisations/programs-grants-and-schemes/shepi
+
+### Community Housing Energy Performance Grant
+
+The grant program[^notes-nsw-28] delivers: \* Support for social housing energy upgrades \* Thermal comfort improvements \* Energy consumption reduction measures \* Carbon emission reduction initiatives
+
+[^notes-nsw-28]: "Community Housing Energy Performance Grant \| NSW Government," accessed January 7, 2025, https://www.nsw.gov.au/grants-and-funding/community-housing-energy-performance-grant
+
+### Energy Performance Implementation
+
+Current implementation programs[^notes-nsw-29] include: \* Over 1,000 social housing property upgrades \* Installation of energy-efficient systems \* Tenant energy cost reduction measures
+
+[^notes-nsw-29]: "Energy performance upgrades for more than 1,000 NSW households," DCCEEW, accessed January 7, 2025, https://www.dcceew.gov.au/about/news/energy-performance-upgrades-1000-nsw-households
+
+## Recent News Articles and Media Reports
+
+Recent media coverage documents developments in NSW energy efficiency policies and implementation:
+
+### Consumer Energy Strategy Implementation
+
+Media coverage[^notes-nsw-30] reports: \* Strategy announcement details \* Energy-saving technology access improvements \* Household support measures
+
+[^notes-nsw-30]: "NSW Consumer Energy Strategy to bring power to the people," accessed January 7, 2025, https://esdnews.com.au/nsw-consumer-energy-strategy-to-bring-power-to-the-people/
+
+### Strategy Development
+
+Recent reporting[^notes-nsw-31] documents: \* Electrification support \* Energy efficiency improvements \* Cost-of-living pressure reduction measures
+
+[^notes-nsw-31]: "Media release: New NSW strategy to boost electrification and energy efficiency in homes," accessed January 7, 2025, https://www.eec.org.au/news/eec-news/article/media-release-new-nsw-strategy-to-boost-electrification-and-energy-efficiency-in-homes
+
+### Planning Guidelines
+
+Analysis of planning changes[^notes-nsw-32] covers: \* Renewable energy project approval processes \* Residential installation impacts \* Community energy project guidelines
+
+[^notes-nsw-32]: "New NSW planning guidelines a positive step for renewable energy," accessed January 7, 2025, https://cleanenergycouncil.org.au/news-resources/new-nsw-planning-guidelines-a-positive-step-for-renewable-energy
+
+## Challenges and Opportunities
+
+Implementation of energy efficiency measures in NSW presents specific challenges and opportunities:
+
+### Implementation Challenges
+
+Current challenges include: \* Split incentives between landlords and tenants[^notes-nsw-33] \* Energy efficiency awareness gaps \* Upgrade cost barriers
+
+[^notes-nsw-33]: "Energy Efficiency Decision Making in the NSW Social Housing Sector," City Futures Research Centre, accessed January 7, 2025, https://cityfutures.ada.unsw.edu.au/research/projects/energy-efficiency-decision-making-nsw-social-housing-sector/
+
+### Implementation Opportunities
+
+Available opportunities include: \* Technology innovation applications \* Employment generation in efficiency sectors \* Environmental impact reduction
+
+## Conclusion
+
+NSW implements energy efficiency in residential housing through policy frameworks, regulations, and incentive schemes. Program implementation involves government agencies, academic institutions, industry partners, and NGOs.
+
+### Key Findings
+
+Analysis indicates: \* Policy implementation through multiple programs \* Focus on cost reduction and affordability \* Multi-stakeholder collaboration \* Social housing emphasis \* Information provision to consumers

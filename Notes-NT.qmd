@@ -1,0 +1,127 @@
+# Notes: NT
+
+## **Energy Efficiency Policies and Regulations**
+
+The Northern Territory faces unique challenges in ensuring energy efficiency due to its high household energy consumption, driven by extreme temperatures and the effects of climate change[^notes-nt-1]. Rising temperatures, less predictable rainfall patterns, and the increasing intensity of cyclones further emphasize the need for a sustainable and resilient energy system[^notes-nt-2]. This section outlines the key policies and regulations that govern energy efficiency in residential housing in the NT.
+
+[^notes-nt-1]: NTCOSS Policy Statement: Energy in the NT Access to safe, clean, reliable, and affordable energy is a basic need for everyone., accessed on January 8, 2025, <https://ntcoss.org.au/wp-content/uploads/2024/06/NTCOSS-Energy-Policy-Statement-July-2023-1.pdf>
+
+[^notes-nt-2]: NTCOSS Policy Statement: Energy in the NT Access to safe, clean, reliable, and affordable energy is a basic need for everyone., accessed on January 8, 2025, <https://ntcoss.org.au/wp-content/uploads/2024/06/NTCOSS-Energy-Policy-Statement-July-2023-1.pdf>
+
+### **Renewable Energy Targets**
+
+The Northern Territory Government has set a target of 50% renewable energy by 2030[^notes-nt-3]. This commitment is supported by various plans, strategies, and programs aimed at achieving a sustainable and affordable energy future for the Territory[^notes-nt-4]. The government also participates in national energy reforms through the Energy National Cabinet Reform Committee, contributing to broader opportunities for the Territory and Australia, including the national hydrogen strategy[^notes-nt-5].
+
+[^notes-nt-3]: Renewable Resources - Northern Territory Resources, accessed on January 8, 2025, <https://northernterritoryresources.com.au/the-territorys-resources/renewable-resources>
+
+[^notes-nt-4]: Renewable Resources - Northern Territory Resources, accessed on January 8, 2025, <https://northernterritoryresources.com.au/the-territorys-resources/renewable-resources>
+
+[^notes-nt-5]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
+
+### **Building Codes and Standards**
+
+In alignment with the National Construction Code (NCC), new homes and modified homes requiring building permits in the NT must meet certain energy efficiency standards[^notes-nt-6]. These standards are designed to:
+
+[^notes-nt-6]: Energy efficiency of residential buildings \| NT.GOV.AU, accessed on January 8, 2025, <https://nt.gov.au/property/building/build-or-renovate-your-home/energy-efficiency-of-residential-buildings>
+
+-   Enhance the comfort of living spaces
+-   Reduce energy bills over the lifetime of a home
+-   Minimize greenhouse gas emissions[^notes-nt-7]
+
+[^notes-nt-7]: Energy efficiency of residential buildings \| NT.GOV.AU, accessed on January 8, 2025, <https://nt.gov.au/property/building/build-or-renovate-your-home/energy-efficiency-of-residential-buildings>
+
+Specifically, houses must achieve a minimum 5-star energy rating, while apartments must achieve at least a 3.5-star rating[^notes-nt-8]. A recent study has shown that despite meeting minimum energy efficiency design standards, predicted energy use for thermal comfort in new detached dwellings increased by 10.4% per dwelling and 5.6% nationally in 2022 compared to 2018[^notes-nt-9]. This trend can be attributed to several factors, including:
+
+[^notes-nt-8]: Energy efficiency of residential buildings \| NT.GOV.AU, accessed on January 8, 2025, <https://nt.gov.au/property/building/build-or-renovate-your-home/energy-efficiency-of-residential-buildings>
+
+[^notes-nt-9]: Increased home energy use: unintended outcomes of energy efficiency focused policy, accessed on January 8, 2025, <https://www.tandfonline.com/doi/abs/10.1080/09613218.2023.2301574>
+
+-   **Increasing floor areas:** As new homes are built with larger floor areas, the overall energy demand for heating and cooling increases, even with improved energy efficiency measures[^notes-nt-10].
+-   **Changes in household behavior:** Increased use of appliances and electronic devices, along with changing lifestyle patterns, can contribute to higher energy consumption.
+-   **Limitations of minimum standards:** The minimum energy efficiency standards may not be sufficient to offset the impact of these other factors, highlighting the need for continuous improvement in building codes and standards.
+
+[^notes-nt-10]: Increased home energy use: unintended outcomes of energy efficiency focused policy, accessed on January 8, 2025, <https://www.tandfonline.com/doi/full/10.1080/09613218.2023.2301574>
+
+The Northern Territory has adopted a variation to the NCC 2022 energy efficiency requirements for Class 1 and 10 buildings (houses and non-habitable buildings with a conditioned space)[^notes-nt-11]. This variation, which came into effect on 1 October 2023, aims to improve understanding and use of the existing variation by including it in NCC 2022[^notes-nt-12].
+
+[^notes-nt-11]: Building Note 113 Energy Efficiency - Northern Territory Government, accessed on January 8, 2025, <https://nt.gov.au/__data/assets/pdf_file/0012/1295589/building-note-113-energy-efficiency.pdf>
+
+[^notes-nt-12]: Building Note 113 Energy Efficiency - Northern Territory Government, accessed on January 8, 2025, <https://nt.gov.au/__data/assets/pdf_file/0012/1295589/building-note-113-energy-efficiency.pdf>
+
+There are two options for complying with these requirements:
+
+1.  Achieving an energy rating of 5 stars or greater using house energy rating software (NatHERS).
+2.  Complying with NT Parts 13.1 through to 13.6 of the ABCB Housing Provisions[^notes-nt-13].
+
+[^notes-nt-13]: Building Note 113 Energy Efficiency - Northern Territory Government, accessed on January 8, 2025, <https://nt.gov.au/__data/assets/pdf_file/0012/1295589/building-note-113-energy-efficiency.pdf>
+
+For Class 2 buildings (apartments) and Class 4 parts of a building (dwellings within a non-residential building), Section J of BCA 2009 still applies[^notes-nt-14].
+
+[^notes-nt-14]: Building Note 113 Energy Efficiency - Northern Territory Government, accessed on January 8, 2025, <https://nt.gov.au/__data/assets/pdf_file/0012/1295589/building-note-113-energy-efficiency.pdf>
+
+### **Energy Hardship and Social Equity**
+
+Energy hardship is a significant issue in the NT, particularly in remote communities and among households using prepayment meters[^notes-nt-15]. Many households struggle to afford the energy they need, resulting in unmanageable power bills and frequent disconnections[^notes-nt-16]. This situation can have serious consequences, including loss of food and medicine, and can exacerbate existing social and economic inequalities[^notes-nt-17]. Addressing energy hardship requires a multi-faceted approach that includes:
+
+[^notes-nt-15]: NTCOSS Policy Statement: Energy in the NT Access to safe, clean, reliable, and affordable energy is a basic need for everyone., accessed on January 8, 2025, <https://ntcoss.org.au/wp-content/uploads/2024/06/NTCOSS-Energy-Policy-Statement-July-2023-1.pdf>
+
+[^notes-nt-16]: NTCOSS Policy Statement: Energy in the NT Access to safe, clean, reliable, and affordable energy is a basic need for everyone., accessed on January 8, 2025, <https://ntcoss.org.au/wp-content/uploads/2024/06/NTCOSS-Energy-Policy-Statement-July-2023-1.pdf>
+
+[^notes-nt-17]: NTCOSS Policy Statement: Energy in the NT Access to safe, clean, reliable, and affordable energy is a basic need for everyone., accessed on January 8, 2025, <https://ntcoss.org.au/wp-content/uploads/2024/06/NTCOSS-Energy-Policy-Statement-July-2023-1.pdf>
+
+-   Targeted energy concession schemes to improve affordability
+-   Improving the energy performance of housing, particularly in remote communities
+-   A planned and timely transition to renewable energy sources
+-   Support for vulnerable households to manage their energy costs and avoid disconnections
+
+### **Energy Security**
+
+Engineers Australia Northern has highlighted key considerations for energy security in the NT, including[^notes-nt-18]:
+
+[^notes-nt-18]: Energy Security Position Statement 2023 Engineers Australia Northern, accessed on January 8, 2025, <https://www.engineersaustralia.org.au/sites/default/files/2023-02/EA-NT-Energy-Security-Position-Statement-FINAL.pdf>
+
+-   **Planning:** Developing new energy systems that can effectively match energy demand and supply
+-   **Efficient energy use:** Reducing total energy consumption through both behavioral changes and technological improvements
+-   **Energy storage:** Integrating energy storage solutions to improve grid stability and resilience
+
+## **Energy Efficiency Schemes and Measures**
+
+### **Smarter Business Solutions Program**
+
+The Smarter Business Solutions program offers support to businesses, Aboriginal enterprises, and not-for-profit organizations in the NT to reduce their energy, water, waste, and material costs[^notes-nt-19]. This program provides:
+
+[^notes-nt-19]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
+
+-   Advice on energy-efficient technologies and practices
+-   On-site surveys to identify potential savings opportunities
+-   Grants to support cost-saving initiatives, including renewable energy systems[^notes-nt-20]
+
+[^notes-nt-20]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
+
+Grants can cover up to 50% of the cost for efficiency improvements, up to a maximum of \$20,000[^notes-nt-21]. For renewable energy systems, grants cover up to 20% of the cost for off-grid systems and up to 10% for on-grid systems, with a maximum of \$20,000 and \$10,000 respectively[^notes-nt-22].
+
+[^notes-nt-21]: Smarter Business Solutions NT, accessed on January 8, 2025, <https://business.gov.au/grants-and-programs/smarter-business-solutions-nt>
+
+[^notes-nt-22]: Smarter Business Solutions NT, accessed on January 8, 2025, <https://business.gov.au/grants-and-programs/smarter-business-solutions-nt>
+
+### **Home and Business Battery Scheme**
+
+The Home and Business Battery Scheme provides grants to homeowners, businesses, and not-for-profit organizations in the NT to purchase and install batteries and inverters[^notes-nt-23]. Eligible applicants can receive a grant of \$400 per kilowatt-hour of usable battery system capacity, up to a maximum of \$12,000[^notes-nt-24]. This scheme aims to encourage the adoption of battery storage, which can help reduce reliance on the grid and lower energy costs[^notes-nt-25].
+
+[^notes-nt-23]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
+
+[^notes-nt-24]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
+
+[^notes-nt-25]: Reform: Renewable energy, accessed on January 8, 2025, <https://dme.nt.gov.au/renewables-energy-systems/renewable-energy>
+
+### **Alice Springs Future Grid Project**
+
+The Alice Springs Future Grid (ASFG) project focuses on facilitating the integration of renewable energy into the Alice Springs power system[^notes-nt-26]. Led by the Intyalheme Centre for Future Energy, the ASFG project includes:
+
+[^notes-nt-26]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
+
+-   A Virtual Power Plant (VPP) trial
+-   Community education initiatives
+-   Research and development activities[^notes-nt-27]
+
+[^notes-nt-27]: Territorians \| Territory Renewable Energy, accessed on January 8, 2025, <https://territoryrenewableenergy.nt.gov.au/information-for/territorians>
