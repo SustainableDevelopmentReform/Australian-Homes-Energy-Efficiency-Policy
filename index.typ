@@ -284,7 +284,7 @@
     columns(cols, doc)
   }
 }
-#set bibliography(title: "___")
+// #set bibliography(title: "References:")
 #set table(
   stroke: (
     x: .1pt,
@@ -391,7 +391,7 @@ State governments have emerged as key drivers of residential energy efficiency p
 
 #figure([
 #table(
-  columns: (48.15%, 51.85%),
+  columns: (25%, 75%),
   align: (auto,auto,),
   table.header([Jurisdiction], [Key Measures],),
   table.hline(),
@@ -413,7 +413,7 @@ Key measures implemented by different jurisdictions
 kind: "quarto-float-tbl", 
 supplement: "Table", 
 )
-<tbl-MeasuresSnapshot>
+<tbl-measuressnapshot>
 
 
 The implementation of enhanced building energy standards illustrates this jurisdictional variation. Following the 2022 NCC update increasing minimum thermal performance requirements to 7-stars under NatHERS, adoption patterns have varied significantly. The ACT and NSW led implementation, with Victoria and Queensland following in May 2024, while Western Australia delayed adoption until 2025. Tasmania opted not to adopt the new standard, and the Northern Territory chose to implement only a 5-star requirement.#footnote[Detailed tracking of NCC 2022 implementation shows correlation between adoption timing and existing state energy efficiency frameworks. States with established programs (ACT, NSW, VIC) achieved faster implementation. Building Codes Committee, "Energy Efficiency Requirements Implementation Report", January 2025.]
@@ -542,19 +542,19 @@ Refer to the Github repository for underlying datasets: #link("https://github.co
 <scope-of-local-government-evidence-review>
 #figure([
 #table(
-  columns: 3,
+  columns: (14%, 43%, 43%),
   align: (auto,auto,auto,),
   table.header([State/Territory], [LGAs Reviewed], [LGAs with Identified Measures],),
   table.hline(),
-  [New South Wales], [167], [84],
-  [Western Australia], [154], [153],
-  [Victoria], [119], [83],
-  [Queensland], [82], [10],
-  [South Australia], [74], [32],
-  [Tasmania], [35], [14],
-  [Northern Territory], [20], [19],
-  [Australian Capital Territory], [1], [0],
-  [#strong[Total];], [#strong[652];], [#strong[395];],
+  [New South Wales], [167], [81],
+  [Western Australia], [154], [31],
+  [Victoria], [119], [79],
+  [Queensland], [82], [7],
+  [South Australia], [74], [18],
+  [Tasmania], [35], [12],
+  [Northern Territory], [20], [2],
+  [Australian Capital Territory], [1], [1],
+  [#strong[Total];], [#strong[652];], [#strong[231];],
 )
 ], caption: figure.caption(
 position: top, 
@@ -564,10 +564,10 @@ Scope of Local Government Evidence Review
 kind: "quarto-float-tbl", 
 supplement: "Table", 
 )
-<tbl-LGAScope>
+<tbl-lgascope>
 
 
 Note: Variations in recording practices between jurisdictions mean that direct interstate comparisons of measure implementation rates should be interpreted with caution. Measures are recorded as 'identified' where at least one substantive energy efficiency measure was documented in the dataset.
 
-#bibliography("references.bib")
-
+// // 
+// // 

@@ -1,13 +1,13 @@
-$if(citations)$
-$if(csl)$ 
+// $if(citations)$
+// $if(csl)$ 
   
-#set bibliography(style: "$csl$") 
-$elseif(bibliographystyle)$ 
+// #set bibliography(style: "$csl$") 
+// $elseif(bibliographystyle)$ 
 
-#set bibliography(style: "$bibliographystyle$")
-$endif$
-$if(bibliography)$
+// #set bibliography(style: "$bibliographystyle$")
+// $endif$
+// $if(bibliography)$
 
-#bibliography($for(bibliography)$"$bibliography$"$sep$,$endfor$)
-$endif$
-$endif$
+// #bibliography($for(bibliography)$"$bibliography$"$sep$,$endfor$)
+// $endif$
+// $endif$

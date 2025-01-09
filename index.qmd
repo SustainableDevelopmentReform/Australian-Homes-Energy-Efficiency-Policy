@@ -49,12 +49,12 @@ abstract: |
 date: 2025-06-01
 number-sections: true              # Enable section numbering
 section-numbering: 1.1.1          # Numbering format
-bibliography: references.bib       # Bibliography file
+# bibliography: references.bib       # Bibliography file
 citation: 
   title: Policy design features and next steps for improving the energy efficiency of Australian Homes
   type: report                    # Publication type
   container-title: CSDR Research Papers
-  issued: 2025-06-01
+  issued: 2025-01-06
   doi: Temp0.0000000 # Suggest minting a Zenodo DOI using the instructions on the Zenodo website
 ---
 
@@ -148,29 +148,30 @@ State governments have emerged as key drivers of residential energy efficiency p
 ```
 
 ```{css echo = FALSE}
-.small .table {font-size: 11px;}
+.small .table {font-size: 13px;}
 ```
 
 ::: small
-| Jurisdiction | Key Measures |
-|-------------|--------------|
-| Commonwealth | The Household Energy Upgrades Fund provides discounted loans for energy-efficient home upgrades through the Clean Energy Finance Corporation, including $300 million for social housing upgrades. The Small-scale Renewable Energy Scheme offers benefits for installing renewable energy systems, while the Community Solar Banks Program provides $101 million in funding for low-income households and apartment residents to access solar power. |
-| New South Wales | The Energy Saver Scheme encourages energy-efficient technology adoption through financial incentives, while the Battery Incentive Scheme offers up to $2,400 for residential battery storage installation. The Social Housing Energy Performance Initiative commits $175 million to upgrade approximately 24,000 social housing homes by 2027. |
-| Victoria | The Solar Homes Program offers comprehensive support including solar panel rebates up to $1,400, interest-free loans for batteries up to $8,800, and hot water rebates up to $1,000. The Victorian Energy Upgrades program provides discounts on energy-efficient appliances and installations through accredited providers. |
-| Queensland | The PeakSmart Air Conditioning program offers up to $400 cashback for installing compatible systems that help reduce peak demand. Queensland has also launched Australia's first Battery Supply Chain Database to help homeowners make informed decisions about battery storage systems. |
-| South Australia | The Retailer Energy Productivity Scheme (REPS) supports households in reducing energy costs through various activities. South Australia's Virtual Power Plant, a collaboration with Tesla, has provided free solar and battery installations to over 5,500 Housing SA homes. |
-| Western Australia | The Distributed Energy Buyback Scheme enables customers to receive payments for electricity exported to the grid from solar PV systems and batteries. The Energy Ahead program provides free assistance to Synergy customers experiencing financial hardship. |
-| Tasmania | The Energy Saver Loan Scheme offers interest-free loans between $500 and $10,000 for energy-efficient products. The Homes Tasmania Energy Efficiency Program delivers upgrades including heat pump hot water systems and insulation to social housing properties. |
-| ACT | The Sustainable Household Scheme provides zero-interest loans up to $15,000 for energy-efficient upgrades. The Home Energy Support Program offers rebates up to $5,000 for rooftop solar and energy-efficient appliances, while the Home Energy Efficiency Program provides free assistance to those experiencing financial hardship. |
-| Northern Territory | The Home and Business Battery Scheme offers grants up to $6,000 for solar PV systems and batteries. The Solar for Multi Dwellings Grant Scheme provides up to $7,500 per individual dwelling in multi-dwelling developments for shared rooftop solar PV systems. |
-
-: Key measures implemented by different jurisdictions {#tbl-MeasuresSnapshot}
+```{r echo = FALSE}
+#| label: tbl-jurisdiction_summary
+#| tbl-cap: Key measures implemented by different jurisdictions
+data <- read.csv(file = "JurisdictionSummary.csv", check.names = F)
+library(knitr)
+kable(data[1:7, ], 
+      format = "simple",
+      booktabs = TRUE,
+      align = 'l'#,
+      # caption = "Key measures implemented by different jurisdictions",
+      #label = "jurisdiction_summary"
+      )
+```
 :::
 
 ```{=html}
 <!--- End of code snippet
 -->
 ```
+
 
 [^22]: Analysis of state implementation approaches reveals policy innovation primarily driven by state governments, with 85% of new energy efficiency initiatives originating at state level between 2020-2024. Energy Efficiency Council, "State of Energy Efficiency 2024", pp.15-18.
 
@@ -432,28 +433,42 @@ Implementation priorities for infrastructure integration include: - Development 
 
 # Appendices
 
-## Primary datasets
-
+## Datasets
 Refer to the Github repository for underlying datasets: <https://github.com/SustainableDevelopmentReform/Australian-Homes-Energy-Efficiency-Policy>
 
 ## Scope of Local Government Evidence Review
 
+The review of LGA activities involved iterative web searches for all LGAs in Australia. Summary results of these searches are documented in the datasets linked above. A quantitative snapshot of LGA activities identified per State or Territory jurisdiction is provided in the table below: 
+
+```{=html}
+<!--- This code reads a table from a csv file and displays it at the desired font size. Change the header.tex for PDF output
+-->
+```
+
+```{css echo = FALSE}
+.small .table {font-size: 13px;}
+```
+
 ::: small
-| State/Territory | LGAs Reviewed | LGAs with Identified Measures |
-|-----------------|---------------|------------------------------|
-| New South Wales | 167 | 81 |
-| Western Australia | 154 | 31 |
-| Victoria | 119 | 79 |
-| Queensland | 82 | 7 |
-| South Australia | 74 | 18 |
-| Tasmania | 35 | 12 |
-| Northern Territory | 20 | 2 |
-| Australian Capital Territory | 1 | 1 |
-| **Total** | **652** | **231** |
-
-: Scope of Local Government Evidence Review {#tbl-LGAScope}{tbl-colwidths="[25,75]"}
-
-Note: Variations in recording practices between jurisdictions mean that direct interstate comparisons of measure implementation rates should be interpreted with caution. Measures are recorded as 'identified' where at least one substantive energy efficiency measure was documented in the dataset.
-
+```{r echo = FALSE}
+#| label: tbl-LGA_Measures_Summary
+#| tbl-cap: Scope of Local Government Evidence Review
+data <- read.csv(file = "LGAMeasuresSummary.csv", check.names = F)
+library(knitr)
+kable(data[1:7, ], 
+      format = "simple",
+      booktabs = TRUE,
+      align = 'l'#,
+      #caption = "Scope of Local Government Evidence Review",
+      #label = "tbl-LGA_Measures_Summary"
+      )
+```
 :::
+Note: Variations in recording practices between jurisdictions mean that direct interstate comparisons of measure implementation rates should be interpreted with caution. Measures are recorded as 'identified' where at least one substantive energy efficiency measure was documented in the dataset.
+```{=html}
+<!--- End of code snippet
+-->
+```
+
+
 
