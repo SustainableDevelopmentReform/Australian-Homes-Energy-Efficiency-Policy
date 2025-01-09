@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.6.40">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>Notes-NSW</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+      </head>
+
+  <body class="quarto-notebook">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Notes-NSW</h6>
+
+            <a href="./Notes-NSW.qmd" class="btn btn-primary quarto-download-embed" download="Notes-NSW.qmd">Download Source</a>
+          </div>
+
+     <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Notes-NSW</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+        
+        <div class="quarto-title-meta">
+
+                
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
+    </div>
+
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#government-initiatives-for-energy-efficiency-in-nsw" id="toc-government-initiatives-for-energy-efficiency-in-nsw" class="nav-link active" data-scroll-target="#government-initiatives-for-energy-efficiency-in-nsw"><strong>Government Initiatives for Energy Efficiency in NSW</strong></a>
+  <ul class="collapse">
+  <li><a href="#policies" id="toc-policies" class="nav-link" data-scroll-target="#policies"><strong>Policies</strong></a></li>
+  <li><a href="#regulations" id="toc-regulations" class="nav-link" data-scroll-target="#regulations"><strong>Regulations</strong></a></li>
+  <li><a href="#schemes" id="toc-schemes" class="nav-link" data-scroll-target="#schemes"><strong>Schemes</strong></a></li>
+  </ul></li>
+  <li><a href="#comparative-analysis-of-energy-efficiency-schemes" id="toc-comparative-analysis-of-energy-efficiency-schemes" class="nav-link" data-scroll-target="#comparative-analysis-of-energy-efficiency-schemes"><strong>Comparative Analysis of Energy Efficiency Schemes</strong></a></li>
+  <li><a href="#energy-efficiency-upgrades-for-residential-housing" id="toc-energy-efficiency-upgrades-for-residential-housing" class="nav-link" data-scroll-target="#energy-efficiency-upgrades-for-residential-housing"><strong>Energy Efficiency Upgrades for Residential Housing</strong></a>
+  <ul class="collapse">
+  <li><a href="#appliances-and-lighting" id="toc-appliances-and-lighting" class="nav-link" data-scroll-target="#appliances-and-lighting"><strong>Appliances and Lighting</strong></a></li>
+  <li><a href="#insulation-and-draught-proofing" id="toc-insulation-and-draught-proofing" class="nav-link" data-scroll-target="#insulation-and-draught-proofing"><strong>Insulation and Draught Proofing</strong></a></li>
+  <li><a href="#heating-and-cooling-systems" id="toc-heating-and-cooling-systems" class="nav-link" data-scroll-target="#heating-and-cooling-systems"><strong>Heating and Cooling Systems</strong></a></li>
+  <li><a href="#solar-panels-and-battery-storage" id="toc-solar-panels-and-battery-storage" class="nav-link" data-scroll-target="#solar-panels-and-battery-storage"><strong>Solar Panels and Battery Storage</strong></a></li>
+  </ul></li>
+  <li><a href="#nsw-government-agencies-and-departments-involved-in-energy-efficiency" id="toc-nsw-government-agencies-and-departments-involved-in-energy-efficiency" class="nav-link" data-scroll-target="#nsw-government-agencies-and-departments-involved-in-energy-efficiency"><strong>NSW Government Agencies and Departments Involved in Energy Efficiency</strong></a>
+  <ul class="collapse">
+  <li><a href="#department-of-climate-change-energy-the-environment-and-water-dcceew" id="toc-department-of-climate-change-energy-the-environment-and-water-dcceew" class="nav-link" data-scroll-target="#department-of-climate-change-energy-the-environment-and-water-dcceew"><strong>Department of Climate Change, Energy, the Environment and Water (DCCEEW)</strong></a></li>
+  <li><a href="#energy-saver-resources-and-programs" id="toc-energy-saver-resources-and-programs" class="nav-link" data-scroll-target="#energy-saver-resources-and-programs"><strong>Energy Saver Resources and Programs</strong></a></li>
+  <li><a href="#government-resource-efficiency-policy-grep" id="toc-government-resource-efficiency-policy-grep" class="nav-link" data-scroll-target="#government-resource-efficiency-policy-grep"><strong>Government Resource Efficiency Policy (GREP)</strong></a></li>
+  <li><a href="#smart-energy-management-in-government-operations" id="toc-smart-energy-management-in-government-operations" class="nav-link" data-scroll-target="#smart-energy-management-in-government-operations"><strong>Smart Energy Management in Government Operations</strong></a></li>
+  </ul></li>
+  <li><a href="#academic-research-on-energy-efficiency-policies-in-nsw" id="toc-academic-research-on-energy-efficiency-policies-in-nsw" class="nav-link" data-scroll-target="#academic-research-on-energy-efficiency-policies-in-nsw"><strong>Academic Research on Energy Efficiency Policies in NSW</strong></a>
+  <ul class="collapse">
+  <li><a href="#energy-efficiency-in-social-housing" id="toc-energy-efficiency-in-social-housing" class="nav-link" data-scroll-target="#energy-efficiency-in-social-housing"><strong>Energy Efficiency in Social Housing</strong></a></li>
+  <li><a href="#an-energy-efficiency-policy-model" id="toc-an-energy-efficiency-policy-model" class="nav-link" data-scroll-target="#an-energy-efficiency-policy-model"><strong>An Energy Efficiency Policy Model</strong></a></li>
+  <li><a href="#impact-of-energy-conservation-measures" id="toc-impact-of-energy-conservation-measures" class="nav-link" data-scroll-target="#impact-of-energy-conservation-measures"><strong>Impact of Energy Conservation Measures</strong></a></li>
+  <li><a href="#energy-efficiency-rating-systems-for-housing" id="toc-energy-efficiency-rating-systems-for-housing" class="nav-link" data-scroll-target="#energy-efficiency-rating-systems-for-housing"><strong>Energy Efficiency Rating Systems for Housing</strong></a></li>
+  <li><a href="#energy-efficiency-decision-making-in-the-nsw-social-housing-sector" id="toc-energy-efficiency-decision-making-in-the-nsw-social-housing-sector" class="nav-link" data-scroll-target="#energy-efficiency-decision-making-in-the-nsw-social-housing-sector"><strong>Energy Efficiency Decision-Making in the NSW Social Housing Sector</strong></a></li>
+  </ul></li>
+  <li><a href="#industry-reports-and-publications-on-energy-efficiency-in-nsw" id="toc-industry-reports-and-publications-on-energy-efficiency-in-nsw" class="nav-link" data-scroll-target="#industry-reports-and-publications-on-energy-efficiency-in-nsw"><strong>Industry Reports and Publications on Energy Efficiency in NSW</strong></a>
+  <ul class="collapse">
+  <li><a href="#property-investment-energy-efficiency-analysis" id="toc-property-investment-energy-efficiency-analysis" class="nav-link" data-scroll-target="#property-investment-energy-efficiency-analysis"><strong>Property Investment Energy Efficiency Analysis</strong></a></li>
+  <li><a href="#energy-efficient-housing-research" id="toc-energy-efficient-housing-research" class="nav-link" data-scroll-target="#energy-efficient-housing-research"><strong>Energy Efficient Housing Research</strong></a></li>
+  <li><a href="#social-housing-energy-efficiency-studies" id="toc-social-housing-energy-efficiency-studies" class="nav-link" data-scroll-target="#social-housing-energy-efficiency-studies"><strong>Social Housing Energy Efficiency Studies</strong></a></li>
+  <li><a href="#energy-performance-upgrade-programs" id="toc-energy-performance-upgrade-programs" class="nav-link" data-scroll-target="#energy-performance-upgrade-programs"><strong>Energy Performance Upgrade Programs</strong></a></li>
+  </ul></li>
+  <li><a href="#ngos-and-non-profit-organizations-working-on-energy-efficiency-in-nsw" id="toc-ngos-and-non-profit-organizations-working-on-energy-efficiency-in-nsw" class="nav-link" data-scroll-target="#ngos-and-non-profit-organizations-working-on-energy-efficiency-in-nsw"><strong>NGOs and Non-Profit Organizations Working on Energy Efficiency in NSW</strong></a>
+  <ul class="collapse">
+  <li><a href="#social-housing-energy-performance-initiative-shepi" id="toc-social-housing-energy-performance-initiative-shepi" class="nav-link" data-scroll-target="#social-housing-energy-performance-initiative-shepi"><strong>Social Housing Energy Performance Initiative (SHEPI)</strong></a></li>
+  <li><a href="#community-housing-energy-performance-grant" id="toc-community-housing-energy-performance-grant" class="nav-link" data-scroll-target="#community-housing-energy-performance-grant"><strong>Community Housing Energy Performance Grant</strong></a></li>
+  </ul></li>
+  <li><a href="#recent-news-articles-and-media-reports-on-energy-efficiency-in-nsw" id="toc-recent-news-articles-and-media-reports-on-energy-efficiency-in-nsw" class="nav-link" data-scroll-target="#recent-news-articles-and-media-reports-on-energy-efficiency-in-nsw"><strong>Recent News Articles and Media Reports on Energy Efficiency in NSW</strong></a>
+  <ul class="collapse">
+  <li><a href="#consumer-energy-strategy-updates" id="toc-consumer-energy-strategy-updates" class="nav-link" data-scroll-target="#consumer-energy-strategy-updates"><strong>Consumer Energy Strategy Updates</strong></a></li>
+  <li><a href="#planning-guidelines" id="toc-planning-guidelines" class="nav-link" data-scroll-target="#planning-guidelines"><strong>Planning Guidelines</strong></a></li>
+  </ul></li>
+  <li><a href="#challenges-and-opportunities-for-energy-efficiency-in-nsw" id="toc-challenges-and-opportunities-for-energy-efficiency-in-nsw" class="nav-link" data-scroll-target="#challenges-and-opportunities-for-energy-efficiency-in-nsw"><strong>Challenges and Opportunities for Energy Efficiency in NSW</strong></a>
+  <ul class="collapse">
+  <li><a href="#challenges" id="toc-challenges" class="nav-link" data-scroll-target="#challenges"><strong>Challenges</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">      
+
+       <section id="government-initiatives-for-energy-efficiency-in-nsw" class="level2">
+<h2 class="anchored" data-anchor-id="government-initiatives-for-energy-efficiency-in-nsw"><strong>Government Initiatives for Energy Efficiency in NSW</strong></h2>
+<p>The NSW Government implements energy efficiency in residential housing through policies, regulations, and schemes. These initiatives aim to reduce energy consumption, lower greenhouse gas emissions, and improve housing sector sustainability.</p>
+<section id="policies" class="level3">
+<h3 class="anchored" data-anchor-id="policies"><strong>Policies</strong></h3>
+<p>The NSW Government uses policies to provide a framework for energy efficiency in the residential housing sector. These policies set targets, define standards, and guide programs and initiatives.</p>
+<section id="nsw-energy-efficiency-action-plan" class="level4">
+<h4 class="anchored" data-anchor-id="nsw-energy-efficiency-action-plan"><strong>NSW Energy Efficiency Action Plan</strong></h4>
+<p>The NSW Energy Efficiency Action Plan focuses on reducing energy use in households and improving energy productivity for businesses. The plan sets targets to achieve annual energy savings of 16,000 gigawatt-hours by 2020 and support 220,000 low-income households in reducing energy consumption.</p>
+</section>
+<section id="nsw-government-resource-efficiency-policy-grep" class="level4">
+<h4 class="anchored" data-anchor-id="nsw-government-resource-efficiency-policy-grep"><strong>NSW Government Resource Efficiency Policy (GREP)</strong></h4>
+<p>The NSW Government Resource Efficiency Policy (GREP) addresses government operating costs and resource efficiency through four main areas: energy, water, waste, and air emissions from government operations. Key energy measures under GREP include:</p>
+<ul>
+<li>Energy saving targets for government sites</li>
+<li>NABERS Energy ratings requirements for offices and data centers</li>
+<li>Standards for new electrical appliances and equipment</li>
+<li>Standards for new buildings and fit-outs</li>
+<li>Solar targets</li>
+<li>Fuel efficiency standards for new light vehicles</li>
+<li>6% GreenPower purchase requirement</li>
+</ul>
+<p>These measures establish requirements for energy-efficient buildings, vehicles, appliances, equipment, and renewable energy sources in government operations.</p>
+</section>
+<section id="australian-energy-efficiency-policy-handbook" class="level4">
+<h4 class="anchored" data-anchor-id="australian-energy-efficiency-policy-handbook"><strong>Australian Energy Efficiency Policy Handbook</strong></h4>
+<p>The Australian Energy Efficiency Policy Handbook outlines energy efficiency policies in Australia. It addresses energy retailer obligations, climate change policy impacts on energy efficiency, and alignment of energy market and climate change policies. The handbook includes recommendations for a national residential energy efficiency disclosure scheme, minimum standards for rental properties, and programs to upgrade public and community housing.</p>
+</section>
+</section>
+<section id="regulations" class="level3">
+<h3 class="anchored" data-anchor-id="regulations"><strong>Regulations</strong></h3>
+<p>The NSW Government uses regulations to improve residential housing energy efficiency. These regulations establish minimum energy performance standards for new and existing homes.</p>
+<section id="building-sustainability-index-basix" class="level4">
+<h4 class="anchored" data-anchor-id="building-sustainability-index-basix"><strong>Building Sustainability Index (BASIX)</strong></h4>
+<p>The Building Sustainability Index (BASIX) sets requirements for energy efficiency, water efficiency, and thermal comfort in new homes and renovations. BASIX works alongside the National Construction Code (NCC) to provide standards for sustainable building practices in NSW. It uses climate zone, building design, and material selection factors to assess environmental impact.</p>
+</section>
+<section id="home-energy-efficiency-retrofits---measurement-of-energy-savings-heer-method-guide" class="level4">
+<h4 class="anchored" data-anchor-id="home-energy-efficiency-retrofits---measurement-of-energy-savings-heer-method-guide"><strong>Home Energy Efficiency Retrofits - Measurement of Energy Savings (HEER) Method Guide</strong></h4>
+<p>The HEER Method Guide provides methodology for measuring energy savings from residential building retrofits. It specifies calculation and verification requirements for energy savings and defines roles for Accredited Certificate Providers (ACPs) and purchasers.</p>
+</section>
+<section id="home-energy-ratings-disclosure-framework" class="level4">
+<h4 class="anchored" data-anchor-id="home-energy-ratings-disclosure-framework"><strong>Home Energy Ratings Disclosure Framework</strong></h4>
+<p>The Home Energy Ratings Disclosure Framework aims to standardize energy efficiency information disclosure for residential buildings. It works with existing disclosure schemes and promotes consistency across jurisdictions. The framework focuses on providing clear energy performance information to inform consumer decisions.</p>
+</section>
+</section>
+<section id="schemes" class="level3">
+<h3 class="anchored" data-anchor-id="schemes"><strong>Schemes</strong></h3>
+<p>The NSW Government operates schemes to support energy efficiency upgrades in residential housing. These schemes provide financial assistance for energy-saving technologies and practices.</p>
+<section id="energy-savings-scheme-ess" class="level4">
+<h4 class="anchored" data-anchor-id="energy-savings-scheme-ess"><strong>Energy Savings Scheme (ESS)</strong></h4>
+<p>The ESS creates financial incentives for energy savings activities through a market for energy savings certificates (ESCs). Electricity retailers must acquire a specified number of ESCs annually. The scheme continues until a comparable national scheme is introduced.</p>
+</section>
+<section id="nsw-consumer-energy-strategy-2024" class="level4">
+<h4 class="anchored" data-anchor-id="nsw-consumer-energy-strategy-2024"><strong>NSW Consumer Energy Strategy 2024</strong></h4>
+<p>The NSW Consumer Energy Strategy 2024 includes initiatives to support energy efficiency and reduce energy bills:</p>
+<ul>
+<li>New community incentives</li>
+<li>Community action investment</li>
+<li>Incentive scheme improvements</li>
+<li>EV charging development</li>
+<li>Renter energy bill reduction programs</li>
+<li>Apartment solar investment support</li>
+<li>Social housing energy bill reduction</li>
+<li>Financial assistance for bill payment</li>
+<li>Community battery storage support</li>
+</ul>
+</section>
+<section id="household-energy-upgrades-fund" class="level4">
+<h4 class="anchored" data-anchor-id="household-energy-upgrades-fund"><strong>Household Energy Upgrades Fund</strong></h4>
+<p>The Australian Government allocated $1.3 billion to establish the Household Energy Upgrades Fund for energy performance upgrades in over 110,000 homes. The Clean Energy Finance Corporation partners with financial institutions to provide loans for upgrades including: * Battery-ready solar PV * Energy-efficient appliances * Related improvements</p>
+<p>The fund includes $300 million for upgrades to approximately 60,000 social housing properties.</p>
+</section>
+</section>
+</section>
+<section id="comparative-analysis-of-energy-efficiency-schemes" class="level2">
+<h2 class="anchored" data-anchor-id="comparative-analysis-of-energy-efficiency-schemes"><strong>Comparative Analysis of Energy Efficiency Schemes</strong></h2>
+<p>The NSW Government offers several energy efficiency schemes:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Scheme</th>
+<th style="text-align: left;">Eligibility</th>
+<th style="text-align: left;">Incentives</th>
+<th style="text-align: left;">Application Process</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Energy Savings Scheme (ESS)</td>
+<td style="text-align: left;">Households and businesses</td>
+<td style="text-align: left;">Financial incentives for energy efficiency upgrades</td>
+<td style="text-align: left;">Through Accredited Certificate Providers</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Home Energy Saver Program</td>
+<td style="text-align: left;">Eligible households</td>
+<td style="text-align: left;">Financial support for energy efficiency upgrades</td>
+<td style="text-align: left;">Program implementation by end of 2025</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Solar Banks program</td>
+<td style="text-align: left;">Low-income households and apartment residents</td>
+<td style="text-align: left;">Up to 50% rebates for rooftop solar installations</td>
+<td style="text-align: left;">Direct program application</td>
+</tr>
+</tbody>
+</table>
+<p>This comparison shows the scope and focus of each scheme. The ESS covers broad energy efficiency upgrades, while the Home Energy Saver Program targets specific households and the Solar Banks program focuses on solar installation support.</p>
+</section>
+<section id="energy-efficiency-upgrades-for-residential-housing" class="level2">
+<h2 class="anchored" data-anchor-id="energy-efficiency-upgrades-for-residential-housing"><strong>Energy Efficiency Upgrades for Residential Housing</strong></h2>
+<p>Residential housing energy efficiency upgrades can reduce energy consumption, improve comfort, and lower energy bills. These upgrades target different aspects of home energy use.</p>
+<section id="appliances-and-lighting" class="level3">
+<h3 class="anchored" data-anchor-id="appliances-and-lighting"><strong>Appliances and Lighting</strong></h3>
+<p>Energy-efficient appliances and lighting reduce energy consumption. This includes higher energy star rated appliances and LED lighting, which uses less energy than incandescent bulbs.</p>
+</section>
+<section id="insulation-and-draught-proofing" class="level3">
+<h3 class="anchored" data-anchor-id="insulation-and-draught-proofing"><strong>Insulation and Draught Proofing</strong></h3>
+<p>Insulation and draught proofing reduce heat transfer and air leakage. This includes insulation in ceilings, walls, and floors, and sealing gaps around windows and doors.</p>
+</section>
+<section id="heating-and-cooling-systems" class="level3">
+<h3 class="anchored" data-anchor-id="heating-and-cooling-systems"><strong>Heating and Cooling Systems</strong></h3>
+<p>Energy-efficient heating and cooling systems include reverse-cycle air conditioners and heat pump hot water systems.</p>
+</section>
+<section id="solar-panels-and-battery-storage" class="level3">
+<h3 class="anchored" data-anchor-id="solar-panels-and-battery-storage"><strong>Solar Panels and Battery Storage</strong></h3>
+<p>Solar panels and battery storage systems enable on-site renewable energy generation and storage, reducing grid electricity use.</p>
+</section>
+</section>
+<section id="nsw-government-agencies-and-departments-involved-in-energy-efficiency" class="level2">
+<h2 class="anchored" data-anchor-id="nsw-government-agencies-and-departments-involved-in-energy-efficiency"><strong>NSW Government Agencies and Departments Involved in Energy Efficiency</strong></h2>
+<p>Several NSW government agencies implement energy efficiency policies and programs for residential housing.</p>
+<section id="department-of-climate-change-energy-the-environment-and-water-dcceew" class="level3">
+<h3 class="anchored" data-anchor-id="department-of-climate-change-energy-the-environment-and-water-dcceew"><strong>Department of Climate Change, Energy, the Environment and Water (DCCEEW)</strong></h3>
+<p>The DCCEEW manages climate change and energy action, water management, and environment and heritage conservation. It develops and implements NSW energy efficiency policies and programs.</p>
+</section>
+<section id="energy-saver-resources-and-programs" class="level3">
+<h3 class="anchored" data-anchor-id="energy-saver-resources-and-programs"><strong>Energy Saver Resources and Programs</strong></h3>
+<p>The NSW Government provides energy saver resources and programs including the Energy Savings Scheme (ESS) and Sustainability Advantage program for energy efficiency upgrades.</p>
+</section>
+<section id="government-resource-efficiency-policy-grep" class="level3">
+<h3 class="anchored" data-anchor-id="government-resource-efficiency-policy-grep"><strong>Government Resource Efficiency Policy (GREP)</strong></h3>
+<p>The GREP website provides compliance information, reporting guidance, and online reporting tools for government resource efficiency initiatives.</p>
+</section>
+<section id="smart-energy-management-in-government-operations" class="level3">
+<h3 class="anchored" data-anchor-id="smart-energy-management-in-government-operations"><strong>Smart Energy Management in Government Operations</strong></h3>
+<p>NSW Government energy efficiency initiatives include targets for energy efficiency upgrades and requirements for public sector energy-saving measures. Energy efficiency upgrades must achieve a minimum 12 percent internal rate of return.</p>
+</section>
+</section>
+<section id="academic-research-on-energy-efficiency-policies-in-nsw" class="level2">
+<h2 class="anchored" data-anchor-id="academic-research-on-energy-efficiency-policies-in-nsw"><strong>Academic Research on Energy Efficiency Policies in NSW</strong></h2>
+<p>Academic research informs energy efficiency policies and programs in NSW through investigation of policy effectiveness, adoption barriers, and improvement opportunities.</p>
+<section id="energy-efficiency-in-social-housing" class="level3">
+<h3 class="anchored" data-anchor-id="energy-efficiency-in-social-housing"><strong>Energy Efficiency in Social Housing</strong></h3>
+<p>Research collaboration between CSIRO, University of Wollongong, and the University of New South Wales examines energy efficiency in social housing. This work analyzes social housing provider decision-making and identifies implementation factors for energy efficiency upgrades.</p>
+</section>
+<section id="an-energy-efficiency-policy-model" class="level3">
+<h3 class="anchored" data-anchor-id="an-energy-efficiency-policy-model"><strong>An Energy Efficiency Policy Model</strong></h3>
+<p>Research on energy efficiency policy models examines social context and infrastructure impacts on policy design. Findings indicate price signals and information campaigns have limited effectiveness in reducing energy use, suggesting the need for policies addressing social and infrastructural factors.</p>
+</section>
+<section id="impact-of-energy-conservation-measures" class="level3">
+<h3 class="anchored" data-anchor-id="impact-of-energy-conservation-measures"><strong>Impact of Energy Conservation Measures</strong></h3>
+<p>Research on energy conservation measures (ECMs) examined effects on residential building electricity consumption. Results showed insulation improvements, appliance upgrades, and energy-efficient lighting reduce electricity consumption and costs.</p>
+</section>
+<section id="energy-efficiency-rating-systems-for-housing" class="level3">
+<h3 class="anchored" data-anchor-id="energy-efficiency-rating-systems-for-housing"><strong>Energy Efficiency Rating Systems for Housing</strong></h3>
+<p>Australian research on housing energy efficiency rating systems examines implementation challenges and opportunities. This work analyzes rating system effectiveness for consumer information and energy efficiency promotion.</p>
+</section>
+<section id="energy-efficiency-decision-making-in-the-nsw-social-housing-sector" class="level3">
+<h3 class="anchored" data-anchor-id="energy-efficiency-decision-making-in-the-nsw-social-housing-sector"><strong>Energy Efficiency Decision-Making in the NSW Social Housing Sector</strong></h3>
+<p>Research on social housing energy efficiency examines adoption factors. Findings identify split incentives between landlords and tenants as an implementation barrier, where investment decisions and cost impacts affect different parties.</p>
+</section>
+</section>
+<section id="industry-reports-and-publications-on-energy-efficiency-in-nsw" class="level2">
+<h2 class="anchored" data-anchor-id="industry-reports-and-publications-on-energy-efficiency-in-nsw"><strong>Industry Reports and Publications on Energy Efficiency in NSW</strong></h2>
+<p>Industry reports provide data on trends, challenges, and opportunities in NSW energy efficiency.</p>
+<section id="property-investment-energy-efficiency-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="property-investment-energy-efficiency-analysis"><strong>Property Investment Energy Efficiency Analysis</strong></h3>
+<p>Industry data indicates: * 40% of NSW tenants prefer energy-efficient properties * Energy-efficient properties achieve 5-10% rental premiums * Lower utility costs drive tenant preferences</p>
+</section>
+<section id="energy-efficient-housing-research" class="level3">
+<h3 class="anchored" data-anchor-id="energy-efficient-housing-research"><strong>Energy Efficient Housing Research</strong></h3>
+<p>Consumer research examines perceptions and experiences with energy-efficient housing, highlighting education needs and support for cost-effective improvements.</p>
+</section>
+<section id="social-housing-energy-efficiency-studies" class="level3">
+<h3 class="anchored" data-anchor-id="social-housing-energy-efficiency-studies"><strong>Social Housing Energy Efficiency Studies</strong></h3>
+<p>Reports analyze: * Decision-making processes in NSW social housing * Implementation barriers and opportunities * Policy recommendations * Literature and program reviews * Existing policies and programs * Current trends and challenges</p>
+</section>
+<section id="energy-performance-upgrade-programs" class="level3">
+<h3 class="anchored" data-anchor-id="energy-performance-upgrade-programs"><strong>Energy Performance Upgrade Programs</strong></h3>
+<p>Analysis of government investment in energy-saving upgrades for low-income renters and apartment residents includes: * Funding allocation data * Upgrade types * Expected energy savings * Bill reduction projections</p>
+</section>
+</section>
+<section id="ngos-and-non-profit-organizations-working-on-energy-efficiency-in-nsw" class="level2">
+<h2 class="anchored" data-anchor-id="ngos-and-non-profit-organizations-working-on-energy-efficiency-in-nsw"><strong>NGOs and Non-Profit Organizations Working on Energy Efficiency in NSW</strong></h2>
+<p>Several organizations promote residential energy efficiency in NSW through community work, education, and policy advocacy.</p>
+<section id="social-housing-energy-performance-initiative-shepi" class="level3">
+<h3 class="anchored" data-anchor-id="social-housing-energy-performance-initiative-shepi"><strong>Social Housing Energy Performance Initiative (SHEPI)</strong></h3>
+<p>SHEPI provides NSW and Commonwealth government grants to Community Housing Providers for energy efficiency upgrades, including: * Solar systems * Reverse-cycle air conditioners * Insulation</p>
+</section>
+<section id="community-housing-energy-performance-grant" class="level3">
+<h3 class="anchored" data-anchor-id="community-housing-energy-performance-grant"><strong>Community Housing Energy Performance Grant</strong></h3>
+<p>This grant supports social housing energy performance upgrades to improve living conditions and reduce tenant energy bills. The program is available to registered NSW Community Housing Providers.</p>
+</section>
+</section>
+<section id="recent-news-articles-and-media-reports-on-energy-efficiency-in-nsw" class="level2">
+<h2 class="anchored" data-anchor-id="recent-news-articles-and-media-reports-on-energy-efficiency-in-nsw"><strong>Recent News Articles and Media Reports on Energy Efficiency in NSW</strong></h2>
+<p>News coverage documents energy efficiency policy and regulation developments in NSW.</p>
+<section id="consumer-energy-strategy-updates" class="level3">
+<h3 class="anchored" data-anchor-id="consumer-energy-strategy-updates"><strong>Consumer Energy Strategy Updates</strong></h3>
+<p>Recent reports cover: * Strategy implementation for energy-saving technology access * Support for solar and battery adoption * Energy bill reduction initiatives * Cost-of-living impact measures</p>
+</section>
+<section id="planning-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="planning-guidelines"><strong>Planning Guidelines</strong></h3>
+<p>Updates include changes to NSW planning guidelines affecting renewable energy projects, including residential solar installations and community energy projects.</p>
+</section>
+</section>
+<section id="challenges-and-opportunities-for-energy-efficiency-in-nsw" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-and-opportunities-for-energy-efficiency-in-nsw"><strong>Challenges and Opportunities for Energy Efficiency in NSW</strong></h2>
+<section id="challenges" class="level3">
+<h3 class="anchored" data-anchor-id="challenges"><strong>Challenges</strong></h3>
+<ul>
+<li>Split incentives between landlords and tenants affect upgrade investments</li>
+<li>Information gaps limit consumer awareness of benefits and programs</li>
+<li>Upfront costs restrict access for some households</li>
+</ul>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>  </div> <!-- /content --> 
+  
+</body></html>

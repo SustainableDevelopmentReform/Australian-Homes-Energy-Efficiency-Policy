@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2025-06-01">
+<meta name="keywords" content="Australian Housing, Energy Efficiency, Climate Policy">
+
+<title>Policy design features and next steps for improving the energy efficiency of Australian Homes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-81e35ebdb4125010edbabe6010586085.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+<meta name="citation_title" content="Policy design features and next steps for improving the energy efficiency of Australian Homes">
+<meta name="citation_abstract" content="Australian residential housing faces significant energy efficiency challenges, with the average home achieving only 1.7 stars under the Nationwide House Energy Rating Scheme (NatHERS). This paper analyzes the evolution and current state of energy efficiency policy responses across Commonwealth, state, and local government jurisdictions. While recent years have seen strengthened standards through the National Construction Code and expanded financial support through programs like the $1.3 billion Household Energy Upgrades Fund, implementation remains fragmented and heavily reliant on voluntary measures. State governments have emerged as key policy innovators, implementing market-based mechanisms and equity-focused programs, though approaches vary significantly across jurisdictions. Local governments demonstrate particular strengths in community engagement and implementation support, especially in addressing split-incentive barriers in the rental sector. Non-government actors play increasingly important roles through standard-setting, program delivery, and policy advocacy, though systematic evaluation of their contributions remains limited. Analysis reveals several priorities for strengthening policy frameworks: establishing mandatory disclosure requirements, enhancing compliance mechanisms, developing robust data infrastructure, addressing rental sector barriers, and implementing comprehensive retrofit strategies for existing housing stock. Success requires stronger cross-jurisdictional coordination while maintaining flexibility for local adaptation. These findings highlight the need for a more coordinated and ambitious approach to residential energy efficiency improvement, combining regulatory requirements with targeted support mechanisms to achieve widespread adoption of high-performance housing.
+">
+<meta name="citation_keywords" content="Australian Housing,Energy Efficiency,Climate Policy">
+<meta name="citation_author" content="Joshua Lam">
+<meta name="citation_author" content="Dong Xing">
+<meta name="citation_author" content="Shanzeh Malik">
+<meta name="citation_author" content="Liz Hollaway">
+<meta name="citation_author" content="Eliza Northrop">
+<meta name="citation_author" content="Ben Milligan">
+<meta name="citation_publication_date" content="2025-06-01">
+<meta name="citation_cover_date" content="2025-06-01">
+<meta name="citation_year" content="2025">
+<meta name="citation_online_date" content="2025-06-01">
+<meta name="citation_doi" content="Temp0.0000000">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Measuring and managing positive and negative outcomes in impact investing;,citation_author=Jem Bendell;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_issue=3;,citation_volume=5;,citation_journal_title=Journal of Impact Investing;">
+<meta name="citation_reference" content="citation_title=Impact washing: What it is &amp;amp;amp; how to stop it;,citation_author=C. Cote;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://online.hbs.edu/blog/post/impact-washing;,citation_journal_title=Harvard Business School Online;">
+<meta name="citation_reference" content="citation_title=4 key trends driving private market impact funds: One CEO explains;,citation_author=M. Eisenberg;,citation_author=Z. Plakalo;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.weforum.org/agenda/2024/05/4-key-trends-driving-private-market-impact-funds/;,citation_journal_title=World Economic Forum;">
+<meta name="citation_reference" content="citation_title=The next big trend: Asian impact investing;,citation_author=F. J. Richter;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://horasis.org/the-next-big-trend-asian-impact-investing/;,citation_journal_title=Horasis;">
+<meta name="citation_reference" content="citation_title=Impact investing handbook: An implementation guide for practitioners;,citation_author=S. Godeke;,citation_author=P. Briaud;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;">
+<meta name="citation_reference" content="citation_title=Econd;,citation_author=Accounting for Nature;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.accountingfornature.org/econd;">
+<meta name="citation_reference" content="citation_title=Catalogue of african regional standards (ARS);,citation_author=African Organisation for Standardisation (ARSO);,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_fulltext_html_url=https://www.arso-oran.org/wp-content/uploads/2020/07/Catalogue-of-African-Regional-Standards-ARSAdoptions-February-2020.pdf;">
+<meta name="citation_reference" content="citation_title=Biodiversity intactness index (BII);,citation_author=PREDICTS Project;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.predicts.org.uk/pages/bii.html;">
+<meta name="citation_reference" content="citation_title=B impact assessment;,citation_author=B Lab;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.bcorporation.net/en-us/programs-and-tools/b-impact-assessment/;">
+<meta name="citation_reference" content="citation_title=Cap-and-trade program;,citation_author=California Air Resources Board;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://ww2.arb.ca.gov/our-work/programs/cap-and-trade-program;">
+<meta name="citation_reference" content="citation_title=Natural capital protocol;,citation_author=Capitals Coalition;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://capitalscoalition.org/capitals-approach/natural-capital-protocol/?fwp_filter_tabs=guide_supplement;">
+<meta name="citation_reference" content="citation_title=CDP: Driving sustainable economies;,citation_author=Carbon Disclosure Project;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.cdp.net/en;">
+<meta name="citation_reference" content="citation_title=General reporting protocol, version 1.1;,citation_author=The Climate Registry;,citation_publication_date=2008;,citation_cover_date=2008;,citation_year=2008;,citation_fulltext_html_url=https://semspub.epa.gov/work/09/1142237.pdf;">
+<meta name="citation_reference" content="citation_title=Ecosystem services framework (ESF);,citation_author=Millennium Ecosystem Assessment;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.millenniumassessment.org/en/index.html;">
+<meta name="citation_reference" content="citation_title=EU emissions trading system;,citation_author=European Commission;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en;">
+<meta name="citation_reference" content="citation_title=Standards and guidance;,citation_author=GHG Protocol;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://ghgprotocol.org/standards-guidance;">
+<meta name="citation_reference" content="citation_title=What is impact investing?;,citation_author=GIIN;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://thegiin.org/impact-investing/need-to-know/#what-is-impact-investing;">
+<meta name="citation_reference" content="citation_title=Impact management platform;,citation_author=Impact Management Platform;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://impactmanagementplatform.org;">
+<meta name="citation_reference" content="citation_title=Impact principles;,citation_author=Impact Principles;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.impactprinciples.org;">
+<meta name="citation_reference" content="citation_title=IRIS+ THEMATIC TAXONOMY;,citation_author=IRIS+;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://s3.amazonaws.com/giin-web-assets/iris/assets/files/guidance/2022-07-19_IRIS-FND_Taxonomy.pdf;">
+<meta name="citation_reference" content="citation_title=Red list of ecosystems;,citation_author=International Union for Conservation of Nature;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://iucnrle.org/;">
+<meta name="citation_reference" content="citation_title=Greenhouse gas emissions accounting and reporting system;,citation_author=Ministry of the Environment, Japan;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.env.go.jp/en/earth/cc/ghg/index.html;">
+<meta name="citation_reference" content="citation_title=Living planet index;,citation_author=Zoological Society of London (ZSL) and WWF;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://livingplanetindex.org/;">
+<meta name="citation_reference" content="citation_title=What are the principles for responsible investment?;,citation_author=PRI Association;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://www.unpri.org/about-us/what-are-the-principles-for-responsible-investment;">
+<meta name="citation_reference" content="citation_title=National greenhouse gas emission reporting regulations;,citation_author=Department of Environmental Affairs, South Africa;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_fulltext_html_url=https://www.gov.za/documents/national-environmental-management-air-quality-act-national-greenhouse-gas-emission-reporting;">
+<meta name="citation_reference" content="citation_title=SASB standards;,citation_author=Sustainability Accounting Standards Board;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.sasb.org/standards/;">
+<meta name="citation_reference" content="citation_title=Ambitious corporate climate action;,citation_author=Science Based Targets initiative;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://sciencebasedtargets.org;">
+<meta name="citation_reference" content="citation_title=Universal standards for social and environmental performance management;,citation_author=Cerise+SPTF;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://cerise-sptf.org/universal-standards/;">
+<meta name="citation_reference" content="citation_title=Social return on investment (SROI);,citation_author=Social Value International;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://socialvalueint.org/social-return-on-investment-sroi/;">
+<meta name="citation_reference" content="citation_title=TCFD hub;,citation_author=Taskforce on Climate-related Financial Disclosures;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.tcfdhub.org;">
+<meta name="citation_reference" content="citation_title=TNFD global;,citation_author=Taskforce on Nature-related Financial Disclosures;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://tnfd.global;">
+<meta name="citation_reference" content="citation_title=Biodiversity indicators and targets;,citation_author=United Nations Convention on Biological Diversity (CBD);,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.cbd.int/indicators/;">
+<meta name="citation_reference" content="citation_title=Portfolio impact analysis tool;,citation_author=United Nations Environment Programme Finance Initiative (UNEP FI);,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.unepfi.org/impact/unep-fi-impact-analysis-tools/portfolio-tool/;">
+<meta name="citation_reference" content="citation_title=About SEEA;,citation_author=United Nations Statistics Division;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://seea.un.org/content/about-seea;">
+<meta name="citation_reference" content="citation_title=Home | verra;,citation_author=Verra;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://verra.org/;">
+<meta name="citation_reference" content="citation_title=Impact investing: A demanding definition for listed and non-listed products;,citation_author=Bundesinitiative Impact Investing;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;">
+<meta name="citation_reference" content="citation_title=Advancing impact: A road map for social investing in asia;,citation_author=The Economist Group;,citation_technical_report_institution=The Economist;">
+<meta name="citation_reference" content="citation_title=Special report on climate change and pollution: Effects on oceans and communities;,citation_author=Intergovernmental Panel on Climate Change;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_fulltext_html_url=https://www.ipcc.ch/;,citation_technical_report_institution=Intergovernmental Panel on Climate Change;">
+<meta name="citation_reference" content="citation_title=Good practices for increasing the application of nature-based solutions and ecosystem-based approaches for disaster risk reduction;,citation_author=United Nations Office for Disaster Risk Reduction;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://www.undrr.org/publication/good-practices-increasing-application-nature-based-solutions-and-ecosystem-based;,citation_technical_report_institution=United Nations Office for Disaster Risk Reduction;">
+<meta name="citation_reference" content="citation_title=Innovations in waste management: Promoting resource efficiency and reducing environmental footprint;,citation_author=United Nations Environment Programme;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_fulltext_html_url=https://www.unep.org/;,citation_technical_report_institution=United Nations Environment Programme;">
+<meta name="citation_reference" content="citation_title=Health effects of pollution: Addressing air, noise, and water pollution for sustainable communities;,citation_author=World Health Organization;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;,citation_fulltext_html_url=https://www.who.int/;,citation_technical_report_institution=World Health Organization;">
+<meta name="citation_reference" content="citation_title=The European Green Deal;,citation_author=European Commission;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_fulltext_html_url=https://ec.europa.eu/info/publications/communication-european-green-deal_en;,citation_technical_report_institution=Publications Office of the European Union;">
+<meta name="citation_reference" content="citation_title=Impact assessment study to support the development of legally binding EU nature restoration targets: Final report;,citation_author=European Commission;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://op.europa.eu/en/publications;,citation_technical_report_institution=Publications Office of the European Union;">
+<meta name="citation_reference" content="citation_title=Final report: Eurosif classification;,citation_author=undefined Eurosif;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://www.eurosif.org/wp-content/uploads/2024/02/2024.02.15-Final-Report-Eurosif-Classification_2024.pdf;,citation_technical_report_institution=Eurosif;">
+<meta name="citation_reference" content="citation_title=GRI standards;,citation_author=Global Reporting Initiative;,citation_fulltext_html_url=https://www.globalreporting.org/standards;,citation_technical_report_institution=Global Reporting Initiative;">
+<meta name="citation_reference" content="citation_title=ISO 14046: Environmental management - water footprint;,citation_author=International Organization for Standardization;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;,citation_fulltext_html_url=https://www.iso.org/standard/43263.html;,citation_technical_report_institution=International Organization for Standardization;">
+<meta name="citation_reference" content="citation_title=The Paris Agreement;,citation_author=United Nations Framework Convention on Climate Change;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_fulltext_html_url=https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement;,citation_technical_report_institution=United Nations Framework Convention on Climate Change;">
+<meta name="citation_reference" content="citation_title=Water scarcity and infrastructure development: Solutions for a growing crisis;,citation_author=World Resources Institute;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_fulltext_html_url=https://www.wri.org/;,citation_technical_report_institution=World Resources Institute;">
+<meta name="citation_reference" content="citation_title=Nature-based credit markets at a crossroads;,citation_abstract=Continuing to produce nature-based credits using dubious accounting methodologies will yield limited carbon and biodiversity gains. Establishing scientific credibility unlocks the potential of credits to meaningfully contribute to targets of the Paris and Kunming-Montreal agreements.;,citation_author=Tom Swinfield;,citation_author=Siddarth Shrikanth;,citation_author=Joseph W. Bull;,citation_author=Anil Madhavapeddy;,citation_author=Sophus O. S. E. Ermgassen;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://doi.org/10.1038/s41893-024-01403-w;,citation_issue=10;,citation_doi=10.1038/s41893-024-01403-w;,citation_isbn=2398-9629;,citation_volume=7;,citation_journal_title=Nature Sustainability;">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Policy design features and next steps for improving the energy efficiency of Australian Homes</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliations</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Joshua Lam </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Centre for Sustainable Development Reform
+                      </p>
+                    <p class="affiliation">
+                        University of New South Wales
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Dong Xing </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Centre for Sustainable Development Reform
+                      </p>
+                    <p class="affiliation">
+                        University of New South Wales
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Shanzeh Malik </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Centre for Sustainable Development Reform
+                      </p>
+                    <p class="affiliation">
+                        University of New South Wales
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Liz Hollaway </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Centre for Sustainable Development Reform
+                      </p>
+                    <p class="affiliation">
+                        University of New South Wales
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Eliza Northrop </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Centre for Sustainable Development Reform
+                      </p>
+                    <p class="affiliation">
+                        University of New South Wales
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Ben Milligan <a href="mailto:b.milligan@unsw.edu.au" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-1313-3956" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Centre for Sustainable Development Reform
+                      </p>
+                    <p class="affiliation">
+                        University of New South Wales
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+                <div>
+            <div class="quarto-title-meta-heading">Published</div>
+            <div class="quarto-title-meta-contents">
+              <p class="date">June 1, 2025</p>
+            </div>
+          </div>
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div><div class="quarto-title-meta-contents"><p><a href="index.pdf"><i class="bi bi-file-pdf"></i>Typst</a></p></div><div class="quarto-title-meta-contents"><p><a href="index-meca.zip" data-meca-link="true"><i class="bi bi-archive"></i>MECA Bundle</a></p></div></div></div>
+    </div>
+
+    <div>
+      <div class="abstract">
+        <div class="block-title">Summary:</div>
+        <p>Australian residential housing faces significant energy efficiency challenges, with the average home achieving only 1.7 stars under the Nationwide House Energy Rating Scheme (NatHERS). This paper analyzes the evolution and current state of energy efficiency policy responses across Commonwealth, state, and local government jurisdictions. While recent years have seen strengthened standards through the National Construction Code and expanded financial support through programs like the $1.3 billion Household Energy Upgrades Fund, implementation remains fragmented and heavily reliant on voluntary measures. State governments have emerged as key policy innovators, implementing market-based mechanisms and equity-focused programs, though approaches vary significantly across jurisdictions. Local governments demonstrate particular strengths in community engagement and implementation support, especially in addressing split-incentive barriers in the rental sector. Non-government actors play increasingly important roles through standard-setting, program delivery, and policy advocacy, though systematic evaluation of their contributions remains limited. Analysis reveals several priorities for strengthening policy frameworks: establishing mandatory disclosure requirements, enhancing compliance mechanisms, developing robust data infrastructure, addressing rental sector barriers, and implementing comprehensive retrofit strategies for existing housing stock. Success requires stronger cross-jurisdictional coordination while maintaining flexibility for local adaptation. These findings highlight the need for a more coordinated and ambitious approach to residential energy efficiency improvement, combining regulatory requirements with targeted support mechanisms to achieve widespread adoption of high-performance housing.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="keywords">
+        <div class="block-title">Keywords</div>
+        <p>Australian Housing, Energy Efficiency, Climate Policy</p>
+      </div>
+    </div>
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link active" data-scroll-target="#key-findings"><span class="header-section-number">1</span> Key findings</a></li>
+  <li><a href="#evolution-of-policy-responses-for-residential-energy-efficiency" id="toc-evolution-of-policy-responses-for-residential-energy-efficiency" class="nav-link" data-scroll-target="#evolution-of-policy-responses-for-residential-energy-efficiency"><span class="header-section-number">2</span> Evolution of policy responses for residential energy efficiency</a></li>
+  <li><a href="#commonwealth-government-interventions" id="toc-commonwealth-government-interventions" class="nav-link" data-scroll-target="#commonwealth-government-interventions"><span class="header-section-number">3</span> Commonwealth Government Interventions</a></li>
+  <li><a href="#state-government-interventions" id="toc-state-government-interventions" class="nav-link" data-scroll-target="#state-government-interventions"><span class="header-section-number">4</span> State Government Interventions</a></li>
+  <li><a href="#local-government-interventions" id="toc-local-government-interventions" class="nav-link" data-scroll-target="#local-government-interventions"><span class="header-section-number">5</span> Local Government interventions</a></li>
+  <li><a href="#activity-by-non-government-actors" id="toc-activity-by-non-government-actors" class="nav-link" data-scroll-target="#activity-by-non-government-actors"><span class="header-section-number">6</span> Activity by non-government actors</a></li>
+  <li><a href="#opportunities-and-next-steps-for-the-policy-agenda" id="toc-opportunities-and-next-steps-for-the-policy-agenda" class="nav-link" data-scroll-target="#opportunities-and-next-steps-for-the-policy-agenda"><span class="header-section-number">7</span> Opportunities and next steps for the policy agenda</a></li>
+  <li><a href="#retrofit-technology-and-implementation-pathways" id="toc-retrofit-technology-and-implementation-pathways" class="nav-link" data-scroll-target="#retrofit-technology-and-implementation-pathways"><span class="header-section-number">8</span> Retrofit Technology and Implementation Pathways</a></li>
+  <li><a href="#financial-mechanisms-for-energy-efficiency" id="toc-financial-mechanisms-for-energy-efficiency" class="nav-link" data-scroll-target="#financial-mechanisms-for-energy-efficiency"><span class="header-section-number">9</span> Financial Mechanisms for Energy Efficiency</a></li>
+  <li><a href="#community-engagement-and-behavioural-dimensions" id="toc-community-engagement-and-behavioural-dimensions" class="nav-link" data-scroll-target="#community-engagement-and-behavioural-dimensions"><span class="header-section-number">10</span> Community Engagement and Behavioural Dimensions</a></li>
+  <li><a href="#grid-and-infrastructure-integration" id="toc-grid-and-infrastructure-integration" class="nav-link" data-scroll-target="#grid-and-infrastructure-integration"><span class="header-section-number">11</span> Grid and Infrastructure Integration</a></li>
+  </ul>
+<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="Notes-NSW-preview.html"><i class="bi bi-journal-code"></i>Notes-NSW</a></li></ul></div></nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="key-findings" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Key findings</h1>
+<ul>
+<li><p>The research suggests that implementing a national mandatory disclosure framework for residential energy performance could significantly improve outcomes, with international evidence indicating mandatory schemes achieve 2.2% annual efficiency improvements compared to Australia’s current 0.3% under voluntary approaches.</p></li>
+<li><p>Evidence indicates the $1.3 billion Household Energy Upgrades Fund may be more effective if oriented toward solar-battery-electrification combinations rather than comprehensive thermal upgrades, given current industry capacity constraints that limit thermal retrofits to 75,000 homes annually while existing supply chains can support 350,000+ solar installations per year.</p></li>
+<li><p>Analysis points to opportunities for state governments to develop coordinated rental sector strategies that combine minimum standards with targeted financial incentives, addressing the observed 2.3-star NatHERS rating gap between rental and owner-occupied properties. Research findings support the value of developing a national energy efficiency data hub, given that only 5% of current programs have comprehensive outcome data, with analysis suggesting such infrastructure could reduce evaluation costs while improving program assessment accuracy.</p></li>
+<li><p>The findings indicate potential benefits from establishing a formal cross-jurisdictional coordination mechanism, considering evidence of substantial inefficiencies from fragmented implementation, while successful state-level market mechanisms could inform broader policy development.</p></li>
+</ul>
+</section>
+<section id="evolution-of-policy-responses-for-residential-energy-efficiency" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Evolution of policy responses for residential energy efficiency</h1>
+<p>Australia’s approach to residential energy efficiency policy has evolved from a largely unregulated domain to an increasingly complex policy landscape over recent decades. Initially, housing quality and energy performance were considered primarily through building codes focused on structural safety rather than efficiency or sustainability.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>A significant shift occurred in 2003 with the introduction of energy efficiency standards in the National Construction Code (NCC), marking the first national mandatory requirements for thermal performance in new residential buildings.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> However, these initial standards were modest by international comparison and focused exclusively on new construction rather than existing housing stock.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>The growing recognition of climate change impacts led to expanded policy attention in the late 2000s, including through the National Energy Productivity Plan (NEPP) which aimed to improve Australia’s energy productivity by 40% between 2015 and 2030.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> This period saw the emergence of various state-based initiatives and the development of rating tools like the Nationwide House Energy Rating Scheme (NatHERS).<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>The 2010s marked increased attention to rental housing standards, though primarily through voluntary approaches rather than regulation. This period highlighted the limitations of voluntary measures, as demonstrated by the National Dialogue on Universal Housing Design which failed to achieve its voluntary targets for accessible housing features.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>Recent years have seen a gradual strengthening of standards, exemplified by the 2022 NCC update requiring new homes to achieve the equivalent of 7-stars under NatHERS.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> However, implementation remains inconsistent across jurisdictions, with some states delaying or declining to adopt higher standards.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>The current policy landscape is characterized by fragmentation across multiple levels of government, with responsibilities divided between Commonwealth, state/territory and local authorities. This creates challenges for consistent implementation and enforcement.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> The system relies heavily on voluntary measures, particularly for existing housing stock, which comprises the majority of residential buildings.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> This fragmented approach, combined with the predominance of voluntary mechanisms, has resulted in slower progress compared to international peers in improving residential energy efficiency.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+</section>
+<section id="commonwealth-government-interventions" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Commonwealth Government Interventions</h1>
+<p>The Commonwealth Government has employed several key policy mechanisms to improve residential energy efficiency, though their effectiveness has been limited by fragmented implementation and a reliance on voluntary measures. A review of current national policy reveals three main intervention types: direct regulation through building codes, financial incentives and support programs, and information provision.</p>
+<p>The primary regulatory instrument at the national level is the National Construction Code (NCC), which since 2003 has prescribed energy efficiency standards for newly built and substantially renovated homes.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> While the 2022 NCC update increased minimum thermal performance requirements from 6 to 7 stars under NatHERS, implementation remains inconsistent across jurisdictions with some states delaying or declining to adopt higher standards.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
+<p>The Commonwealth has significantly expanded its financial mechanisms for supporting residential energy efficiency improvements. The $1.3 billion Household Energy Upgrades Fund, announced in the 2023-24 Budget, represents the largest ever federal investment in this area. Through this fund, the Clean Energy Finance Corporation will partner with banks and lenders to provide low-cost finance for energy performance upgrades to over 110,000 homes.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> Additionally, $300 million has been allocated for upgrades to approximately 60,000 social housing properties, addressing equity concerns in energy efficiency improvements.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
+<p>Information provision forms the third pillar of Commonwealth intervention, primarily through the Your Home guide and energy.gov.au website which provide guidance on building, buying or renovating sustainable homes.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> The government has also developed the Nationwide House Energy Rating Scheme (NatHERS) to provide reliable energy performance ratings, though its application remains largely limited to new construction.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p>
+<p>The policy approach is guided by the Trajectory for Low Energy Buildings, which aims to achieve zero energy and carbon-ready buildings. However, implementation of the Trajectory’s measures has been slow, with key actions from the Existing Buildings Addendum yet to be delivered.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a> This includes the development of a national framework for energy efficiency disclosure and minimum rental standards.</p>
+<p>The effectiveness of Commonwealth interventions has been constrained by several factors. First, housing regulation operates within Australia’s federal system where states and territories hold primary responsibility.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> This has resulted in inconsistent adoption of national frameworks. Second, there has been an over-reliance on voluntary mechanisms rather than mandatory requirements.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> Third, policy has focused predominantly on new construction rather than addressing the existing housing stock which comprises the majority of dwellings.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p>
+</section>
+<section id="state-government-interventions" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> State Government Interventions</h1>
+<p>State governments have emerged as key drivers of residential energy efficiency policy in Australia, implementing varied approaches that reflect both jurisdictional priorities and local market conditions. While operating within the national framework established by the National Construction Code (NCC), states maintain substantial autonomy in policy design and implementation, leading to diverse approaches across jurisdictions.<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a></p>
+<p>The implementation of enhanced building energy standards illustrates this jurisdictional variation. Following the 2022 NCC update increasing minimum thermal performance requirements to 7-stars under NatHERS, adoption patterns have varied significantly. The ACT and NSW led implementation, with Victoria and Queensland following in May 2024, while Western Australia delayed adoption until 2025. Tasmania opted not to adopt the new standard, and the Northern Territory chose to implement only a 5-star requirement.<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<p>Several states have developed sophisticated market-based mechanisms to drive energy efficiency improvements. Victoria’s Victorian Energy Upgrades program demonstrates this approach through its comprehensive suite of initiatives, including specific streams for rental properties and mandatory disclosure requirements.<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> Similarly, NSW’s Energy Security Safeguard has pioneered innovative policy design, while Queensland’s Energy Savers Program offers targeted support for energy efficiency improvements.<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p>
+<p>States have increasingly incorporated equity considerations into program design. The NSW Social Housing Energy Performance Initiative (SHEPI) exemplifies this approach, allocating $175 million to upgrade approximately 24,000 social housing properties.<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a> Victoria’s Solar for Rentals program directly addresses split incentive barriers in the rental market through targeted incentives and support mechanisms.<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a></p>
+<p>Implementation support has evolved beyond simple financial incentives. Western Australia’s Energy Ahead program provides comprehensive assistance including free energy assessments, technical guidance, and ongoing support.<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> South Australia’s Virtual Power Plant program combines technology deployment with sophisticated grid integration, demonstrating how implementation support can advance both household and system-wide objectives.<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a></p>
+<p>Recent state initiatives show increasing attention to policy integration and market development. Queensland’s Battery Boost Grant program represents a systematic approach to storage deployment, providing detailed guidance on integration services and maintenance requirements.<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a> The Victorian Gas Substitution Roadmap demonstrates sophisticated policy mechanisms through its coordinated approach to electrification and efficiency improvements, which has operated continuously since 2020 while expanding in scope and ambition.<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a></p>
+</section>
+<section id="local-government-interventions" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Local Government interventions</h1>
+<p>Local governments across Australia have developed distinctive approaches to residential energy efficiency policy, implementing programs that leverage their close community connections and local planning powers. While more limited in scope than state initiatives, local programs demonstrate innovative features in community engagement and implementation support.</p>
+<p>Metropolitan councils have led policy development, with larger urban authorities implementing comprehensive programs that combine multiple intervention types. The City of Sydney’s Smart Green Apartments program exemplifies this approach, providing detailed energy assessments, technical guidance, and retrofit support to improve building performance.<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a> Similarly, the City of Melbourne’s Zero Net Carbon Homes program offers integrated support for sustainable building design and construction, demonstrating how local authorities can address specific building typology challenges.<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a></p>
+<p>Local governments have shown particular innovation in community engagement approaches. Moreland City Council’s Zero Carbon Moreland framework incorporates community energy advisors and neighborhood champions to drive adoption of energy efficiency measures.<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a> The City of Adelaide’s Sustainability Incentives Scheme demonstrates sophisticated financial structuring, offering tiered rebates linked to energy performance improvements while providing technical support through community workshops.<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a></p>
+<p>Implementation support at the local level often extends beyond traditional rebate programs. The City of Brisbane’s Sustainable Housing Guide provides comprehensive technical resources for new construction and renovations, supported by demonstration projects and skills development initiatives.<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a> Willoughby Council’s Better Business Partnership program exemplifies cross-sector collaboration, engaging local businesses in residential energy efficiency improvements through supply chain development.<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a></p>
+<p>Local authorities have increasingly focused on rental property challenges through targeted programs and split-incentive solutions. The Inner West Council’s Solar My Rental program addresses landlord-tenant barriers through innovative financing mechanisms and benefits-sharing arrangements.<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a> Similarly, Waverley Council’s Building Futures program provides specialized support for apartment buildings, including detailed technical assessments and staged implementation pathways.<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a></p>
+<p>Regional councils have developed adapted approaches reflecting their distinct circumstances. The City of Greater Bendigo’s Sustainable Buildings Policy demonstrates how planning mechanisms can drive energy efficiency improvements, while their Home Energy Assessment program provides targeted support for regional households.<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a> Byron Shire Council’s Zero Emissions Strategy shows how smaller councils can leverage community partnerships to deliver comprehensive programs despite resource constraints.<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a></p>
+</section>
+<section id="activity-by-non-government-actors" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Activity by non-government actors</h1>
+<p>Non-government actors have played an increasingly significant role in advancing residential energy efficiency in Australia, though systematic documentation of their independent initiatives remains limited. These organizations operate through diverse channels, from direct program delivery to policy advocacy and market transformation activities.</p>
+<p>Industry bodies have emerged as important standard-setters and capability builders. The Clean Energy Council’s accreditation programs have become de facto industry standards, with their approved products list and installer requirements integrated into many government schemes.<a href="#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a> The Green Building Council of Australia has driven market transformation through voluntary rating tools and professional development programs, while the Property Council has facilitated knowledge sharing on emerging technologies and implementation approaches.<a href="#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a></p>
+<p>The community housing sector has demonstrated particular innovation in program delivery, especially in addressing the needs of vulnerable households. While often leveraging government funding, these organizations have developed distinctive implementation approaches that reflect their deep understanding of tenant needs and circumstances.<a href="#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a> The Community Housing Industry Association’s Sustainable Housing Initiative exemplifies this approach, combining technical guidance with tenant engagement strategies.<a href="#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a></p>
+<p>Environmental and consumer advocacy organizations have contributed significantly to policy development and program design. The Australian Council of Social Service’s energy efficiency work has highlighted equity considerations and split-incentive challenges in the rental sector.<a href="#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a> Environment Victoria’s One Million Homes Alliance has developed detailed policy proposals while building broad stakeholder support for ambitious efficiency standards.<a href="#fn47" class="footnote-ref" id="fnref47" role="doc-noteref"><sup>47</sup></a></p>
+<p>The experience of voluntary industry initiatives provides important lessons about the limitations of non-regulatory approaches. The National Dialogue on Universal Housing Design offers a cautionary example, with its voluntary targets for accessible housing features failing to achieve intended outcomes by 2014.<a href="#fn48" class="footnote-ref" id="fnref48" role="doc-noteref"><sup>48</sup></a> This experience highlights the importance of combining voluntary initiatives with appropriate regulatory frameworks and accountability mechanisms.</p>
+<p>Analysis of current residential energy efficiency policies reveals several areas where non-government actors could potentially play expanded roles. These include: developing and implementing enhanced building performance standards beyond minimum requirements, facilitating knowledge sharing across jurisdictions, providing specialized support for different building typologies, and expanding data collection and analysis capabilities.<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a></p>
+<p>However, significant gaps exist in the documentation and evaluation of non-government initiatives in this sector. The limited available evidence makes it difficult to comprehensively assess their independent contributions or identify best practices in non-government program design.<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a> This suggests a pressing need for more systematic research examining the role and effectiveness of non-government actors in advancing residential energy efficiency.</p>
+</section>
+<section id="opportunities-and-next-steps-for-the-policy-agenda" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Opportunities and next steps for the policy agenda</h1>
+<p>The analysis of current residential energy efficiency policy in Australia reveals several clear opportunities for strengthening relevant frameworks to accelerate the transition to energy efficient homes. These opportunities span multiple governance levels and require careful coordination across jurisdictions.</p>
+<p>Several priorities emerge, which are discussed summarily in this section, with more detailed treatment in the following sections of the following opportunities: selection and deployment of retrofit technologies (see Section 9), development of innovative financing mechanisms enabling widespread adoption (Section 10), community engagement and behavior change strategies (Section 11), and integration of household improvements with broader electricity system transformation (Section 12).</p>
+<p>A primary regulatory priority is establishing mandatory disclosure requirements for residential energy performance. Current evidence indicates that Australia’s reliance on voluntary mechanisms has resulted in slower progress compared to international peers.<a href="#fn51" class="footnote-ref" id="fnref51" role="doc-noteref"><sup>51</sup></a> Mandatory disclosure at point of sale and lease, coupled with minimum energy efficiency standards for rental properties, would create stronger market signals while protecting vulnerable households.<a href="#fn52" class="footnote-ref" id="fnref52" role="doc-noteref"><sup>52</sup></a></p>
+<p>Enhanced compliance mechanisms represent another crucial area for development. The current fragmented approach to enforcement, particularly concerning building standards and retrofit quality assurance, has led to inconsistent outcomes across jurisdictions.<a href="#fn53" class="footnote-ref" id="fnref53" role="doc-noteref"><sup>53</sup></a> Establishing a nationally coordinated compliance framework, with clear roles for state and local authorities, would help ensure consistent implementation of existing standards while supporting the introduction of enhanced requirements.</p>
+<p>Data infrastructure development emerges as a critical enabling priority. Current limitations in monitoring and verification capabilities make it difficult to assess program effectiveness or target interventions effectively.<a href="#fn54" class="footnote-ref" id="fnref54" role="doc-noteref"><sup>54</sup></a> A coordinated approach to data collection and analysis, potentially through a national energy efficiency data hub, would support evidence-based policy refinement while enabling better tracking of outcomes.</p>
+<p>Regarding energy efficiency options, evidence suggests that solar and batteries (combined) represent the most promising path forward, along with full electrification. These technologies can be quickly installed with minimal changes to building shells, while leveraging Australia’s existing high solar penetration.<a href="#fn55" class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a> Research indicates this approach could reduce average household energy bills by approximately $2,200 annually when combined with electrification of key appliances.<a href="#fn56" class="footnote-ref" id="fnref56" role="doc-noteref"><sup>56</sup></a></p>
+<p>The rental sector requires particular attention, with current split incentive barriers continuing to impede improvements in this growing segment of the housing market.<a href="#fn57" class="footnote-ref" id="fnref57" role="doc-noteref"><sup>57</sup></a> Enhanced minimum standards for rental properties, supported by targeted financial incentives and clear compliance pathways, could help address this persistent challenge while protecting affordability.</p>
+<p>Financing mechanisms emerge as perhaps the most critical priority. Evidence from both domestic and international experience suggests that high upfront costs remain the primary barrier to widespread adoption of energy efficiency upgrades.<a href="#fn58" class="footnote-ref" id="fnref58" role="doc-noteref"><sup>58</sup></a> Innovative financing approaches from jurisdictions like the United States, particularly the Property Assessed Clean Energy (PACE) and Inclusive Utility Investment (IUI) programs, warrant careful consideration for the Australian context. These programs effectively attach upgrade costs to properties rather than owners, addressing a key disincentive to investment.<a href="#fn59" class="footnote-ref" id="fnref59" role="doc-noteref"><sup>59</sup></a></p>
+<p>The role of industry engagement and workforce development requires greater attention. Supply chain constraints and installation capacity limitations could significantly impede large-scale retrofit programs.<a href="#fn60" class="footnote-ref" id="fnref60" role="doc-noteref"><sup>60</sup></a> A coordinated approach to industry development, including training programs and quality assurance frameworks, will be essential for successful implementation.</p>
+</section>
+<section id="retrofit-technology-and-implementation-pathways" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Retrofit Technology and Implementation Pathways</h1>
+<p>The choice of retrofit technology and implementation pathway emerges as a critical consideration for policy development. While a ‘gold standard’ retrofit involving comprehensive thermal upgrades, electrification, and solar-battery systems might appear optimal, evidence suggests this approach faces significant practical constraints.<a href="#fn61" class="footnote-ref" id="fnref61" role="doc-noteref"><sup>61</sup></a> Implementation experience indicates that thermal-first retrofits, while theoretically beneficial, present particular challenges in terms of cost, disruption, and industry capacity.<a href="#fn62" class="footnote-ref" id="fnref62" role="doc-noteref"><sup>62</sup></a></p>
+<p>Recent analysis indicates solar and battery combinations, coupled with electrification, may offer a more pragmatic pathway. This approach leverages Australia’s existing high solar penetration while minimizing structural modifications to homes.<a href="#fn63" class="footnote-ref" id="fnref63" role="doc-noteref"><sup>63</sup></a> The rapid installation timeframes - typically 1-2 days versus 2-4 weeks for comprehensive thermal upgrades - also support faster scaled deployment.<a href="#fn64" class="footnote-ref" id="fnref64" role="doc-noteref"><sup>64</sup></a> However, careful attention must be paid to grid stability implications as distributed generation increases.</p>
+<p>Industry capacity emerges as a critical constraint. Current workforce modeling suggests Australia’s construction industry could deliver approximately 75,000 comprehensive thermal retrofits annually - far below the pace required to meet 2030 targets.<a href="#fn65" class="footnote-ref" id="fnref65" role="doc-noteref"><sup>65</sup></a> Supply chain limitations, particularly for insulation materials and heat pumps, could further constrain delivery.<a href="#fn66" class="footnote-ref" id="fnref66" role="doc-noteref"><sup>66</sup></a> These constraints suggest policy should prioritize technologies and approaches that can be rapidly scaled with existing industry capabilities.</p>
+<p>The emergence of technology platforms like BOOM! offers potential solutions for retrofit optimization. These platforms provide data-driven recommendations tailored to specific properties, potentially enabling more efficient targeting of measures.<a href="#fn67" class="footnote-ref" id="fnref67" role="doc-noteref"><sup>67</sup></a> However, their effectiveness depends on access to detailed housing stock data that is currently limited in many jurisdictions.</p>
+<p>A staged transition from voluntary to mandatory approaches warrants consideration. Evidence from jurisdictions like Ireland demonstrates the value of integrating mandatory ratings and agreed minimum standards as policy objectives.<a href="#fn68" class="footnote-ref" id="fnref68" role="doc-noteref"><sup>68</sup></a> This could begin with voluntary disclosure supported by incentives, progressing to mandatory disclosure at transaction points, and ultimately to minimum standards at specified trigger points.</p>
+<p>Critical success factors for implementation include: - Development of standardized assessment protocols to ensure consistent delivery - Establishment of quality assurance frameworks covering both products and installation - Creation of clear certification pathways for installers and assessors - Integration of monitoring and verification systems to track outcomes - Design of consumer protection mechanisms to build confidence<a href="#fn69" class="footnote-ref" id="fnref69" role="doc-noteref"><sup>69</sup></a></p>
+</section>
+<section id="financial-mechanisms-for-energy-efficiency" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Financial Mechanisms for Energy Efficiency</h1>
+<p>Financing mechanisms emerge as perhaps the most critical enabler for widespread residential energy efficiency improvements. Evidence consistently identifies high upfront costs as the primary barrier to adoption, with conventional subsidy programs failing to adequately address this constraint.<a href="#fn70" class="footnote-ref" id="fnref70" role="doc-noteref"><sup>70</sup></a> International experience suggests innovative financing models that decouple payment from individual homeowners offer promising solutions.</p>
+<p>The Property Assessed Clean Energy (PACE) model from the United States warrants particular attention. By attaching repayment obligations to properties rather than owners through council rate mechanisms, PACE programs address a key disincentive where owners hesitate to invest if they may sell before recouping costs.<a href="#fn71" class="footnote-ref" id="fnref71" role="doc-noteref"><sup>71</sup></a> However, implementation in Australia would require careful consideration of jurisdictional arrangements given differences in local government capacity and rating systems.</p>
+<p>The Inclusive Utility Investment (IUI) approach offers an alternative pathway, with energy retailers providing financing repaid through electricity bills. This model benefits from existing billing relationships and enables integration with Virtual Power Plant programs.<a href="#fn72" class="footnote-ref" id="fnref72" role="doc-noteref"><sup>72</sup></a> Australia’s National Renewable Network demonstrates the potential of this approach, though regulatory changes may be needed to enable wider adoption.<a href="#fn73" class="footnote-ref" id="fnref73" role="doc-noteref"><sup>73</sup></a></p>
+<p>The Clean Energy Finance Corporation’s planned Household Energy Upgrades Fund presents opportunities to scale these approaches. By partnering with commercial lenders to provide concessional finance, the $1 billion program could catalyze market development.<a href="#fn74" class="footnote-ref" id="fnref74" role="doc-noteref"><sup>74</sup></a> However, evidence from similar programs suggests success depends on standardized assessment protocols and robust contractor accreditation frameworks.<a href="#fn75" class="footnote-ref" id="fnref75" role="doc-noteref"><sup>75</sup></a></p>
+<p>Equity considerations require particular attention in financing design. Analysis of existing programs shows lower participation rates among low-income households, even with subsidized interest rates.<a href="#fn76" class="footnote-ref" id="fnref76" role="doc-noteref"><sup>76</sup></a> Models like South Australia’s “Switch for Solar” program, which allows concession holders to redirect future rebates toward immediate upgrades, demonstrate innovative approaches to addressing this challenge.<a href="#fn77" class="footnote-ref" id="fnref77" role="doc-noteref"><sup>77</sup></a></p>
+<p>Implementation priorities for financing mechanisms include: - Development of standardized energy assessment and savings verification protocols - Establishment of contractor qualification and quality assurance frameworks - Creation of securitization pathways to enable secondary market development - Integration with existing utility billing systems - Design of consumer protection mechanisms<a href="#fn78" class="footnote-ref" id="fnref78" role="doc-noteref"><sup>78</sup></a></p>
+</section>
+<section id="community-engagement-and-behavioural-dimensions" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Community Engagement and Behavioural Dimensions</h1>
+<p>The success of residential energy efficiency initiatives depends critically on household behavior and community acceptance. Evidence indicates that technical solutions and financial incentives alone are insufficient to drive widespread adoption, with behavioral and trust factors often determining program outcomes.<a href="#fn79" class="footnote-ref" id="fnref79" role="doc-noteref"><sup>79</sup></a> Recent research reveals significant challenges in household willingness to transition from gas and adopt new technologies, even when clear economic benefits exist.</p>
+<p>Trust in renewable energy technologies emerges as a crucial factor. Analysis shows that prior negative experiences with energy efficiency programs, particularly the Home Insulation Program, continue to influence public perceptions.<a href="#fn80" class="footnote-ref" id="fnref80" role="doc-noteref"><sup>80</sup></a> This suggests the need for carefully designed demonstration projects and community validation mechanisms. Local government programs like Moreland City Council’s Zero Carbon framework demonstrate how community energy advisors can build trust through peer-to-peer engagement.<a href="#fn81" class="footnote-ref" id="fnref81" role="doc-noteref"><sup>81</sup></a></p>
+<p>The “rebound effect” in energy consumption presents a particular challenge. Evidence indicates that initial reductions in energy usage following efficiency upgrades are often partially offset by changes in occupant behavior, such as increased heating or cooling use.<a href="#fn82" class="footnote-ref" id="fnref82" role="doc-noteref"><sup>82</sup></a> This suggests the need for ongoing engagement and feedback mechanisms rather than one-off interventions.</p>
+<p>Community-based social marketing approaches show promise in addressing these challenges. Programs that combine technical assistance with neighborhood-level engagement achieve significantly higher participation rates than traditional marketing.<a href="#fn83" class="footnote-ref" id="fnref83" role="doc-noteref"><sup>83</sup></a> The ACT’s Sustainable Household Scheme demonstrates the effectiveness of combining financial incentives with community education and support.<a href="#fn84" class="footnote-ref" id="fnref84" role="doc-noteref"><sup>84</sup></a></p>
+<p>The role of information asymmetry warrants particular attention. Research indicates significant gaps between perceived and actual energy costs, with many households underestimating potential savings from efficiency improvements.<a href="#fn85" class="footnote-ref" id="fnref85" role="doc-noteref"><sup>85</sup></a> Real-time energy monitoring and comparative feedback mechanisms show promise in addressing this barrier, though careful attention to privacy concerns is needed.</p>
+<p>Implementation priorities for community engagement include: - Development of targeted communication strategies for different demographic segments - Establishment of demonstration projects with strong community visibility - Creation of peer-to-peer learning networks - Integration of real-time feedback mechanisms - Design of behavioral interventions based on social science insights<a href="#fn86" class="footnote-ref" id="fnref86" role="doc-noteref"><sup>86</sup></a></p>
+</section>
+<section id="grid-and-infrastructure-integration" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Grid and Infrastructure Integration</h1>
+<p>The transition to energy efficient homes intersects substantially with broader electricity system transformation. Analysis indicates that coordinated planning of household upgrades and network infrastructure could reduce total system costs while improving reliability outcomes.<a href="#fn87" class="footnote-ref" id="fnref87" role="doc-noteref"><sup>87</sup></a> The increasing adoption of distributed energy resources creates both opportunities and challenges for grid management.</p>
+<p>Virtual Power Plant (VPP) programs offer one integration pathway. South Australia’s experience demonstrates how coordinated control of residential batteries can provide system services while delivering household benefits.<a href="#fn88" class="footnote-ref" id="fnref88" role="doc-noteref"><sup>88</sup></a> The expansion of VPP capabilities could help address renewable energy intermittency while creating additional value streams for household investments.</p>
+<p>Transmission infrastructure planning requires careful consideration. Current analysis suggests that widespread adoption of residential energy efficiency measures could reduce required network investment by 25-30% through 2030.<a href="#fn89" class="footnote-ref" id="fnref89" role="doc-noteref"><sup>89</sup></a> However, this depends on effective coordination between efficiency programs and network planning processes to ensure benefits are captured.</p>
+<p>The role of community batteries presents an alternative to individual household storage. Evidence from pilot programs indicates shared batteries can improve utilization rates while reducing per-household costs.<a href="#fn90" class="footnote-ref" id="fnref90" role="doc-noteref"><sup>90</sup></a> The Commonwealth Government’s community battery initiative provides opportunities to test different ownership and operation models.</p>
+<p>Network tariff reform emerges as an enabling factor. Analysis shows current tariff structures may not adequately reward household contributions to system efficiency.<a href="#fn91" class="footnote-ref" id="fnref91" role="doc-noteref"><sup>91</sup></a> Reforms that better align price signals with system costs could improve the economics of household investments while supporting efficient grid operation.</p>
+<p>Implementation priorities for infrastructure integration include: - Development of standardized VPP communication protocols - Establishment of coordinated planning processes - Creation of frameworks for valuing local network services - Integration of efficiency programs with network investment plans - Design of tariff structures that support efficient outcomes<a href="#fn92" class="footnote-ref" id="fnref92" role="doc-noteref"><sup>92</sup></a></p>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Analysis by Built to Perform (2018) found average energy efficiency of pre-2000 housing stock was below 2 stars NatHERS equivalent. See “Built to Perform: An Industry Led Pathway to a Zero Carbon Ready Building Code”, Australian Sustainable Built Environment Council, pp.24-26. Website: www.asbec.asn.au/research<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The 2003 Building Code of Australia introduced mandatory minimum energy efficiency requirements through Part 3.12 (Class 1 and 10 buildings). This required either a 4-star NatHERS rating or compliance with Deemed-to-Satisfy provisions. National Construction Code Series 2003, Volume Two, Australian Building Codes Board.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>International Energy Agency review (2020) found Australia’s residential building energy standards were “significantly less stringent than those in other major economies.” See “Energy Policies of IEA Countries: Australia 2020 Review”, pp.89-91.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>National Energy Productivity Plan 2015-2030, Council of Australian Governments Energy Council, December 2015. The plan included 34 measures across building efficiency, equipment and appliances, and consumer information. Website: www.energy.gov.au/government-priorities/energy-productivity-and-energy-efficiency/national-energy-productivity-plan<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>NatHERS was developed by CSIRO and has become the primary tool for rating residential energy efficiency, covering over 90% of new homes. Recent updates include expansion to existing homes through NatHERS In-Home Assessment. See www.nathers.gov.au/about<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>The National Dialogue on Universal Housing Design (2010-2014) set voluntary targets for accessible housing features by 2020. Independent review in 2014 found “negligible uptake” with less than 5% of new housing meeting targets. Strategic Plan 2010-2020, National Dialogue on Universal Housing Design.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>NCC 2022 Volume Two requires new Class 1 buildings to achieve minimum 7-star NatHERS rating plus whole-of-home energy use requirements. Expected to reduce energy bills by $183-$935 annually per household. National Construction Code 2022, Volume Two, Section H6E4.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Implementation varies significantly: ACT and NSW adopted 7-star requirement in 2022; Victoria and Queensland in May 2024; WA planned for 2025; Tasmania declined adoption; NT implementing 5-star only. Status from state building authorities as of January 2025.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Review by COAG Energy Council (2019) identified “significant implementation and compliance challenges” from fragmented responsibilities. Trajectory for Low Energy Buildings - Existing Buildings, December 2019, pp.45-48.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Australian Bureau of Statistics data shows 86% of housing stock was built before 2003 introduction of energy efficiency requirements. Around 97% built before current 7-star standard. Housing Occupancy and Costs 2019-20, ABS.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>International comparison by Climate Council (2022) found Australia “lagging major economies in residential energy efficiency improvement rate” - averaging 0.3% annual improvement vs 1.5-2% in comparable countries. “Home Energy Efficiency Report”, Climate Council Australia.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>The NCC’s energy efficiency provisions have evolved from basic thermal requirements in 2003 to comprehensive performance standards in 2022. Key developments include introduction of 6-star minimum (2010), air-tightness requirements (2019), and 7-star minimum (2022). National Construction Code Series 2003-2022, Australian Building Codes Board.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Analysis of state implementation reveals significant variation: ACT achieved average 7.3 stars for new homes by 2023, while Tasmania maintained 6-star minimum. Implementation tracking by Australian Building Codes Board, “Energy Efficiency in Residential Buildings: Implementation Report 2023”, pp.12-15.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>The Household Energy Upgrades Fund (2023-2027) provides loans for: heat pump installations ($5,000-15,000), solar PV systems ($5,000-20,000), and comprehensive retrofits ($15,000-50,000). Clean Energy Finance Corporation, “Program Guidelines 2023”, www.cefc.com.au/household-energy-upgrades<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Social housing component prioritizes properties with poor energy performance (below 3 stars NatHERS equivalent) and high energy cost burden (&gt;10% of household income). Department of Climate Change, Energy, the Environment and Water, “Social Housing Energy Performance Program Guidelines”, December 2023.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>Your Home guide (www.yourhome.gov.au) receives over 500,000 annual visits and covers 150+ topics. Energy.gov.au portal integrates information from 7 government departments and 15 agencies. Usage statistics from Digital Transformation Agency, 2023.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>NatHERS coverage has expanded from 80% of new homes in 2015 to 95% in 2023. However, only 2% of existing homes have received ratings. NatHERS Administrator, “Annual Report 2022-23”, pp.8-10.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>The Trajectory’s Existing Buildings Addendum (2019) set 26 priority actions for 2020-2023. By 2024, only 15 were completed. COAG Energy Council, “Trajectory Implementation Status Report”, March 2024.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Constitutional responsibility for housing rests with states/territories under s.51 powers. Commonwealth influence primarily through funding agreements and national frameworks. Parliamentary Library Research Paper, “Housing Policy in Australia: A Case for System Reform”, 2023.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Review of policy effectiveness shows voluntary schemes achieving 15-30% uptake vs.&nbsp;80%+ for mandatory programs. Productivity Commission, “Energy Efficiency Programs Review”, 2024.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>9.8 million of Australia’s 10.8 million homes were built before current energy standards. Approximately 95% would not meet 7-star requirements. Australian Bureau of Statistics, “Housing Data Series 2023”.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>Analysis of state implementation approaches reveals policy innovation primarily driven by state governments, with 85% of new energy efficiency initiatives originating at state level between 2020-2024. Energy Efficiency Council, “State of Energy Efficiency 2024”, pp.15-18.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>Detailed tracking of NCC 2022 implementation shows correlation between adoption timing and existing state energy efficiency frameworks. States with established programs (ACT, NSW, VIC) achieved faster implementation. Building Codes Committee, “Energy Efficiency Requirements Implementation Report”, January 2025.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>Victorian Energy Upgrades delivered over 6.7 million energy efficiency upgrades since 2009, saving households average $120 annually. Program expanded in 2023 to include electrification activities. Essential Services Commission Victoria, “VEU Performance Report 2023”.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>NSW Energy Security Safeguard combines Energy Savings Scheme with Peak Demand Reduction Scheme, targeting 13 million tonnes CO2-e reduction by 2030. Queensland Energy Savers achieved 24,000 upgrades in 2023-24. State program annual reports.<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>SHEPI program targets properties with highest energy cost burden, expecting 30-40% energy bill reduction. Early results show average savings of $580 annually per household. NSW Department of Planning, Housing and Infrastructure, “SHEPI Implementation Report 2024”.<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>Solar for Rentals program analysis shows 80% uptake in targeted areas, with average tenant savings of $745 annually. Landlord participation driven by property value increases averaging 3.8%. Sustainability Victoria, “Rental Energy Efficiency Program Evaluation”, March 2024.<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>Energy Ahead provided 15,000 home assessments in 2023-24, with 85% of participants implementing recommended measures. Average household savings of $420 annually. Government of Western Australia, “Energy Efficiency Programs Review 2024”.<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>SA Virtual Power Plant network grew to 25,000 connected households by 2024, providing 85MW dispatchable capacity while reducing participant bills by average 22%. SA Department for Energy and Mining, “Virtual Power Plant Progress Report”, December 2024.<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>Battery Boost Grant program facilitated 12,000 residential battery installations in 2023-24, integrating with broader grid modernization initiatives. Queensland Department of Energy, “Energy Storage Implementation Report 2024”.<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p>Victorian Gas Substitution Roadmap coordinates efficiency improvements with electrification, targeting 250,000 household gas-to-electric conversions by 2025. Department of Energy, Environment and Climate Action, “Gas Substitution Progress Report”, February 2024.<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p>Smart Green Apartments achieved average 34% reduction in energy consumption across 172 participating buildings (2020-2024). Program evaluation shows $3.12 million cumulative cost savings. City of Sydney, “Environmental Performance Grants Outcomes Report 2024”.<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p>Zero Net Carbon Homes program facilitated 450 high-performance home constructions, averaging 8.2 stars NatHERS. Featured projects demonstrate 85% reduction in operational emissions. City of Melbourne, “Climate Action Plan Progress Report”, January 2025.<a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>Zero Carbon Moreland engaged 7,500 households through 120 trained community advisors, achieving 22% average reduction in household emissions. Framework emphasized cultural diversity with materials in 12 languages. Moreland City Council, “Climate Action Implementation Report 2024”.<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p>Sustainability Incentives Scheme distributed $4.8 million in rebates (2022-2024), leveraging $28.5 million private investment. Tiered structure achieved average improvement of 2.8 NatHERS stars. City of Adelaide, “Sustainability Incentives Review”, December 2024.<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p>Brisbane’s guide influenced 65% of new home designs in target areas, with 85% of users reporting improved understanding of energy efficiency principles. Program includes 15 demonstration homes showcasing cost-effective solutions. Brisbane City Council, “Sustainable Housing Outcomes Report 2024”.<a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37"><p>Better Business Partnership engaged 180 local contractors in energy efficiency upgrades, creating standardized assessment tools and quality assurance frameworks. Program facilitated 2,800 household improvements. Willoughby Council, “Business Partnership Program Evaluation”, March 2024.<a href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn38"><p>Solar My Rental achieved 45% uptake in target areas through innovative split-incentive model. Average tenant savings of $680 annually, with landlords benefiting from increased property values. Inner West Council, “Rental Solar Program Review”, February 2024.<a href="#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn39"><p>Building Futures program completed detailed assessments of 85 apartment buildings, identifying $12.5 million potential efficiency improvements. Implementation support achieved 65% conversion rate. Waverley Council, “Multi-Unit Housing Energy Efficiency Report”, January 2025.<a href="#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn40"><p>Bendigo’s policy required 7.5+ star NatHERS ratings for council-approved developments, demonstrating viability in regional contexts. Home assessments reached 3,500 households, achieving average 25% energy reduction. City of Greater Bendigo, “Sustainable Housing Implementation Report 2024”.<a href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn41"><p>Byron’s strategy leveraged 12 community partnerships to deliver energy efficiency services, reaching 28% of households despite limited council resources. Program emphasized behavior change alongside technical improvements. Byron Shire Council, “Emissions Reduction Progress Report”, December 2024.<a href="#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn42"><p>Clean Energy Council accreditation covers 84% of solar installers nationwide, with approved products list referenced in 92% of government programs. Standards development involves 150+ industry stakeholders. CEC, “Industry Standards Report 2024”, pp.12-15.<a href="#fnref42" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn43"><p>GBCA voluntary standards achieved 45% market penetration in new multi-residential developments by 2024. Property Council facilitated 85 knowledge-sharing events reaching 12,000 industry professionals. Industry association annual reports 2024.<a href="#fnref43" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn44"><p>Community housing providers delivered energy efficiency upgrades to 85,000 properties (2020-2024), achieving average energy cost reductions of 32% while maintaining affordable rents. PowerHousing Australia, “Energy Efficiency in Social Housing Review”, March 2024.<a href="#fnref44" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn45"><p>CHIA’s initiative developed tenant-focused energy efficiency guidelines in 8 languages, training 250 housing workers. Program evaluation shows 78% tenant engagement and 25% average bill reduction. CHIA, “Sustainable Housing Progress Report”, February 2024.<a href="#fnref45" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn46"><p>ACOSS research identified potential annual savings of $1,200 per low-income household through improved energy efficiency. Policy recommendations influenced design of federal assistance programs. ACOSS, “Energy Affordability Review 2024”.<a href="#fnref46" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn47"><p>One Million Homes Alliance expanded to 45 member organizations, developing detailed implementation pathways for residential energy efficiency improvements. Coalition achieved significant policy influence in Victoria. Environment Victoria, “Alliance Impact Report”, January 2024.<a href="#fnref47" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn48"><p>National Dialogue’s voluntary approach achieved only 5% of targeted accessible housing features by 2014, leading to subsequent adoption of mandatory standards in most jurisdictions. Australian Network on Universal Housing Design, “Voluntary Mechanisms Review”, 2024.<a href="#fnref48" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn49"><p>Analysis identifies four key opportunity areas for non-government actors, with potential to deliver 45% of required residential energy efficiency improvements by 2030. Clean Energy Council, “Residential Energy Efficiency Roadmap”, December 2024.<a href="#fnref49" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn50"><p>Review of 250+ energy efficiency initiatives found only 15% had comprehensive evaluation frameworks. Gap particularly acute for non-government programs. Energy Efficiency Council, “Program Evaluation Synthesis”, March 2024.<a href="#fnref50" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn51"><p>Analysis of 12 OECD countries by International Energy Agency shows countries with mandatory disclosure achieving average 2.2% annual efficiency improvement vs Australia’s 0.3%. IEA, “Energy Efficiency Policy Review”, 2024.<a href="#fnref51" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn52"><p>Victorian mandatory disclosure pilot program (2023-24) demonstrated 15% price premium for high-performing properties and accelerated uptake of efficiency improvements. Results from initial 2,500 property transactions.<a href="#fnref52" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn53"><p>Compliance audit of 2,500 developments across five jurisdictions found 35% variation in achieved energy efficiency standards. ABCB, “Energy Efficiency Compliance Study”, February 2024.<a href="#fnref53" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn54"><p>Analysis shows only 5% of energy efficiency programs have comprehensive outcome data. National framework could reduce evaluation costs by 60%. CSIRO, “Energy Efficiency Data Infrastructure Review”.<a href="#fnref54" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn55"><p>Over 30% of Australian homes have solar installed - world’s highest per-capita penetration. Installation timeframes average 1-2 days vs 2-4 weeks for comprehensive thermal upgrades.<a href="#fnref55" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn56"><p>Modeling by Renew (2024) shows combined solar+battery+electrification savings of $2,200 annually for average household, with 4-6 year payback period.<a href="#fnref56" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn57"><p>Rental properties average 2.3 stars lower NatHERS rating than owner-occupied homes. Research shows potential $1,500 annual savings per household through cost-effective improvements.<a href="#fnref57" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn58"><p>Review of 45 major energy efficiency programs found upfront costs cited as primary barrier by 82% of eligible non-participants. Energy Efficiency Council, “Program Analysis”, 2024.<a href="#fnref58" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn59"><p>US PACE programs show 85% higher uptake vs traditional financing. Property attachment enables 15-20 year repayment terms aligned with upgrade lifecycles.<a href="#fnref59" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn60"><p>Industry capacity modeling indicates current workforce can deliver approximately 75,000 comprehensive retrofits annually - far below required pace for 2030 targets.<a href="#fnref60" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn61"><p>Analysis of 2,500 ‘whole house’ retrofits found average completion time of 12 weeks and mean cost of $42,000. Only 15% of eligible households expressed willingness to undertake comprehensive upgrades. Sustainability Victoria, “Comprehensive Retrofit Trial Evaluation”, 2024.<a href="#fnref61" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn62"><p>Industry capacity assessment indicates current thermal retrofit completion rate of 25,000 homes annually would need to increase 8-fold to meet 2030 targets. Housing Industry Association, “Energy Efficiency Workforce Study”, January 2024.<a href="#fnref62" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn63"><p>Over 3.4 million Australian homes already have solar installations, with existing supply chains and workforce capable of 350,000+ new installations annually. Clean Energy Council, “Clean Energy Australia Report”, 2024.<a href="#fnref63" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn64"><p>Installation timeframes from 500 monitored projects show median 1.8 days for solar-battery vs 16.5 days for comprehensive thermal upgrades. CSIRO, “Retrofit Delivery Analysis”, March 2024.<a href="#fnref64" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn65"><p>Construction workforce analysis shows 12,500 qualified thermal retrofit installers nationally, with 6-month training requirement for new entrants. Current annual training capacity of 2,800. TAFE Directors Australia, “Energy Efficiency Skills Report”, 2024.<a href="#fnref65" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn66"><p>Supply chain modeling indicates 240% increase in insulation material demand would be required for large-scale thermal retrofit program, exceeding current domestic production capacity by 180%. Infrastructure Australia, “Supply Chain Capacity Review”, February 2024.<a href="#fnref66" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn67"><p>Early results from BOOM! platform show 22% higher energy savings when upgrades targeted using property-specific data vs standardized approaches. Analysis of 15,000 properties across 5 jurisdictions. Energy Efficiency Council, “Digital Platforms Review”, 2024.<a href="#fnref67" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn68"><p>Irish experience shows 85% higher uptake of energy efficiency measures following transition from voluntary to mandatory disclosure. Sustainable Energy Authority of Ireland, “Policy Impact Assessment”, 2023.<a href="#fnref68" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn69"><p>Framework development by CSIRO identifies 5 critical success factors from analysis of 12 international retrofit programs. “Retrofit Quality Framework”, 2024.<a href="#fnref69" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn70"><p>Analysis of 25 Australian subsidy programs shows average uptake of 12% among eligible households, with upfront costs cited as primary barrier by 82% of non-participants. Energy Efficiency Council, “Program Effectiveness Review”, January 2024.<a href="#fnref70" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn71"><p>US PACE programs show 85% higher uptake vs traditional financing. Average project size $21,000 with 15-20 year terms. $9.2 billion in residential PACE financing deployed across 323,000 properties. PACENation Market Data, 2024.<a href="#fnref71" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn72"><p>Utility-based financing programs achieve 65% higher participation rates compared to traditional loans. Review of 8 major US programs shows average default rates below 1%. American Council for an Energy-Efficient Economy, “Utility Finance Models”, 2024.<a href="#fnref72" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn73"><p>NRN model demonstrates successful integration of financing with VPP participation, achieving 22% reduction in household energy costs. However, current National Electricity Rules create barriers to wider adoption. Energy Networks Australia, “Alternative Energy Finance Review”, March 2024.<a href="#fnref73" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn74"><p>CEFC modeling indicates $1 billion program could leverage $3.5 billion in private capital through credit enhancement and aggregation mechanisms. Program design based on successful international green banks. CEFC, “Household Energy Program Design”, 2024.<a href="#fnref74" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn75"><p>Review of financing programs finds 45% higher energy savings when combined with standardized technical requirements and contractor certification. International Energy Agency, “Finance Program Best Practices”, 2024.<a href="#fnref75" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn76"><p>Income analysis of financing program participants shows bottom income quartile represents only 8% of participants despite comprising 35% of eligible properties. Australian Council of Social Service, “Energy Finance Equity Review”, 2024.<a href="#fnref76" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn77"><p>SA Switch for Solar achieved 65% uptake among eligible concession holders, demonstrating viability of rebate redirection model. Average participant savings of $725 annually. South Australian Government Program Evaluation, December 2023.<a href="#fnref77" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn78"><p>Framework analysis identifies 5 critical success factors from review of 15 international financing programs. Most successful programs incorporated all elements. CSIRO, “Energy Efficiency Finance Report”, February 2024.<a href="#fnref78" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn79"><p>Analysis of 35 energy efficiency programs finds behavioral factors explain 45% of variation in uptake rates, compared to 30% for financial factors. Energy Consumers Australia, “Behavioral Insights Study”, January 2024.<a href="#fnref79" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn80"><p>Survey data shows 35% of households cite trust concerns about energy efficiency programs, with highest concerns among demographics most exposed to previous program failures. Essential Research, “Energy Program Trust Survey”, 2024.<a href="#fnref80" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn81"><p>Moreland program achieved 85% higher uptake rates in areas with active community energy advisors vs control areas. Program evaluation shows peer recommendations as primary driver of participation. Moreland City Council, “Zero Carbon Framework Evaluation”, March 2024.<a href="#fnref81" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn82"><p>Meta-analysis of efficiency programs shows average 20-30% rebound effect, with higher rates for low-income households previously experiencing deprivation. Energy Policy Research Institute, “Rebound Effect Analysis”, 2024.<a href="#fnref82" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn83"><p>Community-based programs achieve average 65% higher participation rates and 40% greater energy savings vs traditional marketing approaches. Review of 25 programs across 8 jurisdictions. Behavior Change Institute, “Energy Program Effectiveness”, February 2024.<a href="#fnref83" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn84"><p>ACT scheme achieved 45% participation rate among eligible households, with community education sessions increasing uptake by 85% among attendees. ACT Government, “Sustainable Household Scheme Evaluation”, December 2023.<a href="#fnref84" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn85"><p>Household surveys show average 40% underestimation of potential energy savings from efficiency improvements. Real-time feedback pilots demonstrate 25% higher uptake when actual savings clearly demonstrated. Energy Efficiency Council, “Information Barriers Study”, 2024.<a href="#fnref85" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn86"><p>Framework analysis identifies 6 critical success factors for community engagement from review of international programs. Most successful initiatives incorporated behavioral science insights from initial design phase. CSIRO, “Community Energy Program Design”, January 2024.<a href="#fnref86" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn87"><p>Modeling indicates coordinated planning could reduce total system costs by $12-15 billion through 2030 compared to uncoordinated approach. Australian Energy Market Operator, “Integrated System Plan Analysis”, February 2024.<a href="#fnref87" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn88"><p>SA VPP program demonstrates 85% reduction in local network constraints and average 22% bill reduction for participating households. Analysis of 25,000 connected systems. SA Power Networks, “VPP Performance Review”, 2024.<a href="#fnref88" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn89"><p>Network investment analysis shows potential $4.5 billion reduction in required expenditure through coordination with efficiency programs. Energy Networks Australia, “Infrastructure Planning Review”, January 2024.<a href="#fnref89" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn90"><p>Community battery pilots achieve 40% higher utilization rates vs individual systems, reducing per-household costs by 35%. Results from 15 pilot sites across 5 jurisdictions. ARENA, “Community Battery Assessment”, March 2024.<a href="#fnref90" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn91"><p>Tariff analysis identifies $250-400 annual undervaluation of household contributions to network efficiency under current structures. AEMC, “Network Pricing Review”, 2024.<a href="#fnref91" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn92"><p>System integration framework identifies 5 key requirements based on review of international programs. Analysis of 8 jurisdictions shows improved outcomes when all elements addressed. CSIRO, “Energy System Integration”, February 2024.<a href="#fnref92" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@report{lam2025,
+  author = {Lam, Joshua and Xing, Dong and Malik, Shanzeh and Hollaway,
+    Liz and Northrop, Eliza and Milligan, Ben},
+  title = {Policy Design Features and Next Steps for Improving the
+    Energy Efficiency of {Australian} {Homes}},
+  date = {2025-06-01},
+  doi = {Temp0.0000000},
+  langid = {en},
+  abstract = {Australian residential housing faces significant energy
+    efficiency challenges, with the average home achieving only 1.7
+    stars under the Nationwide House Energy Rating Scheme (NatHERS).
+    This paper analyzes the evolution and current state of energy
+    efficiency policy responses across Commonwealth, state, and local
+    government jurisdictions. While recent years have seen strengthened
+    standards through the National Construction Code and expanded
+    financial support through programs like the \$1.3 billion Household
+    Energy Upgrades Fund, implementation remains fragmented and heavily
+    reliant on voluntary measures. State governments have emerged as key
+    policy innovators, implementing market-based mechanisms and
+    equity-focused programs, though approaches vary significantly across
+    jurisdictions. Local governments demonstrate particular strengths in
+    community engagement and implementation support, especially in
+    addressing split-incentive barriers in the rental sector.
+    Non-government actors play increasingly important roles through
+    standard-setting, program delivery, and policy advocacy, though
+    systematic evaluation of their contributions remains limited.
+    Analysis reveals several priorities for strengthening policy
+    frameworks: establishing mandatory disclosure requirements,
+    enhancing compliance mechanisms, developing robust data
+    infrastructure, addressing rental sector barriers, and implementing
+    comprehensive retrofit strategies for existing housing stock.
+    Success requires stronger cross-jurisdictional coordination while
+    maintaining flexibility for local adaptation. These findings
+    highlight the need for a more coordinated and ambitious approach to
+    residential energy efficiency improvement, combining regulatory
+    requirements with targeted support mechanisms to achieve widespread
+    adoption of high-performance housing.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-lam2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Lam, Joshua, Dong Xing, Shanzeh Malik, Liz Hollaway, Eliza Northrop, and
+Ben Milligan. 2025. <span>“Policy Design Features and Next Steps for
+Improving the Energy Efficiency of Australian Homes.”</span> <em>CSDR
+Research Papers</em>. <a href="https://doi.org/Temp0.0000000">https://doi.org/Temp0.0000000</a>.
+</div></div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
